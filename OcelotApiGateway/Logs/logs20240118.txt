@@ -1,0 +1,733 @@
+2024-01-18 08:42:49.377 +03:00 [INF] User profile is available. Using 'C:\Users\muhammed.durus\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-18 08:42:49.619 +03:00 [INF] Now listening on: https://localhost:7267
+2024-01-18 08:42:49.621 +03:00 [INF] Now listening on: http://localhost:5267
+2024-01-18 08:42:49.629 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-18 08:42:49.631 +03:00 [INF] Hosting environment: Development
+2024-01-18 08:42:49.632 +03:00 [INF] Content root path: C:\Users\muhammed.durus\Desktop\Eğitim ve Dökümanlar\DemoMicroservices\OcelotApiGateway\
+2024-01-18 08:42:50.885 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/swagger/index.html - -
+2024-01-18 08:42:51.520 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/swagger/index.html - - - 200 - text/html;charset=utf-8 638.5447ms
+2024-01-18 08:42:51.613 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/_framework/aspnetcore-browser-refresh.js - -
+2024-01-18 08:42:51.613 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/_vs/browserLink - -
+2024-01-18 08:42:51.633 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 20.6377ms
+2024-01-18 08:42:51.914 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 301.0884ms
+2024-01-18 08:42:52.316 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/swagger/v1/swagger.json - -
+2024-01-18 08:42:52.667 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 350.7066ms
+2024-01-18 08:43:04.354 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7267/ocelot/api/product - -
+2024-01-18 08:43:04.461 +03:00 [DBG] requestId: 0HN0NT17BN1R6:00000002, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-18 08:43:04.466 +03:00 [DBG] requestId: 0HN0NT17BN1R6:00000002, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/product
+2024-01-18 08:43:04.473 +03:00 [DBG] requestId: 0HN0NT17BN1R6:00000002, previousRequestId: no previous request id, message: downstream templates are /api/Product
+2024-01-18 08:43:04.538 +03:00 [INF] requestId: 0HN0NT17BN1R6:00000002, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/product
+2024-01-18 08:43:04.546 +03:00 [INF] requestId: 0HN0NT17BN1R6:00000002, previousRequestId: no previous request id, message: /api/Product route does not require user to be authorized
+2024-01-18 08:43:04.565 +03:00 [DBG] requestId: 0HN0NT17BN1R6:00000002, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Product
+2024-01-18 08:43:04.572 +03:00 [DBG] requestId: 0HN0NT17BN1R6:00000002, previousRequestId: no previous request id, message: Started checking cache for GET-https://localhost:7267/ocelot/api/product
+2024-01-18 08:43:04.572 +03:00 [DBG] requestId: 0HN0NT17BN1R6:00000002, previousRequestId: no previous request id, message: no resonse cached for GET-https://localhost:7267/ocelot/api/product
+2024-01-18 08:43:40.399 +03:00 [INF] requestId: 0HN0NT17BN1R6:00000002, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Product
+2024-01-18 08:43:40.399 +03:00 [DBG] requestId: 0HN0NT17BN1R6:00000002, previousRequestId: no previous request id, message: setting http response message
+2024-01-18 08:43:40.408 +03:00 [DBG] requestId: 0HN0NT17BN1R6:00000002, previousRequestId: no previous request id, message: finished response added to cache for GET-https://localhost:7267/ocelot/api/product
+2024-01-18 08:43:40.421 +03:00 [DBG] requestId: 0HN0NT17BN1R6:00000002, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-18 08:43:40.427 +03:00 [DBG] requestId: 0HN0NT17BN1R6:00000002, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-18 08:43:40.433 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7267/ocelot/api/product - - - 200 2 application/json;+charset=utf-8 36079.0399ms
+2024-01-18 08:48:55.402 +03:00 [INF] User profile is available. Using 'C:\Users\muhammed.durus\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-18 08:48:56.424 +03:00 [INF] Now listening on: https://localhost:7267
+2024-01-18 08:48:56.428 +03:00 [INF] Now listening on: http://localhost:5267
+2024-01-18 08:48:56.437 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-18 08:48:56.438 +03:00 [INF] Hosting environment: Development
+2024-01-18 08:48:56.440 +03:00 [INF] Content root path: C:\Users\muhammed.durus\Desktop\Eğitim ve Dökümanlar\DemoMicroservices\OcelotApiGateway\
+2024-01-18 08:48:57.005 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/swagger/index.html - -
+2024-01-18 08:48:57.519 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/swagger/index.html - - - 200 - text/html;charset=utf-8 522.7312ms
+2024-01-18 08:48:57.523 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/_framework/aspnetcore-browser-refresh.js - -
+2024-01-18 08:48:57.524 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/_vs/browserLink - -
+2024-01-18 08:48:57.529 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 6.0490ms
+2024-01-18 08:48:57.635 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 110.5798ms
+2024-01-18 08:48:57.703 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/swagger/v1/swagger.json - -
+2024-01-18 08:48:57.894 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 189.4663ms
+2024-01-18 08:50:16.708 +03:00 [INF] User profile is available. Using 'C:\Users\muhammed.durus\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-18 08:50:17.092 +03:00 [INF] Now listening on: https://localhost:7267
+2024-01-18 08:50:17.094 +03:00 [INF] Now listening on: http://localhost:5267
+2024-01-18 08:50:17.101 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-18 08:50:17.103 +03:00 [INF] Hosting environment: Development
+2024-01-18 08:50:17.107 +03:00 [INF] Content root path: C:\Users\muhammed.durus\Desktop\Eğitim ve Dökümanlar\DemoMicroservices\OcelotApiGateway\
+2024-01-18 08:50:17.596 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/swagger/index.html - -
+2024-01-18 08:50:17.872 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/_framework/aspnetcore-browser-refresh.js - -
+2024-01-18 08:50:17.879 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/swagger/index.html - - - 200 - text/html;charset=utf-8 284.8935ms
+2024-01-18 08:50:17.880 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 7.5609ms
+2024-01-18 08:50:17.883 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/_vs/browserLink - -
+2024-01-18 08:50:17.941 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 57.9602ms
+2024-01-18 08:50:18.089 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/swagger/v1/swagger.json - -
+2024-01-18 08:50:18.192 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 102.8951ms
+2024-01-18 08:50:57.674 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json 83
+2024-01-18 08:50:57.765 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000002, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-18 08:50:57.770 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000002, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-18 08:50:57.777 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000002, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-18 08:50:57.842 +03:00 [INF] requestId: 0HN0NT5CL48MF:00000002, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-18 08:50:57.848 +03:00 [INF] requestId: 0HN0NT5CL48MF:00000002, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-18 08:50:57.871 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000002, previousRequestId: no previous request id, message: Downstream url is https://localhost:7265/api/Category
+2024-01-18 08:50:57.877 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000002, previousRequestId: no previous request id, message: Started checking cache for POST-https://localhost:7267/ocelot/api/category
+2024-01-18 08:50:57.877 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000002, previousRequestId: no previous request id, message: no resonse cached for POST-https://localhost:7267/ocelot/api/category
+2024-01-18 08:51:02.051 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000002, previousRequestId: no previous request id, message: IHttpRequester returned an error, setting pipeline error
+2024-01-18 08:51:02.052 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000002, previousRequestId: no previous request id, message: there was a pipeline error for POST-https://localhost:7267/ocelot/api/category
+2024-01-18 08:51:02.071 +03:00 [WRN] requestId: 0HN0NT5CL48MF:00000002, previousRequestId: no previous request id, message: Error Code: ConnectionToDownstreamServiceError Message: Error connecting to downstream service, exception: System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:7265)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Ocelot.Requester.HttpClientHttpRequester.GetResponse(HttpContext httpContext) errors found in ResponderMiddleware. Setting error response for request path:/ocelot/api/category, request method: POST
+2024-01-18 08:51:02.073 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000002, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-18 08:51:02.079 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json 83 - 502 0 - 4404.1776ms
+2024-01-18 08:51:26.786 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json 83
+2024-01-18 08:51:26.802 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000003, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-18 08:51:26.802 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000003, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-18 08:51:26.802 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000003, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-18 08:51:26.804 +03:00 [INF] requestId: 0HN0NT5CL48MF:00000003, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-18 08:51:26.805 +03:00 [INF] requestId: 0HN0NT5CL48MF:00000003, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-18 08:51:26.806 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000003, previousRequestId: no previous request id, message: Downstream url is https://localhost:7265/api/Category
+2024-01-18 08:51:26.806 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000003, previousRequestId: no previous request id, message: Started checking cache for POST-https://localhost:7267/ocelot/api/category
+2024-01-18 08:51:26.806 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000003, previousRequestId: no previous request id, message: no resonse cached for POST-https://localhost:7267/ocelot/api/category
+2024-01-18 08:51:30.876 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000003, previousRequestId: no previous request id, message: IHttpRequester returned an error, setting pipeline error
+2024-01-18 08:51:30.876 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000003, previousRequestId: no previous request id, message: there was a pipeline error for POST-https://localhost:7267/ocelot/api/category
+2024-01-18 08:51:30.878 +03:00 [WRN] requestId: 0HN0NT5CL48MF:00000003, previousRequestId: no previous request id, message: Error Code: ConnectionToDownstreamServiceError Message: Error connecting to downstream service, exception: System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:7265)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Ocelot.Requester.HttpClientHttpRequester.GetResponse(HttpContext httpContext) errors found in ResponderMiddleware. Setting error response for request path:/ocelot/api/category, request method: POST
+2024-01-18 08:51:30.878 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000003, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-18 08:51:30.878 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json 83 - 502 0 - 4092.1338ms
+2024-01-18 08:52:11.939 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json 83
+2024-01-18 08:52:11.940 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000004, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-18 08:52:11.940 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000004, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-18 08:52:11.943 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000004, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-18 08:52:11.946 +03:00 [INF] requestId: 0HN0NT5CL48MF:00000004, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-18 08:52:11.948 +03:00 [INF] requestId: 0HN0NT5CL48MF:00000004, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-18 08:52:11.948 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000004, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-18 08:52:11.948 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000004, previousRequestId: no previous request id, message: Started checking cache for POST-https://localhost:7267/ocelot/api/category
+2024-01-18 08:52:11.948 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000004, previousRequestId: no previous request id, message: no resonse cached for POST-https://localhost:7267/ocelot/api/category
+2024-01-18 08:52:14.833 +03:00 [INF] requestId: 0HN0NT5CL48MF:00000004, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Category
+2024-01-18 08:52:14.834 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000004, previousRequestId: no previous request id, message: setting http response message
+2024-01-18 08:52:14.840 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000004, previousRequestId: no previous request id, message: finished response added to cache for POST-https://localhost:7267/ocelot/api/category
+2024-01-18 08:52:14.842 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000004, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-18 08:52:14.846 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000004, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-18 08:52:14.846 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json 83 - 200 0 - 2907.3761ms
+2024-01-18 08:53:34.589 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7267/ocelot/api/category application/json 83
+2024-01-18 08:53:34.589 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000005, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-18 08:53:34.589 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000005, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-18 08:53:34.589 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000005, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-18 08:53:34.591 +03:00 [INF] requestId: 0HN0NT5CL48MF:00000005, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-18 08:53:34.593 +03:00 [INF] requestId: 0HN0NT5CL48MF:00000005, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-18 08:53:34.593 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000005, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-18 08:53:34.593 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000005, previousRequestId: no previous request id, message: Started checking cache for GET-https://localhost:7267/ocelot/api/category
+2024-01-18 08:53:34.593 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000005, previousRequestId: no previous request id, message: no resonse cached for GET-https://localhost:7267/ocelot/api/category
+2024-01-18 08:53:35.291 +03:00 [INF] requestId: 0HN0NT5CL48MF:00000005, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Category
+2024-01-18 08:53:35.291 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000005, previousRequestId: no previous request id, message: setting http response message
+2024-01-18 08:53:35.292 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000005, previousRequestId: no previous request id, message: finished response added to cache for GET-https://localhost:7267/ocelot/api/category
+2024-01-18 08:53:35.292 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000005, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-18 08:53:35.292 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000005, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-18 08:53:35.292 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7267/ocelot/api/category application/json 83 - 200 2 application/json;+charset=utf-8 703.3638ms
+2024-01-18 08:53:48.426 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json 73
+2024-01-18 08:53:48.426 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000006, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-18 08:53:48.426 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000006, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-18 08:53:48.426 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000006, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-18 08:53:48.430 +03:00 [INF] requestId: 0HN0NT5CL48MF:00000006, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-18 08:53:48.431 +03:00 [INF] requestId: 0HN0NT5CL48MF:00000006, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-18 08:53:48.431 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000006, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-18 08:53:48.432 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000006, previousRequestId: no previous request id, message: Started checking cache for POST-https://localhost:7267/ocelot/api/category
+2024-01-18 08:53:48.432 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000006, previousRequestId: no previous request id, message: no resonse cached for POST-https://localhost:7267/ocelot/api/category
+2024-01-18 08:53:51.133 +03:00 [INF] requestId: 0HN0NT5CL48MF:00000006, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Category
+2024-01-18 08:53:51.133 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000006, previousRequestId: no previous request id, message: setting http response message
+2024-01-18 08:53:51.133 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000006, previousRequestId: no previous request id, message: finished response added to cache for POST-https://localhost:7267/ocelot/api/category
+2024-01-18 08:53:51.133 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000006, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-18 08:53:51.133 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000006, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-18 08:53:51.133 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json 73 - 200 0 - 2706.9557ms
+2024-01-18 08:53:56.308 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7267/ocelot/api/category application/json 73
+2024-01-18 08:53:56.309 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000007, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-18 08:53:56.309 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000007, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-18 08:53:56.309 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000007, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-18 08:53:56.311 +03:00 [INF] requestId: 0HN0NT5CL48MF:00000007, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-18 08:53:56.313 +03:00 [INF] requestId: 0HN0NT5CL48MF:00000007, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-18 08:53:56.313 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000007, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-18 08:53:56.313 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000007, previousRequestId: no previous request id, message: Started checking cache for GET-https://localhost:7267/ocelot/api/category
+2024-01-18 08:53:56.313 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000007, previousRequestId: no previous request id, message: no resonse cached for GET-https://localhost:7267/ocelot/api/category
+2024-01-18 08:53:56.339 +03:00 [INF] requestId: 0HN0NT5CL48MF:00000007, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Category
+2024-01-18 08:53:56.339 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000007, previousRequestId: no previous request id, message: setting http response message
+2024-01-18 08:53:56.339 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000007, previousRequestId: no previous request id, message: finished response added to cache for GET-https://localhost:7267/ocelot/api/category
+2024-01-18 08:53:56.340 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000007, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-18 08:53:56.340 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000007, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-18 08:53:56.340 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7267/ocelot/api/category application/json 73 - 200 2 application/json;+charset=utf-8 31.4545ms
+2024-01-18 08:54:00.901 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7267/ocelot/api/category application/json 73
+2024-01-18 08:54:00.901 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000008, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-18 08:54:00.901 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000008, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-18 08:54:00.901 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000008, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-18 08:54:00.906 +03:00 [INF] requestId: 0HN0NT5CL48MF:00000008, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-18 08:54:00.907 +03:00 [INF] requestId: 0HN0NT5CL48MF:00000008, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-18 08:54:00.907 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000008, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-18 08:54:00.907 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000008, previousRequestId: no previous request id, message: Started checking cache for GET-https://localhost:7267/ocelot/api/category
+2024-01-18 08:54:00.907 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000008, previousRequestId: no previous request id, message: cache entry exists for GET-https://localhost:7267/ocelot/api/category
+2024-01-18 08:54:00.910 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000008, previousRequestId: no previous request id, message: finished returned cached response for GET-https://localhost:7267/ocelot/api/category
+2024-01-18 08:54:00.910 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000008, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-18 08:54:00.910 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000008, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-18 08:54:00.911 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7267/ocelot/api/category application/json 73 - 200 2 application/json;+charset=utf-8 10.0486ms
+2024-01-18 08:54:03.229 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7267/ocelot/api/category application/json 73
+2024-01-18 08:54:03.229 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000009, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-18 08:54:03.229 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000009, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-18 08:54:03.229 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000009, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-18 08:54:03.232 +03:00 [INF] requestId: 0HN0NT5CL48MF:00000009, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-18 08:54:03.234 +03:00 [INF] requestId: 0HN0NT5CL48MF:00000009, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-18 08:54:03.234 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000009, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-18 08:54:03.234 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000009, previousRequestId: no previous request id, message: Started checking cache for GET-https://localhost:7267/ocelot/api/category
+2024-01-18 08:54:03.234 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000009, previousRequestId: no previous request id, message: cache entry exists for GET-https://localhost:7267/ocelot/api/category
+2024-01-18 08:54:03.234 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000009, previousRequestId: no previous request id, message: finished returned cached response for GET-https://localhost:7267/ocelot/api/category
+2024-01-18 08:54:03.234 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000009, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-18 08:54:03.234 +03:00 [DBG] requestId: 0HN0NT5CL48MF:00000009, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-18 08:54:03.234 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7267/ocelot/api/category application/json 73 - 200 2 application/json;+charset=utf-8 5.4530ms
+2024-01-18 08:54:11.387 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7267/ocelot/api/category - -
+2024-01-18 08:54:11.387 +03:00 [DBG] requestId: 0HN0NT5CL48MF:0000000A, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-18 08:54:11.387 +03:00 [DBG] requestId: 0HN0NT5CL48MF:0000000A, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-18 08:54:11.387 +03:00 [DBG] requestId: 0HN0NT5CL48MF:0000000A, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-18 08:54:11.390 +03:00 [INF] requestId: 0HN0NT5CL48MF:0000000A, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-18 08:54:11.391 +03:00 [INF] requestId: 0HN0NT5CL48MF:0000000A, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-18 08:54:11.392 +03:00 [DBG] requestId: 0HN0NT5CL48MF:0000000A, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-18 08:54:11.392 +03:00 [DBG] requestId: 0HN0NT5CL48MF:0000000A, previousRequestId: no previous request id, message: Started checking cache for GET-https://localhost:7267/ocelot/api/category
+2024-01-18 08:54:11.392 +03:00 [DBG] requestId: 0HN0NT5CL48MF:0000000A, previousRequestId: no previous request id, message: no resonse cached for GET-https://localhost:7267/ocelot/api/category
+2024-01-18 08:54:14.890 +03:00 [INF] requestId: 0HN0NT5CL48MF:0000000A, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Category
+2024-01-18 08:54:14.890 +03:00 [DBG] requestId: 0HN0NT5CL48MF:0000000A, previousRequestId: no previous request id, message: setting http response message
+2024-01-18 08:54:14.890 +03:00 [DBG] requestId: 0HN0NT5CL48MF:0000000A, previousRequestId: no previous request id, message: finished response added to cache for GET-https://localhost:7267/ocelot/api/category
+2024-01-18 08:54:14.890 +03:00 [DBG] requestId: 0HN0NT5CL48MF:0000000A, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-18 08:54:14.890 +03:00 [DBG] requestId: 0HN0NT5CL48MF:0000000A, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-18 08:54:14.890 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7267/ocelot/api/category - - - 200 2 application/json;+charset=utf-8 3503.1384ms
+2024-01-18 08:54:17.489 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7267/ocelot/api/category - -
+2024-01-18 08:54:17.489 +03:00 [DBG] requestId: 0HN0NT5CL48MF:0000000B, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-18 08:54:17.489 +03:00 [DBG] requestId: 0HN0NT5CL48MF:0000000B, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-18 08:54:17.489 +03:00 [DBG] requestId: 0HN0NT5CL48MF:0000000B, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-18 08:54:17.491 +03:00 [INF] requestId: 0HN0NT5CL48MF:0000000B, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-18 08:54:17.493 +03:00 [INF] requestId: 0HN0NT5CL48MF:0000000B, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-18 08:54:17.493 +03:00 [DBG] requestId: 0HN0NT5CL48MF:0000000B, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-18 08:54:17.493 +03:00 [DBG] requestId: 0HN0NT5CL48MF:0000000B, previousRequestId: no previous request id, message: Started checking cache for GET-https://localhost:7267/ocelot/api/category
+2024-01-18 08:54:17.493 +03:00 [DBG] requestId: 0HN0NT5CL48MF:0000000B, previousRequestId: no previous request id, message: cache entry exists for GET-https://localhost:7267/ocelot/api/category
+2024-01-18 08:54:17.493 +03:00 [DBG] requestId: 0HN0NT5CL48MF:0000000B, previousRequestId: no previous request id, message: finished returned cached response for GET-https://localhost:7267/ocelot/api/category
+2024-01-18 08:54:17.493 +03:00 [DBG] requestId: 0HN0NT5CL48MF:0000000B, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-18 08:54:17.493 +03:00 [DBG] requestId: 0HN0NT5CL48MF:0000000B, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-18 08:54:17.493 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7267/ocelot/api/category - - - 200 2 application/json;+charset=utf-8 4.7590ms
+2024-01-18 08:54:19.797 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7267/ocelot/api/category - -
+2024-01-18 08:54:19.797 +03:00 [DBG] requestId: 0HN0NT5CL48MF:0000000C, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-18 08:54:19.797 +03:00 [DBG] requestId: 0HN0NT5CL48MF:0000000C, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-18 08:54:19.797 +03:00 [DBG] requestId: 0HN0NT5CL48MF:0000000C, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-18 08:54:19.799 +03:00 [INF] requestId: 0HN0NT5CL48MF:0000000C, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-18 08:54:19.800 +03:00 [INF] requestId: 0HN0NT5CL48MF:0000000C, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-18 08:54:19.800 +03:00 [DBG] requestId: 0HN0NT5CL48MF:0000000C, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-18 08:54:19.801 +03:00 [DBG] requestId: 0HN0NT5CL48MF:0000000C, previousRequestId: no previous request id, message: Started checking cache for GET-https://localhost:7267/ocelot/api/category
+2024-01-18 08:54:19.801 +03:00 [DBG] requestId: 0HN0NT5CL48MF:0000000C, previousRequestId: no previous request id, message: cache entry exists for GET-https://localhost:7267/ocelot/api/category
+2024-01-18 08:54:19.801 +03:00 [DBG] requestId: 0HN0NT5CL48MF:0000000C, previousRequestId: no previous request id, message: finished returned cached response for GET-https://localhost:7267/ocelot/api/category
+2024-01-18 08:54:19.801 +03:00 [DBG] requestId: 0HN0NT5CL48MF:0000000C, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-18 08:54:19.801 +03:00 [DBG] requestId: 0HN0NT5CL48MF:0000000C, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-18 08:54:19.801 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7267/ocelot/api/category - - - 200 2 application/json;+charset=utf-8 4.1929ms
+2024-01-18 08:54:31.859 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7267/ocelot/api/category - -
+2024-01-18 08:54:31.859 +03:00 [DBG] requestId: 0HN0NT5CL48MF:0000000D, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-18 08:54:31.859 +03:00 [DBG] requestId: 0HN0NT5CL48MF:0000000D, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-18 08:54:31.859 +03:00 [DBG] requestId: 0HN0NT5CL48MF:0000000D, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-18 08:54:31.863 +03:00 [INF] requestId: 0HN0NT5CL48MF:0000000D, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-18 08:54:31.864 +03:00 [INF] requestId: 0HN0NT5CL48MF:0000000D, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-18 08:54:31.864 +03:00 [DBG] requestId: 0HN0NT5CL48MF:0000000D, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-18 08:54:31.864 +03:00 [DBG] requestId: 0HN0NT5CL48MF:0000000D, previousRequestId: no previous request id, message: Started checking cache for GET-https://localhost:7267/ocelot/api/category
+2024-01-18 08:54:31.864 +03:00 [DBG] requestId: 0HN0NT5CL48MF:0000000D, previousRequestId: no previous request id, message: no resonse cached for GET-https://localhost:7267/ocelot/api/category
+2024-01-18 08:55:53.260 +03:00 [INF] requestId: 0HN0NT5CL48MF:0000000D, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Category
+2024-01-18 08:55:53.261 +03:00 [DBG] requestId: 0HN0NT5CL48MF:0000000D, previousRequestId: no previous request id, message: setting http response message
+2024-01-18 08:55:53.261 +03:00 [DBG] requestId: 0HN0NT5CL48MF:0000000D, previousRequestId: no previous request id, message: finished response added to cache for GET-https://localhost:7267/ocelot/api/category
+2024-01-18 08:55:53.261 +03:00 [DBG] requestId: 0HN0NT5CL48MF:0000000D, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-18 08:55:53.264 +03:00 [DBG] requestId: 0HN0NT5CL48MF:0000000D, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-18 08:55:53.264 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7267/ocelot/api/category - - - 200 2 application/json;+charset=utf-8 81405.4345ms
+2024-01-18 08:56:38.148 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json 73
+2024-01-18 08:56:38.148 +03:00 [DBG] requestId: 0HN0NT5CL48MF:0000000E, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-18 08:56:38.148 +03:00 [DBG] requestId: 0HN0NT5CL48MF:0000000E, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-18 08:56:38.149 +03:00 [DBG] requestId: 0HN0NT5CL48MF:0000000E, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-18 08:56:38.152 +03:00 [INF] requestId: 0HN0NT5CL48MF:0000000E, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-18 08:56:38.155 +03:00 [INF] requestId: 0HN0NT5CL48MF:0000000E, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-18 08:56:38.156 +03:00 [DBG] requestId: 0HN0NT5CL48MF:0000000E, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-18 08:56:38.157 +03:00 [DBG] requestId: 0HN0NT5CL48MF:0000000E, previousRequestId: no previous request id, message: Started checking cache for POST-https://localhost:7267/ocelot/api/category
+2024-01-18 08:56:38.157 +03:00 [DBG] requestId: 0HN0NT5CL48MF:0000000E, previousRequestId: no previous request id, message: no resonse cached for POST-https://localhost:7267/ocelot/api/category
+2024-01-18 08:57:14.502 +03:00 [INF] User profile is available. Using 'C:\Users\muhammed.durus\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-18 08:57:15.534 +03:00 [INF] Now listening on: https://localhost:7267
+2024-01-18 08:57:15.536 +03:00 [INF] Now listening on: http://localhost:5267
+2024-01-18 08:57:15.559 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-18 08:57:15.570 +03:00 [INF] Hosting environment: Development
+2024-01-18 08:57:15.579 +03:00 [INF] Content root path: C:\Users\muhammed.durus\Desktop\Eğitim ve Dökümanlar\DemoMicroservices\OcelotApiGateway\
+2024-01-18 08:57:16.325 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/swagger/index.html - -
+2024-01-18 08:57:16.695 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/_vs/browserLink - -
+2024-01-18 08:57:16.695 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/swagger/index.html - - - 200 - text/html;charset=utf-8 374.2912ms
+2024-01-18 08:57:16.698 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/_framework/aspnetcore-browser-refresh.js - -
+2024-01-18 08:57:16.710 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 12.3607ms
+2024-01-18 08:57:16.751 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 56.0013ms
+2024-01-18 08:57:16.875 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/swagger/v1/swagger.json - -
+2024-01-18 08:57:16.999 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 124.8242ms
+2024-01-18 08:57:20.034 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json 73
+2024-01-18 08:57:20.120 +03:00 [DBG] requestId: 0HN0NT99D8H7H:00000002, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-18 08:57:20.125 +03:00 [DBG] requestId: 0HN0NT99D8H7H:00000002, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-18 08:57:20.133 +03:00 [DBG] requestId: 0HN0NT99D8H7H:00000002, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-18 08:57:20.197 +03:00 [INF] requestId: 0HN0NT99D8H7H:00000002, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-18 08:57:20.204 +03:00 [INF] requestId: 0HN0NT99D8H7H:00000002, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-18 08:57:20.224 +03:00 [DBG] requestId: 0HN0NT99D8H7H:00000002, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-18 08:57:20.230 +03:00 [DBG] requestId: 0HN0NT99D8H7H:00000002, previousRequestId: no previous request id, message: Started checking cache for POST-https://localhost:7267/ocelot/api/category
+2024-01-18 08:57:20.231 +03:00 [DBG] requestId: 0HN0NT99D8H7H:00000002, previousRequestId: no previous request id, message: no resonse cached for POST-https://localhost:7267/ocelot/api/category
+2024-01-18 08:57:24.893 +03:00 [INF] requestId: 0HN0NT99D8H7H:00000002, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Category
+2024-01-18 08:57:24.893 +03:00 [DBG] requestId: 0HN0NT99D8H7H:00000002, previousRequestId: no previous request id, message: setting http response message
+2024-01-18 08:57:24.901 +03:00 [DBG] requestId: 0HN0NT99D8H7H:00000002, previousRequestId: no previous request id, message: finished response added to cache for POST-https://localhost:7267/ocelot/api/category
+2024-01-18 08:57:24.914 +03:00 [DBG] requestId: 0HN0NT99D8H7H:00000002, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-18 08:57:24.918 +03:00 [DBG] requestId: 0HN0NT99D8H7H:00000002, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-18 08:57:24.924 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json 73 - 200 0 - 4890.2948ms
+2024-01-18 08:57:30.882 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7267/ocelot/api/category - -
+2024-01-18 08:57:30.883 +03:00 [DBG] requestId: 0HN0NT99D8H7H:00000003, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-18 08:57:30.883 +03:00 [DBG] requestId: 0HN0NT99D8H7H:00000003, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-18 08:57:30.883 +03:00 [DBG] requestId: 0HN0NT99D8H7H:00000003, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-18 08:57:30.886 +03:00 [INF] requestId: 0HN0NT99D8H7H:00000003, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-18 08:57:30.888 +03:00 [INF] requestId: 0HN0NT99D8H7H:00000003, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-18 08:57:30.888 +03:00 [DBG] requestId: 0HN0NT99D8H7H:00000003, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-18 08:57:30.889 +03:00 [DBG] requestId: 0HN0NT99D8H7H:00000003, previousRequestId: no previous request id, message: Started checking cache for GET-https://localhost:7267/ocelot/api/category
+2024-01-18 08:57:30.889 +03:00 [DBG] requestId: 0HN0NT99D8H7H:00000003, previousRequestId: no previous request id, message: no resonse cached for GET-https://localhost:7267/ocelot/api/category
+2024-01-18 08:57:32.405 +03:00 [INF] requestId: 0HN0NT99D8H7H:00000003, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Category
+2024-01-18 08:57:32.405 +03:00 [DBG] requestId: 0HN0NT99D8H7H:00000003, previousRequestId: no previous request id, message: setting http response message
+2024-01-18 08:57:32.406 +03:00 [DBG] requestId: 0HN0NT99D8H7H:00000003, previousRequestId: no previous request id, message: finished response added to cache for GET-https://localhost:7267/ocelot/api/category
+2024-01-18 08:57:32.406 +03:00 [DBG] requestId: 0HN0NT99D8H7H:00000003, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-18 08:57:32.407 +03:00 [DBG] requestId: 0HN0NT99D8H7H:00000003, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-18 08:57:32.407 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7267/ocelot/api/category - - - 200 63 application/json;+charset=utf-8 1524.8792ms
+2024-01-18 08:59:38.302 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7267/ocelot/api/category - -
+2024-01-18 08:59:38.306 +03:00 [DBG] requestId: 0HN0NT99D8H7H:00000004, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-18 08:59:38.306 +03:00 [DBG] requestId: 0HN0NT99D8H7H:00000004, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-18 08:59:38.306 +03:00 [DBG] requestId: 0HN0NT99D8H7H:00000004, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-18 08:59:38.308 +03:00 [INF] requestId: 0HN0NT99D8H7H:00000004, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-18 08:59:38.309 +03:00 [INF] requestId: 0HN0NT99D8H7H:00000004, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-18 08:59:38.309 +03:00 [DBG] requestId: 0HN0NT99D8H7H:00000004, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-18 08:59:38.309 +03:00 [DBG] requestId: 0HN0NT99D8H7H:00000004, previousRequestId: no previous request id, message: Started checking cache for GET-https://localhost:7267/ocelot/api/category
+2024-01-18 08:59:38.309 +03:00 [DBG] requestId: 0HN0NT99D8H7H:00000004, previousRequestId: no previous request id, message: no resonse cached for GET-https://localhost:7267/ocelot/api/category
+2024-01-18 08:59:41.035 +03:00 [INF] requestId: 0HN0NT99D8H7H:00000004, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Category
+2024-01-18 08:59:41.035 +03:00 [DBG] requestId: 0HN0NT99D8H7H:00000004, previousRequestId: no previous request id, message: setting http response message
+2024-01-18 08:59:41.036 +03:00 [DBG] requestId: 0HN0NT99D8H7H:00000004, previousRequestId: no previous request id, message: finished response added to cache for GET-https://localhost:7267/ocelot/api/category
+2024-01-18 08:59:41.036 +03:00 [DBG] requestId: 0HN0NT99D8H7H:00000004, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-18 08:59:41.036 +03:00 [DBG] requestId: 0HN0NT99D8H7H:00000004, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-18 08:59:41.036 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7267/ocelot/api/category - - - 200 63 application/json;+charset=utf-8 2733.5196ms
+2024-01-18 09:06:10.026 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category text/plain;+charset=utf-8 107
+2024-01-18 09:06:10.028 +03:00 [DBG] requestId: 0HN0NT99D8H7I:00000002, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-18 09:06:10.029 +03:00 [DBG] requestId: 0HN0NT99D8H7I:00000002, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-18 09:06:10.029 +03:00 [DBG] requestId: 0HN0NT99D8H7I:00000002, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-18 09:06:10.032 +03:00 [INF] requestId: 0HN0NT99D8H7I:00000002, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-18 09:06:10.033 +03:00 [INF] requestId: 0HN0NT99D8H7I:00000002, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-18 09:06:10.033 +03:00 [DBG] requestId: 0HN0NT99D8H7I:00000002, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-18 09:06:10.033 +03:00 [DBG] requestId: 0HN0NT99D8H7I:00000002, previousRequestId: no previous request id, message: Started checking cache for POST-https://localhost:7267/ocelot/api/category
+2024-01-18 09:06:10.033 +03:00 [DBG] requestId: 0HN0NT99D8H7I:00000002, previousRequestId: no previous request id, message: no resonse cached for POST-https://localhost:7267/ocelot/api/category
+2024-01-18 09:06:10.064 +03:00 [WRN] requestId: 0HN0NT99D8H7I:00000002, previousRequestId: no previous request id, message: 415 (Unsupported Media Type) status code, request uri: https://localhost:5000/api/Category
+2024-01-18 09:06:10.064 +03:00 [DBG] requestId: 0HN0NT99D8H7I:00000002, previousRequestId: no previous request id, message: setting http response message
+2024-01-18 09:06:10.064 +03:00 [DBG] requestId: 0HN0NT99D8H7I:00000002, previousRequestId: no previous request id, message: finished response added to cache for POST-https://localhost:7267/ocelot/api/category
+2024-01-18 09:06:10.064 +03:00 [DBG] requestId: 0HN0NT99D8H7I:00000002, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-18 09:06:10.064 +03:00 [DBG] requestId: 0HN0NT99D8H7I:00000002, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-18 09:06:10.064 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category text/plain;+charset=utf-8 107 - 415 175 application/problem+json;+charset=utf-8 37.7342ms
+2024-01-18 09:18:28.292 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 107
+2024-01-18 09:18:28.293 +03:00 [DBG] requestId: 0HN0NT99D8H7J:00000002, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-18 09:18:28.293 +03:00 [DBG] requestId: 0HN0NT99D8H7J:00000002, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-18 09:18:28.297 +03:00 [DBG] requestId: 0HN0NT99D8H7J:00000002, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-18 09:18:28.299 +03:00 [INF] requestId: 0HN0NT99D8H7J:00000002, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-18 09:18:28.300 +03:00 [INF] requestId: 0HN0NT99D8H7J:00000002, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-18 09:18:28.300 +03:00 [DBG] requestId: 0HN0NT99D8H7J:00000002, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-18 09:18:58.882 +03:00 [INF] requestId: 0HN0NT99D8H7J:00000002, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Category
+2024-01-18 09:18:58.882 +03:00 [DBG] requestId: 0HN0NT99D8H7J:00000002, previousRequestId: no previous request id, message: setting http response message
+2024-01-18 09:18:58.882 +03:00 [DBG] requestId: 0HN0NT99D8H7J:00000002, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-18 09:18:58.882 +03:00 [DBG] requestId: 0HN0NT99D8H7J:00000002, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-18 09:18:58.882 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 107 - 200 0 - 30589.3359ms
+2024-01-18 09:24:38.162 +03:00 [INF] User profile is available. Using 'C:\Users\muhammed.durus\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-18 09:24:38.881 +03:00 [INF] Now listening on: https://localhost:7267
+2024-01-18 09:24:38.883 +03:00 [INF] Now listening on: http://localhost:5267
+2024-01-18 09:24:38.898 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-18 09:24:38.899 +03:00 [INF] Hosting environment: Development
+2024-01-18 09:24:38.901 +03:00 [INF] Content root path: C:\Users\muhammed.durus\Desktop\Eğitim ve Dökümanlar\DemoMicroservices\OcelotApiGateway\
+2024-01-18 09:24:39.779 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/swagger/index.html - -
+2024-01-18 09:24:40.153 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/_vs/browserLink - -
+2024-01-18 09:24:40.153 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/_framework/aspnetcore-browser-refresh.js - -
+2024-01-18 09:24:40.160 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/swagger/index.html - - - 200 - text/html;charset=utf-8 383.9374ms
+2024-01-18 09:24:40.163 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 9.8985ms
+2024-01-18 09:24:40.229 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 76.7147ms
+2024-01-18 09:24:40.286 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/swagger/v1/swagger.json - -
+2024-01-18 09:24:40.451 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 164.3075ms
+2024-01-18 09:27:13.240 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 0
+2024-01-18 09:27:13.334 +03:00 [DBG] requestId: 0HN0NTOJ5SS9U:00000002, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-18 09:27:13.339 +03:00 [DBG] requestId: 0HN0NTOJ5SS9U:00000002, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-18 09:27:13.347 +03:00 [DBG] requestId: 0HN0NTOJ5SS9U:00000002, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-18 09:27:13.396 +03:00 [INF] requestId: 0HN0NTOJ5SS9U:00000002, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-18 09:27:13.406 +03:00 [INF] requestId: 0HN0NTOJ5SS9U:00000002, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-18 09:27:13.412 +03:00 [INF] requestId: 0HN0NTOJ5SS9U:00000002, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-18 09:27:13.436 +03:00 [DBG] requestId: 0HN0NTOJ5SS9U:00000002, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-18 09:27:13.742 +03:00 [INF] requestId: 0HN0NTOJ5SS9U:00000002, previousRequestId: no previous request id, message: 400 (Bad Request) status code, request uri: https://localhost:5000/api/Category
+2024-01-18 09:27:13.742 +03:00 [DBG] requestId: 0HN0NTOJ5SS9U:00000002, previousRequestId: no previous request id, message: setting http response message
+2024-01-18 09:27:13.759 +03:00 [DBG] requestId: 0HN0NTOJ5SS9U:00000002, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-18 09:27:13.764 +03:00 [DBG] requestId: 0HN0NTOJ5SS9U:00000002, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-18 09:27:13.770 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 0 - 400 290 application/problem+json;+charset=utf-8 529.6959ms
+2024-01-18 09:29:21.485 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 107
+2024-01-18 09:29:21.489 +03:00 [DBG] requestId: 0HN0NTOJ5SS9V:00000002, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-18 09:29:21.491 +03:00 [DBG] requestId: 0HN0NTOJ5SS9V:00000002, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-18 09:29:21.492 +03:00 [DBG] requestId: 0HN0NTOJ5SS9V:00000002, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-18 09:29:21.499 +03:00 [INF] requestId: 0HN0NTOJ5SS9V:00000002, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-18 09:29:21.500 +03:00 [INF] requestId: 0HN0NTOJ5SS9V:00000002, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-18 09:29:21.501 +03:00 [INF] requestId: 0HN0NTOJ5SS9V:00000002, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-18 09:29:21.501 +03:00 [DBG] requestId: 0HN0NTOJ5SS9V:00000002, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-18 09:29:27.260 +03:00 [INF] requestId: 0HN0NTOJ5SS9V:00000002, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Category
+2024-01-18 09:29:27.260 +03:00 [DBG] requestId: 0HN0NTOJ5SS9V:00000002, previousRequestId: no previous request id, message: setting http response message
+2024-01-18 09:29:27.261 +03:00 [DBG] requestId: 0HN0NTOJ5SS9V:00000002, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-18 09:29:27.261 +03:00 [DBG] requestId: 0HN0NTOJ5SS9V:00000002, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-18 09:29:27.261 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 107 - 200 0 - 5776.5520ms
+2024-01-18 09:30:09.339 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 107
+2024-01-18 09:30:09.343 +03:00 [DBG] requestId: 0HN0NTOJ5SS9V:00000003, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-18 09:30:09.343 +03:00 [DBG] requestId: 0HN0NTOJ5SS9V:00000003, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-18 09:30:09.343 +03:00 [DBG] requestId: 0HN0NTOJ5SS9V:00000003, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-18 09:30:09.344 +03:00 [INF] requestId: 0HN0NTOJ5SS9V:00000003, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-18 09:30:09.346 +03:00 [INF] requestId: 0HN0NTOJ5SS9V:00000003, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-18 09:30:09.347 +03:00 [INF] requestId: 0HN0NTOJ5SS9V:00000003, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-18 09:30:09.347 +03:00 [DBG] requestId: 0HN0NTOJ5SS9V:00000003, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-18 09:30:12.844 +03:00 [INF] requestId: 0HN0NTOJ5SS9V:00000003, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Category
+2024-01-18 09:30:12.844 +03:00 [DBG] requestId: 0HN0NTOJ5SS9V:00000003, previousRequestId: no previous request id, message: setting http response message
+2024-01-18 09:30:12.844 +03:00 [DBG] requestId: 0HN0NTOJ5SS9V:00000003, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-18 09:30:12.844 +03:00 [DBG] requestId: 0HN0NTOJ5SS9V:00000003, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-18 09:30:12.844 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 107 - 200 0 - 3505.3296ms
+2024-01-18 09:31:10.366 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 107
+2024-01-18 09:31:10.366 +03:00 [DBG] requestId: 0HN0NTOJ5SS9V:00000004, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-18 09:31:10.366 +03:00 [DBG] requestId: 0HN0NTOJ5SS9V:00000004, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-18 09:31:10.366 +03:00 [DBG] requestId: 0HN0NTOJ5SS9V:00000004, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-18 09:31:10.369 +03:00 [INF] requestId: 0HN0NTOJ5SS9V:00000004, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-18 09:31:10.372 +03:00 [INF] requestId: 0HN0NTOJ5SS9V:00000004, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-18 09:31:10.373 +03:00 [INF] requestId: 0HN0NTOJ5SS9V:00000004, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-18 09:31:10.373 +03:00 [DBG] requestId: 0HN0NTOJ5SS9V:00000004, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-18 09:31:16.835 +03:00 [INF] requestId: 0HN0NTOJ5SS9V:00000004, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Category
+2024-01-18 09:31:16.835 +03:00 [DBG] requestId: 0HN0NTOJ5SS9V:00000004, previousRequestId: no previous request id, message: setting http response message
+2024-01-18 09:31:16.835 +03:00 [DBG] requestId: 0HN0NTOJ5SS9V:00000004, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-18 09:31:16.835 +03:00 [DBG] requestId: 0HN0NTOJ5SS9V:00000004, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-18 09:31:16.835 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 107 - 200 0 - 6469.3997ms
+2024-01-18 09:32:00.318 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 107
+2024-01-18 09:32:00.318 +03:00 [DBG] requestId: 0HN0NTOJ5SSA0:00000002, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-18 09:32:00.318 +03:00 [DBG] requestId: 0HN0NTOJ5SSA0:00000002, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-18 09:32:00.318 +03:00 [DBG] requestId: 0HN0NTOJ5SSA0:00000002, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-18 09:32:00.319 +03:00 [INF] requestId: 0HN0NTOJ5SSA0:00000002, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-18 09:32:00.321 +03:00 [INF] requestId: 0HN0NTOJ5SSA0:00000002, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-18 09:32:00.322 +03:00 [INF] requestId: 0HN0NTOJ5SSA0:00000002, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-18 09:32:00.322 +03:00 [DBG] requestId: 0HN0NTOJ5SSA0:00000002, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-18 09:32:00.358 +03:00 [INF] requestId: 0HN0NTOJ5SSA0:00000002, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Category
+2024-01-18 09:32:00.358 +03:00 [DBG] requestId: 0HN0NTOJ5SSA0:00000002, previousRequestId: no previous request id, message: setting http response message
+2024-01-18 09:32:00.358 +03:00 [DBG] requestId: 0HN0NTOJ5SSA0:00000002, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-18 09:32:00.358 +03:00 [DBG] requestId: 0HN0NTOJ5SSA0:00000002, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-18 09:32:00.358 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 107 - 200 0 - 40.3858ms
+2024-01-18 09:37:23.080 +03:00 [INF] User profile is available. Using 'C:\Users\muhammed.durus\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-18 09:37:24.120 +03:00 [INF] Now listening on: https://localhost:7267
+2024-01-18 09:37:24.184 +03:00 [INF] Now listening on: http://localhost:5267
+2024-01-18 09:37:24.493 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-18 09:37:24.538 +03:00 [INF] Hosting environment: Development
+2024-01-18 09:37:24.567 +03:00 [INF] Content root path: C:\Users\muhammed.durus\Desktop\Eğitim ve Dökümanlar\DemoMicroservices\OcelotApiGateway\
+2024-01-18 09:37:24.885 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/swagger/index.html - -
+2024-01-18 09:37:25.319 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/_vs/browserLink - -
+2024-01-18 09:37:25.319 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/_framework/aspnetcore-browser-refresh.js - -
+2024-01-18 09:37:25.336 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/swagger/index.html - - - 200 - text/html;charset=utf-8 449.6225ms
+2024-01-18 09:37:25.336 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 12.4381ms
+2024-01-18 09:37:25.411 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 92.7307ms
+2024-01-18 09:37:25.479 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/swagger/v1/swagger.json - -
+2024-01-18 09:37:25.647 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 167.6878ms
+2024-01-18 09:37:41.726 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 107
+2024-01-18 09:37:41.727 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 0
+2024-01-18 09:37:41.827 +03:00 [DBG] requestId: 0HN0NTVN3KIT6:00000002, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-18 09:37:41.827 +03:00 [DBG] requestId: 0HN0NTVN3KIT7:00000002, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-18 09:37:41.835 +03:00 [DBG] requestId: 0HN0NTVN3KIT7:00000002, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-18 09:37:41.835 +03:00 [DBG] requestId: 0HN0NTVN3KIT6:00000002, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-18 09:37:41.845 +03:00 [DBG] requestId: 0HN0NTVN3KIT7:00000002, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-18 09:37:41.845 +03:00 [DBG] requestId: 0HN0NTVN3KIT6:00000002, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-18 09:37:41.896 +03:00 [INF] requestId: 0HN0NTVN3KIT6:00000002, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-18 09:37:41.897 +03:00 [INF] requestId: 0HN0NTVN3KIT7:00000002, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-18 09:37:41.910 +03:00 [INF] requestId: 0HN0NTVN3KIT6:00000002, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-18 09:37:41.911 +03:00 [INF] requestId: 0HN0NTVN3KIT7:00000002, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-18 09:37:41.919 +03:00 [INF] requestId: 0HN0NTVN3KIT7:00000002, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-18 09:37:41.920 +03:00 [INF] requestId: 0HN0NTVN3KIT6:00000002, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-18 09:37:41.944 +03:00 [DBG] requestId: 0HN0NTVN3KIT6:00000002, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-18 09:37:41.944 +03:00 [DBG] requestId: 0HN0NTVN3KIT7:00000002, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-18 09:37:46.129 +03:00 [INF] requestId: 0HN0NTVN3KIT7:00000002, previousRequestId: no previous request id, message: 400 (Bad Request) status code, request uri: https://localhost:5000/api/Category
+2024-01-18 09:37:46.129 +03:00 [DBG] requestId: 0HN0NTVN3KIT7:00000002, previousRequestId: no previous request id, message: setting http response message
+2024-01-18 09:37:46.153 +03:00 [DBG] requestId: 0HN0NTVN3KIT7:00000002, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-18 09:37:46.162 +03:00 [DBG] requestId: 0HN0NTVN3KIT7:00000002, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-18 09:37:46.169 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 0 - 400 290 application/problem+json;+charset=utf-8 4441.8277ms
+2024-01-18 09:37:46.178 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 0
+2024-01-18 09:37:46.181 +03:00 [DBG] requestId: 0HN0NTVN3KIT7:00000003, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-18 09:37:46.181 +03:00 [DBG] requestId: 0HN0NTVN3KIT7:00000003, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-18 09:37:46.181 +03:00 [DBG] requestId: 0HN0NTVN3KIT7:00000003, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-18 09:37:46.183 +03:00 [INF] requestId: 0HN0NTVN3KIT7:00000003, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-18 09:37:46.185 +03:00 [INF] requestId: 0HN0NTVN3KIT7:00000003, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-18 09:37:46.186 +03:00 [INF] requestId: 0HN0NTVN3KIT7:00000003, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-18 09:37:46.186 +03:00 [DBG] requestId: 0HN0NTVN3KIT7:00000003, previousRequestId: no previous request id, message: Downstream url is https://localhost:5001/api/Category
+2024-01-18 09:37:46.437 +03:00 [INF] requestId: 0HN0NTVN3KIT7:00000003, previousRequestId: no previous request id, message: 400 (Bad Request) status code, request uri: https://localhost:5001/api/Category
+2024-01-18 09:37:46.437 +03:00 [DBG] requestId: 0HN0NTVN3KIT7:00000003, previousRequestId: no previous request id, message: setting http response message
+2024-01-18 09:37:46.437 +03:00 [DBG] requestId: 0HN0NTVN3KIT7:00000003, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-18 09:37:46.437 +03:00 [DBG] requestId: 0HN0NTVN3KIT7:00000003, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-18 09:37:46.438 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 0 - 400 290 application/problem+json;+charset=utf-8 259.3836ms
+2024-01-18 09:37:47.770 +03:00 [INF] requestId: 0HN0NTVN3KIT6:00000002, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Category
+2024-01-18 09:37:47.770 +03:00 [DBG] requestId: 0HN0NTVN3KIT6:00000002, previousRequestId: no previous request id, message: setting http response message
+2024-01-18 09:37:47.770 +03:00 [DBG] requestId: 0HN0NTVN3KIT6:00000002, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-18 09:37:47.770 +03:00 [DBG] requestId: 0HN0NTVN3KIT6:00000002, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-18 09:37:47.770 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 107 - 200 0 - 6044.2118ms
+2024-01-18 09:37:47.775 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 107
+2024-01-18 09:37:47.775 +03:00 [DBG] requestId: 0HN0NTVN3KIT6:00000003, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-18 09:37:47.775 +03:00 [DBG] requestId: 0HN0NTVN3KIT6:00000003, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-18 09:37:47.775 +03:00 [DBG] requestId: 0HN0NTVN3KIT6:00000003, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-18 09:37:47.777 +03:00 [INF] requestId: 0HN0NTVN3KIT6:00000003, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-18 09:37:47.778 +03:00 [INF] requestId: 0HN0NTVN3KIT6:00000003, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-18 09:37:47.780 +03:00 [INF] requestId: 0HN0NTVN3KIT6:00000003, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-18 09:37:47.780 +03:00 [DBG] requestId: 0HN0NTVN3KIT6:00000003, previousRequestId: no previous request id, message: Downstream url is https://localhost:5001/api/Category
+2024-01-18 09:37:51.438 +03:00 [INF] requestId: 0HN0NTVN3KIT6:00000003, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5001/api/Category
+2024-01-18 09:37:51.438 +03:00 [DBG] requestId: 0HN0NTVN3KIT6:00000003, previousRequestId: no previous request id, message: setting http response message
+2024-01-18 09:37:51.438 +03:00 [DBG] requestId: 0HN0NTVN3KIT6:00000003, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-18 09:37:51.438 +03:00 [DBG] requestId: 0HN0NTVN3KIT6:00000003, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-18 09:37:51.438 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 107 - 200 0 - 3663.2848ms
+2024-01-18 09:38:00.125 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 107
+2024-01-18 09:38:00.125 +03:00 [DBG] requestId: 0HN0NTVN3KIT6:00000004, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-18 09:38:00.125 +03:00 [DBG] requestId: 0HN0NTVN3KIT6:00000004, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-18 09:38:00.125 +03:00 [DBG] requestId: 0HN0NTVN3KIT6:00000004, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-18 09:38:00.127 +03:00 [INF] requestId: 0HN0NTVN3KIT6:00000004, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-18 09:38:00.128 +03:00 [INF] requestId: 0HN0NTVN3KIT6:00000004, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-18 09:38:00.130 +03:00 [INF] requestId: 0HN0NTVN3KIT6:00000004, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-18 09:38:00.130 +03:00 [DBG] requestId: 0HN0NTVN3KIT6:00000004, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-18 09:38:01.858 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 0
+2024-01-18 09:38:01.858 +03:00 [DBG] requestId: 0HN0NTVN3KIT7:00000004, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-18 09:38:01.858 +03:00 [DBG] requestId: 0HN0NTVN3KIT7:00000004, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-18 09:38:01.858 +03:00 [DBG] requestId: 0HN0NTVN3KIT7:00000004, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-18 09:38:01.860 +03:00 [INF] requestId: 0HN0NTVN3KIT7:00000004, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-18 09:38:01.861 +03:00 [INF] requestId: 0HN0NTVN3KIT7:00000004, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-18 09:38:01.863 +03:00 [INF] requestId: 0HN0NTVN3KIT7:00000004, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-18 09:38:01.863 +03:00 [DBG] requestId: 0HN0NTVN3KIT7:00000004, previousRequestId: no previous request id, message: Downstream url is https://localhost:5001/api/Category
+2024-01-18 09:38:01.870 +03:00 [INF] requestId: 0HN0NTVN3KIT7:00000004, previousRequestId: no previous request id, message: 400 (Bad Request) status code, request uri: https://localhost:5001/api/Category
+2024-01-18 09:38:01.870 +03:00 [DBG] requestId: 0HN0NTVN3KIT7:00000004, previousRequestId: no previous request id, message: setting http response message
+2024-01-18 09:38:01.870 +03:00 [DBG] requestId: 0HN0NTVN3KIT7:00000004, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-18 09:38:01.870 +03:00 [DBG] requestId: 0HN0NTVN3KIT7:00000004, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-18 09:38:01.870 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 0 - 400 290 application/problem+json;+charset=utf-8 12.5244ms
+2024-01-18 09:38:01.872 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 0
+2024-01-18 09:38:01.872 +03:00 [DBG] requestId: 0HN0NTVN3KIT7:00000005, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-18 09:38:01.872 +03:00 [DBG] requestId: 0HN0NTVN3KIT7:00000005, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-18 09:38:01.872 +03:00 [DBG] requestId: 0HN0NTVN3KIT7:00000005, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-18 09:38:01.874 +03:00 [INF] requestId: 0HN0NTVN3KIT7:00000005, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-18 09:38:01.875 +03:00 [INF] requestId: 0HN0NTVN3KIT7:00000005, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-18 09:38:01.877 +03:00 [INF] requestId: 0HN0NTVN3KIT7:00000005, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-18 09:38:01.877 +03:00 [DBG] requestId: 0HN0NTVN3KIT7:00000005, previousRequestId: no previous request id, message: Downstream url is https://localhost:5001/api/Category
+2024-01-18 09:38:01.881 +03:00 [INF] requestId: 0HN0NTVN3KIT7:00000005, previousRequestId: no previous request id, message: 400 (Bad Request) status code, request uri: https://localhost:5001/api/Category
+2024-01-18 09:38:01.881 +03:00 [DBG] requestId: 0HN0NTVN3KIT7:00000005, previousRequestId: no previous request id, message: setting http response message
+2024-01-18 09:38:01.882 +03:00 [DBG] requestId: 0HN0NTVN3KIT7:00000005, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-18 09:38:01.882 +03:00 [DBG] requestId: 0HN0NTVN3KIT7:00000005, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-18 09:38:01.882 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 0 - 400 290 application/problem+json;+charset=utf-8 9.6820ms
+2024-01-18 09:38:01.929 +03:00 [INF] requestId: 0HN0NTVN3KIT6:00000004, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Category
+2024-01-18 09:38:01.929 +03:00 [DBG] requestId: 0HN0NTVN3KIT6:00000004, previousRequestId: no previous request id, message: setting http response message
+2024-01-18 09:38:01.929 +03:00 [DBG] requestId: 0HN0NTVN3KIT6:00000004, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-18 09:38:01.929 +03:00 [DBG] requestId: 0HN0NTVN3KIT6:00000004, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-18 09:38:01.929 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 107 - 200 0 - 1804.5036ms
+2024-01-18 09:38:01.931 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 107
+2024-01-18 09:38:01.931 +03:00 [DBG] requestId: 0HN0NTVN3KIT6:00000005, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-18 09:38:01.931 +03:00 [DBG] requestId: 0HN0NTVN3KIT6:00000005, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-18 09:38:01.931 +03:00 [DBG] requestId: 0HN0NTVN3KIT6:00000005, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-18 09:38:01.933 +03:00 [INF] requestId: 0HN0NTVN3KIT6:00000005, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-18 09:38:01.934 +03:00 [INF] requestId: 0HN0NTVN3KIT6:00000005, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-18 09:38:01.935 +03:00 [INF] requestId: 0HN0NTVN3KIT6:00000005, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-18 09:38:01.935 +03:00 [DBG] requestId: 0HN0NTVN3KIT6:00000005, previousRequestId: no previous request id, message: Downstream url is https://localhost:5001/api/Category
+2024-01-18 09:38:03.580 +03:00 [INF] requestId: 0HN0NTVN3KIT6:00000005, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5001/api/Category
+2024-01-18 09:38:03.580 +03:00 [DBG] requestId: 0HN0NTVN3KIT6:00000005, previousRequestId: no previous request id, message: setting http response message
+2024-01-18 09:38:03.580 +03:00 [DBG] requestId: 0HN0NTVN3KIT6:00000005, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-18 09:38:03.580 +03:00 [DBG] requestId: 0HN0NTVN3KIT6:00000005, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-18 09:38:03.580 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 107 - 200 0 - 1649.3452ms
+2024-01-18 13:11:24.707 +03:00 [INF] User profile is available. Using 'C:\Users\muhammed.durus\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-18 13:11:25.020 +03:00 [INF] Now listening on: https://localhost:7267
+2024-01-18 13:11:25.028 +03:00 [INF] Now listening on: http://localhost:5267
+2024-01-18 13:11:25.077 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-18 13:11:25.080 +03:00 [INF] Hosting environment: Development
+2024-01-18 13:11:25.082 +03:00 [INF] Content root path: C:\Users\muhammed.durus\Desktop\Eğitim ve Dökümanlar\DemoMicroservices\OcelotApiGateway\
+2024-01-18 13:11:26.062 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/swagger/index.html - -
+2024-01-18 13:11:26.676 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/swagger/index.html - - - 200 - text/html;charset=utf-8 618.4093ms
+2024-01-18 13:11:27.082 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/_vs/browserLink - -
+2024-01-18 13:11:27.082 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/_framework/aspnetcore-browser-refresh.js - -
+2024-01-18 13:11:27.090 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 8.1535ms
+2024-01-18 13:11:27.722 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 640.7960ms
+2024-01-18 13:11:28.213 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/swagger/v1/swagger.json - -
+2024-01-18 13:11:28.369 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 156.4431ms
+2024-01-18 13:16:35.851 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 107
+2024-01-18 13:16:35.853 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 0
+2024-01-18 13:16:36.016 +03:00 [DBG] requestId: 0HN0O1NA2H5BJ:00000002, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-18 13:16:36.016 +03:00 [DBG] requestId: 0HN0O1NA2H5BI:00000002, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-18 13:16:36.027 +03:00 [DBG] requestId: 0HN0O1NA2H5BI:00000002, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-18 13:16:36.027 +03:00 [DBG] requestId: 0HN0O1NA2H5BJ:00000002, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-18 13:16:36.047 +03:00 [DBG] requestId: 0HN0O1NA2H5BJ:00000002, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-18 13:16:36.047 +03:00 [DBG] requestId: 0HN0O1NA2H5BI:00000002, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-18 13:16:36.122 +03:00 [INF] requestId: 0HN0O1NA2H5BI:00000002, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-18 13:16:36.122 +03:00 [INF] requestId: 0HN0O1NA2H5BJ:00000002, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-18 13:16:36.134 +03:00 [INF] requestId: 0HN0O1NA2H5BI:00000002, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-18 13:16:36.137 +03:00 [INF] requestId: 0HN0O1NA2H5BJ:00000002, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-18 13:16:36.144 +03:00 [INF] requestId: 0HN0O1NA2H5BJ:00000002, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-18 13:16:36.145 +03:00 [INF] requestId: 0HN0O1NA2H5BI:00000002, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-18 13:16:36.175 +03:00 [DBG] requestId: 0HN0O1NA2H5BJ:00000002, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-18 13:16:36.175 +03:00 [DBG] requestId: 0HN0O1NA2H5BI:00000002, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-18 13:17:49.855 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 107
+2024-01-18 13:17:49.856 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 0
+2024-01-18 13:17:49.859 +03:00 [DBG] requestId: 0HN0O1NA2H5BK:00000002, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-18 13:17:49.859 +03:00 [DBG] requestId: 0HN0O1NA2H5BL:00000002, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-18 13:17:49.859 +03:00 [DBG] requestId: 0HN0O1NA2H5BL:00000002, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-18 13:17:49.859 +03:00 [DBG] requestId: 0HN0O1NA2H5BK:00000002, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-18 13:17:49.859 +03:00 [DBG] requestId: 0HN0O1NA2H5BL:00000002, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-18 13:17:49.859 +03:00 [DBG] requestId: 0HN0O1NA2H5BK:00000002, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-18 13:17:49.862 +03:00 [INF] requestId: 0HN0O1NA2H5BK:00000002, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-18 13:17:49.865 +03:00 [INF] requestId: 0HN0O1NA2H5BL:00000002, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-18 13:17:49.866 +03:00 [INF] requestId: 0HN0O1NA2H5BK:00000002, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-18 13:17:49.868 +03:00 [INF] requestId: 0HN0O1NA2H5BL:00000002, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-18 13:17:49.870 +03:00 [INF] requestId: 0HN0O1NA2H5BK:00000002, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-18 13:17:49.872 +03:00 [INF] requestId: 0HN0O1NA2H5BL:00000002, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-18 13:17:49.873 +03:00 [DBG] requestId: 0HN0O1NA2H5BK:00000002, previousRequestId: no previous request id, message: Downstream url is https://localhost:5001/api/Category
+2024-01-18 13:17:49.873 +03:00 [DBG] requestId: 0HN0O1NA2H5BL:00000002, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-18 13:17:49.893 +03:00 [INF] requestId: 0HN0O1NA2H5BJ:00000002, previousRequestId: no previous request id, message: 400 (Bad Request) status code, request uri: https://localhost:5000/api/Category
+2024-01-18 13:17:49.893 +03:00 [DBG] requestId: 0HN0O1NA2H5BJ:00000002, previousRequestId: no previous request id, message: setting http response message
+2024-01-18 13:17:49.912 +03:00 [INF] requestId: 0HN0O1NA2H5BL:00000002, previousRequestId: no previous request id, message: 400 (Bad Request) status code, request uri: https://localhost:5000/api/Category
+2024-01-18 13:17:49.912 +03:00 [DBG] requestId: 0HN0O1NA2H5BL:00000002, previousRequestId: no previous request id, message: setting http response message
+2024-01-18 13:17:49.928 +03:00 [DBG] requestId: 0HN0O1NA2H5BL:00000002, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-18 13:17:49.928 +03:00 [DBG] requestId: 0HN0O1NA2H5BJ:00000002, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-18 13:17:49.935 +03:00 [DBG] requestId: 0HN0O1NA2H5BL:00000002, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-18 13:17:49.935 +03:00 [DBG] requestId: 0HN0O1NA2H5BJ:00000002, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-18 13:17:49.943 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 0 - 400 290 application/problem+json;+charset=utf-8 86.8337ms
+2024-01-18 13:17:49.943 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 0 - 400 290 application/problem+json;+charset=utf-8 73903.0413ms
+2024-01-18 13:17:49.955 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 0
+2024-01-18 13:17:49.956 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 0
+2024-01-18 13:17:49.956 +03:00 [DBG] requestId: 0HN0O1NA2H5BJ:00000003, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-18 13:17:49.956 +03:00 [DBG] requestId: 0HN0O1NA2H5BJ:00000003, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-18 13:17:49.956 +03:00 [DBG] requestId: 0HN0O1NA2H5BL:00000003, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-18 13:17:49.956 +03:00 [DBG] requestId: 0HN0O1NA2H5BL:00000003, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-18 13:17:49.956 +03:00 [DBG] requestId: 0HN0O1NA2H5BJ:00000003, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-18 13:17:49.956 +03:00 [DBG] requestId: 0HN0O1NA2H5BL:00000003, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-18 13:17:49.958 +03:00 [INF] requestId: 0HN0O1NA2H5BJ:00000003, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-18 13:17:49.960 +03:00 [INF] requestId: 0HN0O1NA2H5BL:00000003, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-18 13:17:49.962 +03:00 [INF] requestId: 0HN0O1NA2H5BJ:00000003, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-18 13:17:49.968 +03:00 [INF] requestId: 0HN0O1NA2H5BL:00000003, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-18 13:17:49.970 +03:00 [INF] requestId: 0HN0O1NA2H5BJ:00000003, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-18 13:17:49.971 +03:00 [DBG] requestId: 0HN0O1NA2H5BJ:00000003, previousRequestId: no previous request id, message: Downstream url is https://localhost:5001/api/Category
+2024-01-18 13:17:49.973 +03:00 [INF] requestId: 0HN0O1NA2H5BL:00000003, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-18 13:17:49.974 +03:00 [DBG] requestId: 0HN0O1NA2H5BL:00000003, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-18 13:17:49.992 +03:00 [INF] requestId: 0HN0O1NA2H5BL:00000003, previousRequestId: no previous request id, message: 400 (Bad Request) status code, request uri: https://localhost:5000/api/Category
+2024-01-18 13:17:49.992 +03:00 [DBG] requestId: 0HN0O1NA2H5BL:00000003, previousRequestId: no previous request id, message: setting http response message
+2024-01-18 13:17:49.992 +03:00 [DBG] requestId: 0HN0O1NA2H5BL:00000003, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-18 13:17:49.992 +03:00 [DBG] requestId: 0HN0O1NA2H5BL:00000003, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-18 13:17:49.993 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 0 - 400 290 application/problem+json;+charset=utf-8 37.0434ms
+2024-01-18 13:17:51.671 +03:00 [INF] requestId: 0HN0O1NA2H5BI:00000002, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Category
+2024-01-18 13:17:51.671 +03:00 [DBG] requestId: 0HN0O1NA2H5BI:00000002, previousRequestId: no previous request id, message: setting http response message
+2024-01-18 13:17:51.671 +03:00 [DBG] requestId: 0HN0O1NA2H5BI:00000002, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-18 13:17:51.671 +03:00 [DBG] requestId: 0HN0O1NA2H5BI:00000002, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-18 13:17:51.671 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 107 - 200 0 - 75628.1442ms
+2024-01-18 13:17:51.673 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 107
+2024-01-18 13:17:51.674 +03:00 [DBG] requestId: 0HN0O1NA2H5BI:00000003, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-18 13:17:51.674 +03:00 [DBG] requestId: 0HN0O1NA2H5BI:00000003, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-18 13:17:51.674 +03:00 [DBG] requestId: 0HN0O1NA2H5BI:00000003, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-18 13:17:51.677 +03:00 [INF] requestId: 0HN0O1NA2H5BI:00000003, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-18 13:17:51.679 +03:00 [INF] requestId: 0HN0O1NA2H5BI:00000003, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-18 13:17:51.681 +03:00 [INF] requestId: 0HN0O1NA2H5BI:00000003, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-18 13:17:51.681 +03:00 [DBG] requestId: 0HN0O1NA2H5BI:00000003, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-18 13:17:55.099 +03:00 [INF] requestId: 0HN0O1NA2H5BI:00000003, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Category
+2024-01-18 13:17:55.099 +03:00 [DBG] requestId: 0HN0O1NA2H5BI:00000003, previousRequestId: no previous request id, message: setting http response message
+2024-01-18 13:17:55.099 +03:00 [DBG] requestId: 0HN0O1NA2H5BI:00000003, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-18 13:17:55.099 +03:00 [DBG] requestId: 0HN0O1NA2H5BI:00000003, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-18 13:17:55.100 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 107 - 200 0 - 3417.5280ms
+2024-01-18 13:18:00.196 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 107
+2024-01-18 13:18:00.197 +03:00 [DBG] requestId: 0HN0O1NA2H5BI:00000004, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-18 13:18:00.197 +03:00 [DBG] requestId: 0HN0O1NA2H5BI:00000004, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-18 13:18:00.197 +03:00 [DBG] requestId: 0HN0O1NA2H5BI:00000004, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-18 13:18:00.199 +03:00 [INF] requestId: 0HN0O1NA2H5BI:00000004, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-18 13:18:00.200 +03:00 [INF] requestId: 0HN0O1NA2H5BI:00000004, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-18 13:18:00.202 +03:00 [INF] requestId: 0HN0O1NA2H5BI:00000004, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-18 13:18:00.202 +03:00 [DBG] requestId: 0HN0O1NA2H5BI:00000004, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-18 13:18:06.164 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 0
+2024-01-18 13:18:06.165 +03:00 [INF] requestId: 0HN0O1NA2H5BJ:00000003, previousRequestId: no previous request id, message: 400 (Bad Request) status code, request uri: https://localhost:5001/api/Category
+2024-01-18 13:18:06.165 +03:00 [DBG] requestId: 0HN0O1NA2H5BL:00000004, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-18 13:18:06.165 +03:00 [DBG] requestId: 0HN0O1NA2H5BJ:00000003, previousRequestId: no previous request id, message: setting http response message
+2024-01-18 13:18:06.165 +03:00 [DBG] requestId: 0HN0O1NA2H5BL:00000004, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-18 13:18:06.165 +03:00 [DBG] requestId: 0HN0O1NA2H5BL:00000004, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-18 13:18:06.165 +03:00 [DBG] requestId: 0HN0O1NA2H5BJ:00000003, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-18 13:18:06.166 +03:00 [DBG] requestId: 0HN0O1NA2H5BJ:00000003, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-18 13:18:06.166 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 0 - 400 290 application/problem+json;+charset=utf-8 16169.8918ms
+2024-01-18 13:18:06.167 +03:00 [INF] requestId: 0HN0O1NA2H5BK:00000002, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5001/api/Category
+2024-01-18 13:18:06.167 +03:00 [DBG] requestId: 0HN0O1NA2H5BK:00000002, previousRequestId: no previous request id, message: setting http response message
+2024-01-18 13:18:06.170 +03:00 [INF] requestId: 0HN0O1NA2H5BL:00000004, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-18 13:18:06.170 +03:00 [DBG] requestId: 0HN0O1NA2H5BK:00000002, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-18 13:18:06.171 +03:00 [DBG] requestId: 0HN0O1NA2H5BK:00000002, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-18 13:18:06.171 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 107 - 200 0 - 16274.9328ms
+2024-01-18 13:18:06.174 +03:00 [INF] requestId: 0HN0O1NA2H5BL:00000004, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-18 13:18:06.176 +03:00 [INF] requestId: 0HN0O1NA2H5BL:00000004, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-18 13:18:06.177 +03:00 [DBG] requestId: 0HN0O1NA2H5BL:00000004, previousRequestId: no previous request id, message: Downstream url is https://localhost:5001/api/Category
+2024-01-18 13:18:06.177 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 107
+2024-01-18 13:18:06.177 +03:00 [DBG] requestId: 0HN0O1NA2H5BK:00000003, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-18 13:18:06.177 +03:00 [DBG] requestId: 0HN0O1NA2H5BK:00000003, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-18 13:18:06.178 +03:00 [DBG] requestId: 0HN0O1NA2H5BK:00000003, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-18 13:18:06.182 +03:00 [INF] requestId: 0HN0O1NA2H5BK:00000003, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-18 13:18:06.185 +03:00 [INF] requestId: 0HN0O1NA2H5BK:00000003, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-18 13:18:06.188 +03:00 [INF] requestId: 0HN0O1NA2H5BK:00000003, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-18 13:18:06.189 +03:00 [DBG] requestId: 0HN0O1NA2H5BK:00000003, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-18 13:18:06.190 +03:00 [INF] requestId: 0HN0O1NA2H5BL:00000004, previousRequestId: no previous request id, message: 400 (Bad Request) status code, request uri: https://localhost:5001/api/Category
+2024-01-18 13:18:06.190 +03:00 [DBG] requestId: 0HN0O1NA2H5BL:00000004, previousRequestId: no previous request id, message: setting http response message
+2024-01-18 13:18:06.191 +03:00 [DBG] requestId: 0HN0O1NA2H5BL:00000004, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-18 13:18:06.193 +03:00 [DBG] requestId: 0HN0O1NA2H5BL:00000004, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-18 13:18:06.193 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 0 - 400 290 application/problem+json;+charset=utf-8 29.5901ms
+2024-01-18 13:18:06.196 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 0
+2024-01-18 13:18:06.198 +03:00 [DBG] requestId: 0HN0O1NA2H5BL:00000005, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-18 13:18:06.198 +03:00 [DBG] requestId: 0HN0O1NA2H5BL:00000005, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-18 13:18:06.198 +03:00 [DBG] requestId: 0HN0O1NA2H5BL:00000005, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-18 13:18:06.199 +03:00 [INF] requestId: 0HN0O1NA2H5BL:00000005, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-18 13:18:06.201 +03:00 [INF] requestId: 0HN0O1NA2H5BL:00000005, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-18 13:18:06.203 +03:00 [INF] requestId: 0HN0O1NA2H5BL:00000005, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-18 13:18:06.203 +03:00 [DBG] requestId: 0HN0O1NA2H5BL:00000005, previousRequestId: no previous request id, message: Downstream url is https://localhost:5001/api/Category
+2024-01-18 13:18:06.213 +03:00 [INF] requestId: 0HN0O1NA2H5BL:00000005, previousRequestId: no previous request id, message: 400 (Bad Request) status code, request uri: https://localhost:5001/api/Category
+2024-01-18 13:18:06.213 +03:00 [DBG] requestId: 0HN0O1NA2H5BL:00000005, previousRequestId: no previous request id, message: setting http response message
+2024-01-18 13:18:06.214 +03:00 [DBG] requestId: 0HN0O1NA2H5BL:00000005, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-18 13:18:06.214 +03:00 [DBG] requestId: 0HN0O1NA2H5BL:00000005, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-18 13:18:06.214 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 0 - 400 290 application/problem+json;+charset=utf-8 17.8418ms
+2024-01-18 13:18:10.299 +03:00 [INF] requestId: 0HN0O1NA2H5BI:00000004, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Category
+2024-01-18 13:18:10.299 +03:00 [DBG] requestId: 0HN0O1NA2H5BI:00000004, previousRequestId: no previous request id, message: setting http response message
+2024-01-18 13:18:10.299 +03:00 [DBG] requestId: 0HN0O1NA2H5BI:00000004, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-18 13:18:10.299 +03:00 [DBG] requestId: 0HN0O1NA2H5BI:00000004, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-18 13:18:10.300 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 107 - 200 0 - 10077.8332ms
+2024-01-18 13:18:10.301 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 107
+2024-01-18 13:18:10.301 +03:00 [DBG] requestId: 0HN0O1NA2H5BI:00000005, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-18 13:18:10.301 +03:00 [DBG] requestId: 0HN0O1NA2H5BI:00000005, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-18 13:18:10.301 +03:00 [DBG] requestId: 0HN0O1NA2H5BI:00000005, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-18 13:18:10.303 +03:00 [INF] requestId: 0HN0O1NA2H5BI:00000005, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-18 13:18:10.305 +03:00 [INF] requestId: 0HN0O1NA2H5BI:00000005, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-18 13:18:10.307 +03:00 [INF] requestId: 0HN0O1NA2H5BI:00000005, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-18 13:18:10.307 +03:00 [DBG] requestId: 0HN0O1NA2H5BI:00000005, previousRequestId: no previous request id, message: Downstream url is https://localhost:5001/api/Category
+2024-01-18 13:18:10.345 +03:00 [INF] requestId: 0HN0O1NA2H5BK:00000003, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Category
+2024-01-18 13:18:10.345 +03:00 [DBG] requestId: 0HN0O1NA2H5BK:00000003, previousRequestId: no previous request id, message: setting http response message
+2024-01-18 13:18:10.346 +03:00 [DBG] requestId: 0HN0O1NA2H5BK:00000003, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-18 13:18:10.346 +03:00 [DBG] requestId: 0HN0O1NA2H5BK:00000003, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-18 13:18:10.346 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 107 - 200 0 - 4158.5063ms
+2024-01-18 13:18:11.612 +03:00 [INF] requestId: 0HN0O1NA2H5BI:00000005, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5001/api/Category
+2024-01-18 13:18:11.612 +03:00 [DBG] requestId: 0HN0O1NA2H5BI:00000005, previousRequestId: no previous request id, message: setting http response message
+2024-01-18 13:18:11.612 +03:00 [DBG] requestId: 0HN0O1NA2H5BI:00000005, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-18 13:18:11.612 +03:00 [DBG] requestId: 0HN0O1NA2H5BI:00000005, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-18 13:18:11.612 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 107 - 200 0 - 1307.9562ms
+2024-01-18 13:19:00.209 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 107
+2024-01-18 13:19:00.209 +03:00 [DBG] requestId: 0HN0O1NA2H5BM:00000002, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-18 13:19:00.209 +03:00 [DBG] requestId: 0HN0O1NA2H5BM:00000002, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-18 13:19:00.209 +03:00 [DBG] requestId: 0HN0O1NA2H5BM:00000002, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-18 13:19:00.211 +03:00 [INF] requestId: 0HN0O1NA2H5BM:00000002, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-18 13:19:00.212 +03:00 [INF] requestId: 0HN0O1NA2H5BM:00000002, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-18 13:19:00.214 +03:00 [INF] requestId: 0HN0O1NA2H5BM:00000002, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-18 13:19:00.214 +03:00 [DBG] requestId: 0HN0O1NA2H5BM:00000002, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-18 13:26:48.516 +03:00 [DBG] requestId: 0HN0O1NA2H5BM:00000002, previousRequestId: no previous request id, message: IHttpRequester returned an error, setting pipeline error
+2024-01-18 13:26:48.524 +03:00 [WRN] requestId: 0HN0O1NA2H5BM:00000002, previousRequestId: no previous request id, message: Error Code: RequestCanceled Message: The request was canceled due to the configured HttpClient.Timeout of 90 seconds elapsing. errors found in ResponderMiddleware. Setting error response for request path:/ocelot/api/category, request method: POST
+2024-01-18 13:26:48.526 +03:00 [DBG] requestId: 0HN0O1NA2H5BM:00000002, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-18 13:26:48.526 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 107 - 0 - - 468045.1259ms

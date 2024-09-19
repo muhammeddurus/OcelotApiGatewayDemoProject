@@ -1,0 +1,421 @@
+2023-01-05 10:01:47.246 +03:00 [INF] User profile is available. Using 'C:\Users\muhammed.durus\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-05 10:01:47.721 +03:00 [INF] Now listening on: https://localhost:7267
+2023-01-05 10:01:47.726 +03:00 [INF] Now listening on: http://localhost:5267
+2023-01-05 10:01:47.739 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-05 10:01:47.743 +03:00 [INF] Hosting environment: Development
+2023-01-05 10:01:47.751 +03:00 [INF] Content root path: C:\dev\sharp\Muhammed\DemoMicroservices\OcelotApiGateway\
+2023-01-05 10:01:48.847 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/swagger/index.html - -
+2023-01-05 10:01:49.220 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/swagger/index.html - - - 200 - text/html;charset=utf-8 379.4836ms
+2023-01-05 10:01:49.228 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/_framework/aspnetcore-browser-refresh.js - -
+2023-01-05 10:01:49.229 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/_vs/browserLink - -
+2023-01-05 10:01:49.238 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 9.9233ms
+2023-01-05 10:01:49.312 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 82.5052ms
+2023-01-05 10:01:49.569 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/swagger/v1/swagger.json - -
+2023-01-05 10:01:49.703 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 134.2391ms
+2023-01-05 10:02:21.336 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/customer application/json 75
+2023-01-05 10:02:21.425 +03:00 [DBG] requestId: 0HMNETAR8DDVH:00000002, previousRequestId: no previous request id, message: ocelot pipeline started
+2023-01-05 10:02:21.432 +03:00 [DBG] requestId: 0HMNETAR8DDVH:00000002, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/customer
+2023-01-05 10:02:21.440 +03:00 [DBG] requestId: 0HMNETAR8DDVH:00000002, previousRequestId: no previous request id, message: downstream templates are /api/Customer
+2023-01-05 10:02:21.527 +03:00 [INF] requestId: 0HMNETAR8DDVH:00000002, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/customer
+2023-01-05 10:02:21.534 +03:00 [INF] requestId: 0HMNETAR8DDVH:00000002, previousRequestId: no previous request id, message: /api/Customer route does not require user to be authorized
+2023-01-05 10:02:21.559 +03:00 [DBG] requestId: 0HMNETAR8DDVH:00000002, previousRequestId: no previous request id, message: Downstream url is https://localhost:7277/api/Customer
+2023-01-05 10:02:21.567 +03:00 [DBG] requestId: 0HMNETAR8DDVH:00000002, previousRequestId: no previous request id, message: Started checking cache for POST-https://localhost:7267/ocelot/api/customer
+2023-01-05 10:02:21.571 +03:00 [DBG] requestId: 0HMNETAR8DDVH:00000002, previousRequestId: no previous request id, message: no resonse cached for POST-https://localhost:7267/ocelot/api/customer
+2023-01-05 10:02:25.775 +03:00 [DBG] requestId: 0HMNETAR8DDVH:00000002, previousRequestId: no previous request id, message: IHttpRequester returned an error, setting pipeline error
+2023-01-05 10:02:25.776 +03:00 [DBG] requestId: 0HMNETAR8DDVH:00000002, previousRequestId: no previous request id, message: there was a pipeline error for POST-https://localhost:7267/ocelot/api/customer
+2023-01-05 10:02:25.800 +03:00 [WRN] requestId: 0HMNETAR8DDVH:00000002, previousRequestId: no previous request id, message: Error Code: ConnectionToDownstreamServiceError Message: Error connecting to downstream service, exception: System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:7277)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Ocelot.Requester.HttpClientHttpRequester.GetResponse(HttpContext httpContext) errors found in ResponderMiddleware. Setting error response for request path:/ocelot/api/customer, request method: POST
+2023-01-05 10:02:25.804 +03:00 [DBG] requestId: 0HMNETAR8DDVH:00000002, previousRequestId: no previous request id, message: ocelot pipeline finished
+2023-01-05 10:02:25.809 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/customer application/json 75 - 502 0 - 4473.3313ms
+2023-01-05 10:03:08.645 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/customer application/json 75
+2023-01-05 10:03:08.661 +03:00 [DBG] requestId: 0HMNETAR8DDVH:00000003, previousRequestId: no previous request id, message: ocelot pipeline started
+2023-01-05 10:03:08.661 +03:00 [DBG] requestId: 0HMNETAR8DDVH:00000003, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/customer
+2023-01-05 10:03:08.663 +03:00 [DBG] requestId: 0HMNETAR8DDVH:00000003, previousRequestId: no previous request id, message: downstream templates are /api/Customer
+2023-01-05 10:03:08.668 +03:00 [INF] requestId: 0HMNETAR8DDVH:00000003, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/customer
+2023-01-05 10:03:08.669 +03:00 [INF] requestId: 0HMNETAR8DDVH:00000003, previousRequestId: no previous request id, message: /api/Customer route does not require user to be authorized
+2023-01-05 10:03:08.669 +03:00 [DBG] requestId: 0HMNETAR8DDVH:00000003, previousRequestId: no previous request id, message: Downstream url is https://localhost:7277/api/Customer
+2023-01-05 10:03:08.669 +03:00 [DBG] requestId: 0HMNETAR8DDVH:00000003, previousRequestId: no previous request id, message: Started checking cache for POST-https://localhost:7267/ocelot/api/customer
+2023-01-05 10:03:08.670 +03:00 [DBG] requestId: 0HMNETAR8DDVH:00000003, previousRequestId: no previous request id, message: no resonse cached for POST-https://localhost:7267/ocelot/api/customer
+2023-01-05 10:03:08.954 +03:00 [INF] requestId: 0HMNETAR8DDVH:00000003, previousRequestId: no previous request id, message: 400 (Bad Request) status code, request uri: https://localhost:7277/api/Customer
+2023-01-05 10:03:08.954 +03:00 [DBG] requestId: 0HMNETAR8DDVH:00000003, previousRequestId: no previous request id, message: setting http response message
+2023-01-05 10:03:08.968 +03:00 [DBG] requestId: 0HMNETAR8DDVH:00000003, previousRequestId: no previous request id, message: finished response added to cache for POST-https://localhost:7267/ocelot/api/customer
+2023-01-05 10:03:08.972 +03:00 [DBG] requestId: 0HMNETAR8DDVH:00000003, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2023-01-05 10:03:08.978 +03:00 [DBG] requestId: 0HMNETAR8DDVH:00000003, previousRequestId: no previous request id, message: ocelot pipeline finished
+2023-01-05 10:03:08.978 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/customer application/json 75 - 400 349 application/problem+json;+charset=utf-8 333.2651ms
+2023-01-05 10:03:13.663 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7267/ocelot/api/customer application/json 75
+2023-01-05 10:03:13.664 +03:00 [DBG] requestId: 0HMNETAR8DDVH:00000004, previousRequestId: no previous request id, message: ocelot pipeline started
+2023-01-05 10:03:13.664 +03:00 [DBG] requestId: 0HMNETAR8DDVH:00000004, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/customer
+2023-01-05 10:03:13.664 +03:00 [DBG] requestId: 0HMNETAR8DDVH:00000004, previousRequestId: no previous request id, message: downstream templates are /api/Customer
+2023-01-05 10:03:13.667 +03:00 [INF] requestId: 0HMNETAR8DDVH:00000004, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/customer
+2023-01-05 10:03:13.668 +03:00 [INF] requestId: 0HMNETAR8DDVH:00000004, previousRequestId: no previous request id, message: /api/Customer route does not require user to be authorized
+2023-01-05 10:03:13.668 +03:00 [DBG] requestId: 0HMNETAR8DDVH:00000004, previousRequestId: no previous request id, message: Downstream url is https://localhost:7277/api/Customer
+2023-01-05 10:03:13.668 +03:00 [DBG] requestId: 0HMNETAR8DDVH:00000004, previousRequestId: no previous request id, message: Started checking cache for GET-https://localhost:7267/ocelot/api/customer
+2023-01-05 10:03:13.668 +03:00 [DBG] requestId: 0HMNETAR8DDVH:00000004, previousRequestId: no previous request id, message: no resonse cached for GET-https://localhost:7267/ocelot/api/customer
+2023-01-05 10:03:14.673 +03:00 [INF] requestId: 0HMNETAR8DDVH:00000004, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:7277/api/Customer
+2023-01-05 10:03:14.673 +03:00 [DBG] requestId: 0HMNETAR8DDVH:00000004, previousRequestId: no previous request id, message: setting http response message
+2023-01-05 10:03:14.673 +03:00 [DBG] requestId: 0HMNETAR8DDVH:00000004, previousRequestId: no previous request id, message: finished response added to cache for GET-https://localhost:7267/ocelot/api/customer
+2023-01-05 10:03:14.673 +03:00 [DBG] requestId: 0HMNETAR8DDVH:00000004, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2023-01-05 10:03:14.674 +03:00 [DBG] requestId: 0HMNETAR8DDVH:00000004, previousRequestId: no previous request id, message: ocelot pipeline finished
+2023-01-05 10:03:14.674 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7267/ocelot/api/customer application/json 75 - 200 3063 application/json;+charset=utf-8 1011.4184ms
+2023-01-05 11:24:33.283 +03:00 [INF] User profile is available. Using 'C:\Users\muhammed.durus\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-05 11:24:33.389 +03:00 [INF] Now listening on: https://localhost:7267
+2023-01-05 11:24:33.390 +03:00 [INF] Now listening on: http://localhost:5267
+2023-01-05 11:24:33.393 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-05 11:24:33.393 +03:00 [INF] Hosting environment: Development
+2023-01-05 11:24:33.393 +03:00 [INF] Content root path: C:\dev\sharp\Muhammed\DemoMicroservices\OcelotApiGateway\
+2023-01-05 11:27:43.563 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/swagger/index.html - -
+2023-01-05 11:27:43.665 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/swagger/index.html - - - 200 - text/html;charset=utf-8 103.8538ms
+2023-01-05 11:27:43.779 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/swagger/v1/swagger.json - -
+2023-01-05 11:27:43.858 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 78.4361ms
+2023-01-05 11:27:50.649 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/ocelot/api/customer - -
+2023-01-05 11:27:50.673 +03:00 [DBG] requestId: 0HMNEUQROEPJD:00000005, previousRequestId: no previous request id, message: ocelot pipeline started
+2023-01-05 11:27:50.675 +03:00 [DBG] requestId: 0HMNEUQROEPJD:00000005, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/customer
+2023-01-05 11:27:50.682 +03:00 [DBG] requestId: 0HMNEUQROEPJD:00000005, previousRequestId: no previous request id, message: downstream templates are /api/Customer
+2023-01-05 11:27:50.721 +03:00 [INF] requestId: 0HMNEUQROEPJD:00000005, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/customer
+2023-01-05 11:27:50.722 +03:00 [INF] requestId: 0HMNEUQROEPJD:00000005, previousRequestId: no previous request id, message: /api/Customer route does not require user to be authorized
+2023-01-05 11:27:50.732 +03:00 [DBG] requestId: 0HMNEUQROEPJD:00000005, previousRequestId: no previous request id, message: Downstream url is https://localhost:7277/api/Customer
+2023-01-05 11:27:50.735 +03:00 [DBG] requestId: 0HMNEUQROEPJD:00000005, previousRequestId: no previous request id, message: Started checking cache for GET-https://localhost:7267/ocelot/api/customer
+2023-01-05 11:27:50.738 +03:00 [DBG] requestId: 0HMNEUQROEPJD:00000005, previousRequestId: no previous request id, message: no resonse cached for GET-https://localhost:7267/ocelot/api/customer
+2023-01-05 11:27:50.898 +03:00 [INF] requestId: 0HMNEUQROEPJD:00000005, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:7277/api/Customer
+2023-01-05 11:27:50.898 +03:00 [DBG] requestId: 0HMNEUQROEPJD:00000005, previousRequestId: no previous request id, message: setting http response message
+2023-01-05 11:27:50.906 +03:00 [DBG] requestId: 0HMNEUQROEPJD:00000005, previousRequestId: no previous request id, message: finished response added to cache for GET-https://localhost:7267/ocelot/api/customer
+2023-01-05 11:27:50.914 +03:00 [DBG] requestId: 0HMNEUQROEPJD:00000005, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2023-01-05 11:27:50.919 +03:00 [DBG] requestId: 0HMNEUQROEPJD:00000005, previousRequestId: no previous request id, message: ocelot pipeline finished
+2023-01-05 11:27:50.921 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/ocelot/api/customer - - - 200 103407 application/json;+charset=utf-8 272.1215ms
+2023-01-05 11:27:50.965 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/favicon.ico - -
+2023-01-05 11:27:50.966 +03:00 [DBG] requestId: 0HMNEUQROEPJD:00000007, previousRequestId: no previous request id, message: ocelot pipeline started
+2023-01-05 11:27:50.966 +03:00 [DBG] requestId: 0HMNEUQROEPJD:00000007, previousRequestId: no previous request id, message: Upstream url path is /favicon.ico
+2023-01-05 11:27:50.970 +03:00 [WRN] requestId: 0HMNEUQROEPJD:00000007, previousRequestId: no previous request id, message: DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /favicon.ico, verb: GET.
+2023-01-05 11:27:50.970 +03:00 [WRN] requestId: 0HMNEUQROEPJD:00000007, previousRequestId: no previous request id, message: Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /favicon.ico, verb: GET. errors found in ResponderMiddleware. Setting error response for request path:/favicon.ico, request method: GET
+2023-01-05 11:27:50.971 +03:00 [DBG] requestId: 0HMNEUQROEPJD:00000007, previousRequestId: no previous request id, message: ocelot pipeline finished
+2023-01-05 11:27:50.971 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/favicon.ico - - - 404 0 - 6.3836ms
+2023-01-05 11:28:02.470 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/ocelot/api/product - -
+2023-01-05 11:28:02.473 +03:00 [DBG] requestId: 0HMNEUQROEPJD:00000009, previousRequestId: no previous request id, message: ocelot pipeline started
+2023-01-05 11:28:02.473 +03:00 [DBG] requestId: 0HMNEUQROEPJD:00000009, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/product
+2023-01-05 11:28:02.473 +03:00 [DBG] requestId: 0HMNEUQROEPJD:00000009, previousRequestId: no previous request id, message: downstream templates are /api/Product
+2023-01-05 11:28:02.473 +03:00 [INF] requestId: 0HMNEUQROEPJD:00000009, previousRequestId: no previous request id, message: /ocelot/api/product is an authenticated route. AuthenticationMiddleware checking if client is authenticated
+2023-01-05 11:28:02.475 +03:00 [WRN] requestId: 0HMNEUQROEPJD:00000009, previousRequestId: no previous request id, message: Client has NOT been authenticated for /ocelot/api/product and pipeline error set. Request for authenticated route /ocelot/api/product by  was unauthenticated
+2023-01-05 11:28:02.475 +03:00 [WRN] requestId: 0HMNEUQROEPJD:00000009, previousRequestId: no previous request id, message: Error Code: UnauthenticatedError Message: Request for authenticated route /ocelot/api/product by  was unauthenticated errors found in ResponderMiddleware. Setting error response for request path:/ocelot/api/product, request method: GET
+2023-01-05 11:28:02.475 +03:00 [DBG] requestId: 0HMNEUQROEPJD:00000009, previousRequestId: no previous request id, message: ocelot pipeline finished
+2023-01-05 11:28:02.475 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/ocelot/api/product - - - 401 0 - 5.1783ms
+2023-01-05 11:28:16.275 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7267/ocelot/api/product application/json 75
+2023-01-05 11:28:16.275 +03:00 [DBG] requestId: 0HMNEUQROEPJF:00000002, previousRequestId: no previous request id, message: ocelot pipeline started
+2023-01-05 11:28:16.275 +03:00 [DBG] requestId: 0HMNEUQROEPJF:00000002, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/product
+2023-01-05 11:28:16.275 +03:00 [DBG] requestId: 0HMNEUQROEPJF:00000002, previousRequestId: no previous request id, message: downstream templates are /api/Product
+2023-01-05 11:28:16.277 +03:00 [INF] requestId: 0HMNEUQROEPJF:00000002, previousRequestId: no previous request id, message: /ocelot/api/product is an authenticated route. AuthenticationMiddleware checking if client is authenticated
+2023-01-05 11:28:16.277 +03:00 [WRN] requestId: 0HMNEUQROEPJF:00000002, previousRequestId: no previous request id, message: Client has NOT been authenticated for /ocelot/api/product and pipeline error set. Request for authenticated route /ocelot/api/product by  was unauthenticated
+2023-01-05 11:28:16.277 +03:00 [WRN] requestId: 0HMNEUQROEPJF:00000002, previousRequestId: no previous request id, message: Error Code: UnauthenticatedError Message: Request for authenticated route /ocelot/api/product by  was unauthenticated errors found in ResponderMiddleware. Setting error response for request path:/ocelot/api/product, request method: GET
+2023-01-05 11:28:16.277 +03:00 [DBG] requestId: 0HMNEUQROEPJF:00000002, previousRequestId: no previous request id, message: ocelot pipeline finished
+2023-01-05 11:28:16.278 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7267/ocelot/api/product application/json 75 - 401 0 - 3.0298ms
+2023-01-05 11:28:58.942 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/auth/sign-in-product application/json 80
+2023-01-05 11:28:59.040 +03:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2023-01-05 11:28:59.044 +03:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+2023-01-05 11:28:59.044 +03:00 [DBG] requestId: 0HMNEUQROEPJF:00000003, previousRequestId: no previous request id, message: ocelot pipeline started
+2023-01-05 11:28:59.044 +03:00 [DBG] requestId: 0HMNEUQROEPJF:00000003, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/auth/sign-in-product
+2023-01-05 11:28:59.047 +03:00 [DBG] requestId: 0HMNEUQROEPJF:00000003, previousRequestId: no previous request id, message: downstream templates are /api/Auth/sign-in-product
+2023-01-05 11:28:59.047 +03:00 [INF] requestId: 0HMNEUQROEPJF:00000003, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/auth/sign-in-product
+2023-01-05 11:28:59.047 +03:00 [INF] requestId: 0HMNEUQROEPJF:00000003, previousRequestId: no previous request id, message: /api/Auth/sign-in-product route does not require user to be authorized
+2023-01-05 11:28:59.048 +03:00 [DBG] requestId: 0HMNEUQROEPJF:00000003, previousRequestId: no previous request id, message: Downstream url is https://localhost:7272/api/Auth/sign-in-product
+2023-01-05 11:28:59.048 +03:00 [DBG] requestId: 0HMNEUQROEPJF:00000003, previousRequestId: no previous request id, message: Started checking cache for POST-https://localhost:7267/ocelot/api/auth/sign-in-product
+2023-01-05 11:28:59.048 +03:00 [DBG] requestId: 0HMNEUQROEPJF:00000003, previousRequestId: no previous request id, message: no resonse cached for POST-https://localhost:7267/ocelot/api/auth/sign-in-product
+2023-01-05 11:28:59.315 +03:00 [INF] requestId: 0HMNEUQROEPJF:00000003, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:7272/api/Auth/sign-in-product
+2023-01-05 11:28:59.315 +03:00 [DBG] requestId: 0HMNEUQROEPJF:00000003, previousRequestId: no previous request id, message: setting http response message
+2023-01-05 11:28:59.315 +03:00 [DBG] requestId: 0HMNEUQROEPJF:00000003, previousRequestId: no previous request id, message: finished response added to cache for POST-https://localhost:7267/ocelot/api/auth/sign-in-product
+2023-01-05 11:28:59.315 +03:00 [DBG] requestId: 0HMNEUQROEPJF:00000003, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2023-01-05 11:28:59.316 +03:00 [DBG] requestId: 0HMNEUQROEPJF:00000003, previousRequestId: no previous request id, message: ocelot pipeline finished
+2023-01-05 11:28:59.316 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/auth/sign-in-product application/json 80 - 200 159 application/json;+charset=utf-8 373.7622ms
+2023-01-05 11:29:13.567 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7267/ocelot/api/product application/json 75
+2023-01-05 11:29:13.593 +03:00 [DBG] requestId: 0HMNEUQROEPJF:00000004, previousRequestId: no previous request id, message: ocelot pipeline started
+2023-01-05 11:29:13.593 +03:00 [DBG] requestId: 0HMNEUQROEPJF:00000004, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/product
+2023-01-05 11:29:13.594 +03:00 [DBG] requestId: 0HMNEUQROEPJF:00000004, previousRequestId: no previous request id, message: downstream templates are /api/Product
+2023-01-05 11:29:13.594 +03:00 [INF] requestId: 0HMNEUQROEPJF:00000004, previousRequestId: no previous request id, message: /ocelot/api/product is an authenticated route. AuthenticationMiddleware checking if client is authenticated
+2023-01-05 11:29:13.594 +03:00 [INF] requestId: 0HMNEUQROEPJF:00000004, previousRequestId: no previous request id, message: Client has been authenticated for /ocelot/api/product
+2023-01-05 11:29:13.594 +03:00 [INF] requestId: 0HMNEUQROEPJF:00000004, previousRequestId: no previous request id, message: route is authenticated scopes must be checked
+2023-01-05 11:29:13.594 +03:00 [INF] requestId: 0HMNEUQROEPJF:00000004, previousRequestId: no previous request id, message: user scopes is authorized calling next authorization checks
+2023-01-05 11:29:13.594 +03:00 [INF] requestId: 0HMNEUQROEPJF:00000004, previousRequestId: no previous request id, message: /api/Product route does not require user to be authorized
+2023-01-05 11:29:13.594 +03:00 [DBG] requestId: 0HMNEUQROEPJF:00000004, previousRequestId: no previous request id, message: Downstream url is https://localhost:7265/api/Product
+2023-01-05 11:29:13.594 +03:00 [DBG] requestId: 0HMNEUQROEPJF:00000004, previousRequestId: no previous request id, message: Started checking cache for GET-https://localhost:7267/ocelot/api/product
+2023-01-05 11:29:13.594 +03:00 [DBG] requestId: 0HMNEUQROEPJF:00000004, previousRequestId: no previous request id, message: no resonse cached for GET-https://localhost:7267/ocelot/api/product
+2023-01-05 11:29:14.833 +03:00 [INF] requestId: 0HMNEUQROEPJF:00000004, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:7265/api/Product
+2023-01-05 11:29:14.833 +03:00 [DBG] requestId: 0HMNEUQROEPJF:00000004, previousRequestId: no previous request id, message: setting http response message
+2023-01-05 11:29:14.834 +03:00 [DBG] requestId: 0HMNEUQROEPJF:00000004, previousRequestId: no previous request id, message: finished response added to cache for GET-https://localhost:7267/ocelot/api/product
+2023-01-05 11:29:14.834 +03:00 [DBG] requestId: 0HMNEUQROEPJF:00000004, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2023-01-05 11:29:14.834 +03:00 [DBG] requestId: 0HMNEUQROEPJF:00000004, previousRequestId: no previous request id, message: ocelot pipeline finished
+2023-01-05 11:29:14.834 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7267/ocelot/api/product application/json 75 - 200 49141 application/json;+charset=utf-8 1267.1258ms
+2023-01-05 13:17:20.516 +03:00 [INF] User profile is available. Using 'C:\Users\muhammed.durus\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-05 13:17:20.892 +03:00 [INF] Now listening on: https://localhost:7267
+2023-01-05 13:17:20.896 +03:00 [INF] Now listening on: http://localhost:5267
+2023-01-05 13:17:20.910 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-05 13:17:20.912 +03:00 [INF] Hosting environment: Development
+2023-01-05 13:17:20.914 +03:00 [INF] Content root path: C:\dev\sharp\Muhammed\DemoMicroservices\OcelotApiGateway\
+2023-01-05 13:17:21.799 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/swagger/index.html - -
+2023-01-05 13:17:22.321 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/_framework/aspnetcore-browser-refresh.js - -
+2023-01-05 13:17:22.321 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/_vs/browserLink - -
+2023-01-05 13:17:22.335 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 13.5662ms
+2023-01-05 13:17:22.335 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/swagger/index.html - - - 200 - text/html;charset=utf-8 543.9547ms
+2023-01-05 13:17:22.381 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 60.1271ms
+2023-01-05 13:17:22.442 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/swagger/v1/swagger.json - -
+2023-01-05 13:17:22.555 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 112.6311ms
+2023-01-05 13:17:48.216 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/auth/api/customer - -
+2023-01-05 13:17:48.292 +03:00 [DBG] requestId: 0HMNF0O40JR8L:00000009, previousRequestId: no previous request id, message: ocelot pipeline started
+2023-01-05 13:17:48.299 +03:00 [DBG] requestId: 0HMNF0O40JR8L:00000009, previousRequestId: no previous request id, message: Upstream url path is /auth/api/customer
+2023-01-05 13:17:48.312 +03:00 [WRN] requestId: 0HMNF0O40JR8L:00000009, previousRequestId: no previous request id, message: DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /auth/api/customer, verb: GET.
+2023-01-05 13:17:48.315 +03:00 [WRN] requestId: 0HMNF0O40JR8L:00000009, previousRequestId: no previous request id, message: Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /auth/api/customer, verb: GET. errors found in ResponderMiddleware. Setting error response for request path:/auth/api/customer, request method: GET
+2023-01-05 13:17:48.317 +03:00 [DBG] requestId: 0HMNF0O40JR8L:00000009, previousRequestId: no previous request id, message: ocelot pipeline finished
+2023-01-05 13:17:48.317 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/auth/api/customer - - - 404 0 - 101.2921ms
+2023-01-05 13:17:50.689 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/_framework/aspnetcore-browser-refresh.js - -
+2023-01-05 13:17:50.689 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 0.2155ms
+2023-01-05 13:18:33.669 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/ocelot/api/customer - -
+2023-01-05 13:18:33.679 +03:00 [DBG] requestId: 0HMNF0O40JR8L:0000000D, previousRequestId: no previous request id, message: ocelot pipeline started
+2023-01-05 13:18:33.679 +03:00 [DBG] requestId: 0HMNF0O40JR8L:0000000D, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/customer
+2023-01-05 13:18:33.685 +03:00 [DBG] requestId: 0HMNF0O40JR8L:0000000D, previousRequestId: no previous request id, message: downstream templates are /api/Customer
+2023-01-05 13:18:33.767 +03:00 [INF] requestId: 0HMNF0O40JR8L:0000000D, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/customer
+2023-01-05 13:18:33.776 +03:00 [INF] requestId: 0HMNF0O40JR8L:0000000D, previousRequestId: no previous request id, message: /api/Customer route does not require user to be authorized
+2023-01-05 13:18:33.799 +03:00 [DBG] requestId: 0HMNF0O40JR8L:0000000D, previousRequestId: no previous request id, message: Downstream url is https://localhost:7277/api/Customer
+2023-01-05 13:18:33.807 +03:00 [DBG] requestId: 0HMNF0O40JR8L:0000000D, previousRequestId: no previous request id, message: Started checking cache for GET-https://localhost:7267/ocelot/api/customer
+2023-01-05 13:18:33.810 +03:00 [DBG] requestId: 0HMNF0O40JR8L:0000000D, previousRequestId: no previous request id, message: no resonse cached for GET-https://localhost:7267/ocelot/api/customer
+2023-01-05 13:18:37.975 +03:00 [DBG] requestId: 0HMNF0O40JR8L:0000000D, previousRequestId: no previous request id, message: IHttpRequester returned an error, setting pipeline error
+2023-01-05 13:18:37.976 +03:00 [DBG] requestId: 0HMNF0O40JR8L:0000000D, previousRequestId: no previous request id, message: there was a pipeline error for GET-https://localhost:7267/ocelot/api/customer
+2023-01-05 13:18:37.993 +03:00 [WRN] requestId: 0HMNF0O40JR8L:0000000D, previousRequestId: no previous request id, message: Error Code: ConnectionToDownstreamServiceError Message: Error connecting to downstream service, exception: System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:7277)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Ocelot.Requester.HttpClientHttpRequester.GetResponse(HttpContext httpContext) errors found in ResponderMiddleware. Setting error response for request path:/ocelot/api/customer, request method: GET
+2023-01-05 13:18:37.994 +03:00 [DBG] requestId: 0HMNF0O40JR8L:0000000D, previousRequestId: no previous request id, message: ocelot pipeline finished
+2023-01-05 13:18:37.998 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/ocelot/api/customer - - - 502 0 - 4331.4254ms
+2023-01-05 13:18:46.817 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/ocelot/api/product - -
+2023-01-05 13:18:46.820 +03:00 [DBG] requestId: 0HMNF0O40JR8L:0000000F, previousRequestId: no previous request id, message: ocelot pipeline started
+2023-01-05 13:18:46.820 +03:00 [DBG] requestId: 0HMNF0O40JR8L:0000000F, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/product
+2023-01-05 13:18:46.820 +03:00 [DBG] requestId: 0HMNF0O40JR8L:0000000F, previousRequestId: no previous request id, message: downstream templates are /api/Product
+2023-01-05 13:18:46.823 +03:00 [INF] requestId: 0HMNF0O40JR8L:0000000F, previousRequestId: no previous request id, message: /ocelot/api/product is an authenticated route. AuthenticationMiddleware checking if client is authenticated
+2023-01-05 13:18:46.826 +03:00 [WRN] requestId: 0HMNF0O40JR8L:0000000F, previousRequestId: no previous request id, message: Client has NOT been authenticated for /ocelot/api/product and pipeline error set. Request for authenticated route /ocelot/api/product by  was unauthenticated
+2023-01-05 13:18:46.829 +03:00 [WRN] requestId: 0HMNF0O40JR8L:0000000F, previousRequestId: no previous request id, message: Error Code: UnauthenticatedError Message: Request for authenticated route /ocelot/api/product by  was unauthenticated errors found in ResponderMiddleware. Setting error response for request path:/ocelot/api/product, request method: GET
+2023-01-05 13:18:46.829 +03:00 [DBG] requestId: 0HMNF0O40JR8L:0000000F, previousRequestId: no previous request id, message: ocelot pipeline finished
+2023-01-05 13:18:46.830 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/ocelot/api/product - - - 401 0 - 12.3086ms
+2023-01-05 13:19:16.707 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/ocelot/api/customer - -
+2023-01-05 13:19:16.708 +03:00 [DBG] requestId: 0HMNF0O40JR8L:00000011, previousRequestId: no previous request id, message: ocelot pipeline started
+2023-01-05 13:19:16.708 +03:00 [DBG] requestId: 0HMNF0O40JR8L:00000011, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/customer
+2023-01-05 13:19:16.708 +03:00 [DBG] requestId: 0HMNF0O40JR8L:00000011, previousRequestId: no previous request id, message: downstream templates are /api/Customer
+2023-01-05 13:19:16.710 +03:00 [INF] requestId: 0HMNF0O40JR8L:00000011, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/customer
+2023-01-05 13:19:16.712 +03:00 [INF] requestId: 0HMNF0O40JR8L:00000011, previousRequestId: no previous request id, message: /api/Customer route does not require user to be authorized
+2023-01-05 13:19:16.713 +03:00 [DBG] requestId: 0HMNF0O40JR8L:00000011, previousRequestId: no previous request id, message: Downstream url is https://localhost:7277/api/Customer
+2023-01-05 13:19:16.713 +03:00 [DBG] requestId: 0HMNF0O40JR8L:00000011, previousRequestId: no previous request id, message: Started checking cache for GET-https://localhost:7267/ocelot/api/customer
+2023-01-05 13:19:16.713 +03:00 [DBG] requestId: 0HMNF0O40JR8L:00000011, previousRequestId: no previous request id, message: no resonse cached for GET-https://localhost:7267/ocelot/api/customer
+2023-01-05 13:19:17.839 +03:00 [INF] requestId: 0HMNF0O40JR8L:00000011, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:7277/api/Customer
+2023-01-05 13:19:17.839 +03:00 [DBG] requestId: 0HMNF0O40JR8L:00000011, previousRequestId: no previous request id, message: setting http response message
+2023-01-05 13:19:17.853 +03:00 [DBG] requestId: 0HMNF0O40JR8L:00000011, previousRequestId: no previous request id, message: finished response added to cache for GET-https://localhost:7267/ocelot/api/customer
+2023-01-05 13:19:17.856 +03:00 [DBG] requestId: 0HMNF0O40JR8L:00000011, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2023-01-05 13:19:17.871 +03:00 [DBG] requestId: 0HMNF0O40JR8L:00000011, previousRequestId: no previous request id, message: ocelot pipeline finished
+2023-01-05 13:19:17.872 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/ocelot/api/customer - - - 200 103407 application/json;+charset=utf-8 1165.2040ms
+2023-01-05 13:21:33.449 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/ocelot/api/product - -
+2023-01-05 13:21:33.455 +03:00 [DBG] requestId: 0HMNF0O40JR8L:00000013, previousRequestId: no previous request id, message: ocelot pipeline started
+2023-01-05 13:21:33.455 +03:00 [DBG] requestId: 0HMNF0O40JR8L:00000013, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/product
+2023-01-05 13:21:33.455 +03:00 [DBG] requestId: 0HMNF0O40JR8L:00000013, previousRequestId: no previous request id, message: downstream templates are /api/Product
+2023-01-05 13:21:33.457 +03:00 [INF] requestId: 0HMNF0O40JR8L:00000013, previousRequestId: no previous request id, message: /ocelot/api/product is an authenticated route. AuthenticationMiddleware checking if client is authenticated
+2023-01-05 13:21:33.459 +03:00 [WRN] requestId: 0HMNF0O40JR8L:00000013, previousRequestId: no previous request id, message: Client has NOT been authenticated for /ocelot/api/product and pipeline error set. Request for authenticated route /ocelot/api/product by  was unauthenticated
+2023-01-05 13:21:33.460 +03:00 [WRN] requestId: 0HMNF0O40JR8L:00000013, previousRequestId: no previous request id, message: Error Code: UnauthenticatedError Message: Request for authenticated route /ocelot/api/product by  was unauthenticated errors found in ResponderMiddleware. Setting error response for request path:/ocelot/api/product, request method: GET
+2023-01-05 13:21:33.460 +03:00 [DBG] requestId: 0HMNF0O40JR8L:00000013, previousRequestId: no previous request id, message: ocelot pipeline finished
+2023-01-05 13:21:33.461 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/ocelot/api/product - - - 401 0 - 11.5648ms
+2023-01-05 13:22:12.452 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7267/ocelot/api/auth/sign-in-customer application/json 75
+2023-01-05 13:22:12.628 +03:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2023-01-05 13:22:12.632 +03:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+2023-01-05 13:22:12.632 +03:00 [DBG] requestId: 0HMNF0O40JR8N:00000002, previousRequestId: no previous request id, message: ocelot pipeline started
+2023-01-05 13:22:12.632 +03:00 [DBG] requestId: 0HMNF0O40JR8N:00000002, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/auth/sign-in-customer
+2023-01-05 13:22:12.635 +03:00 [WRN] requestId: 0HMNF0O40JR8N:00000002, previousRequestId: no previous request id, message: DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /ocelot/api/auth/sign-in-customer, verb: GET.
+2023-01-05 13:22:12.637 +03:00 [WRN] requestId: 0HMNF0O40JR8N:00000002, previousRequestId: no previous request id, message: Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /ocelot/api/auth/sign-in-customer, verb: GET. errors found in ResponderMiddleware. Setting error response for request path:/ocelot/api/auth/sign-in-customer, request method: GET
+2023-01-05 13:22:12.637 +03:00 [DBG] requestId: 0HMNF0O40JR8N:00000002, previousRequestId: no previous request id, message: ocelot pipeline finished
+2023-01-05 13:22:12.638 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7267/ocelot/api/auth/sign-in-customer application/json 75 - 404 0 - 185.7025ms
+2023-01-05 13:22:50.817 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/auth/sign-in-customer application/json 75
+2023-01-05 13:22:50.819 +03:00 [DBG] requestId: 0HMNF0O40JR8N:00000003, previousRequestId: no previous request id, message: ocelot pipeline started
+2023-01-05 13:22:50.819 +03:00 [DBG] requestId: 0HMNF0O40JR8N:00000003, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/auth/sign-in-customer
+2023-01-05 13:22:50.822 +03:00 [DBG] requestId: 0HMNF0O40JR8N:00000003, previousRequestId: no previous request id, message: downstream templates are /api/Auth/sign-in-customer
+2023-01-05 13:22:50.828 +03:00 [INF] requestId: 0HMNF0O40JR8N:00000003, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/auth/sign-in-customer
+2023-01-05 13:22:50.830 +03:00 [INF] requestId: 0HMNF0O40JR8N:00000003, previousRequestId: no previous request id, message: /api/Auth/sign-in-customer route does not require user to be authorized
+2023-01-05 13:22:50.830 +03:00 [DBG] requestId: 0HMNF0O40JR8N:00000003, previousRequestId: no previous request id, message: Downstream url is https://localhost:7272/api/Auth/sign-in-customer
+2023-01-05 13:22:50.830 +03:00 [DBG] requestId: 0HMNF0O40JR8N:00000003, previousRequestId: no previous request id, message: Started checking cache for POST-https://localhost:7267/ocelot/api/auth/sign-in-customer
+2023-01-05 13:22:50.830 +03:00 [DBG] requestId: 0HMNF0O40JR8N:00000003, previousRequestId: no previous request id, message: no resonse cached for POST-https://localhost:7267/ocelot/api/auth/sign-in-customer
+2023-01-05 13:22:51.060 +03:00 [INF] requestId: 0HMNF0O40JR8N:00000003, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:7272/api/Auth/sign-in-customer
+2023-01-05 13:22:51.060 +03:00 [DBG] requestId: 0HMNF0O40JR8N:00000003, previousRequestId: no previous request id, message: setting http response message
+2023-01-05 13:22:51.060 +03:00 [DBG] requestId: 0HMNF0O40JR8N:00000003, previousRequestId: no previous request id, message: finished response added to cache for POST-https://localhost:7267/ocelot/api/auth/sign-in-customer
+2023-01-05 13:22:51.060 +03:00 [DBG] requestId: 0HMNF0O40JR8N:00000003, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2023-01-05 13:22:51.061 +03:00 [DBG] requestId: 0HMNF0O40JR8N:00000003, previousRequestId: no previous request id, message: ocelot pipeline finished
+2023-01-05 13:22:51.061 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/auth/sign-in-customer application/json 75 - 200 159 application/json;+charset=utf-8 243.3158ms
+2023-01-05 16:00:38.166 +03:00 [INF] User profile is available. Using 'C:\Users\muhammed.durus\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-05 16:00:38.281 +03:00 [INF] Now listening on: https://localhost:7267
+2023-01-05 16:00:38.282 +03:00 [INF] Now listening on: http://localhost:5267
+2023-01-05 16:00:38.285 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-05 16:00:38.285 +03:00 [INF] Hosting environment: Development
+2023-01-05 16:00:38.285 +03:00 [INF] Content root path: C:\dev\sharp\Muhammed\DemoMicroservices\OcelotApiGateway\
+2023-01-05 16:01:08.713 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7267/ocelot/api/customer - -
+2023-01-05 16:01:08.781 +03:00 [DBG] requestId: 0HMNF3JKS85NR:00000002, previousRequestId: no previous request id, message: ocelot pipeline started
+2023-01-05 16:01:08.783 +03:00 [DBG] requestId: 0HMNF3JKS85NR:00000002, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/customer
+2023-01-05 16:01:08.790 +03:00 [DBG] requestId: 0HMNF3JKS85NR:00000002, previousRequestId: no previous request id, message: downstream templates are /api/Customer
+2023-01-05 16:01:08.832 +03:00 [INF] requestId: 0HMNF3JKS85NR:00000002, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/customer
+2023-01-05 16:01:08.834 +03:00 [INF] requestId: 0HMNF3JKS85NR:00000002, previousRequestId: no previous request id, message: /api/Customer route does not require user to be authorized
+2023-01-05 16:01:08.845 +03:00 [DBG] requestId: 0HMNF3JKS85NR:00000002, previousRequestId: no previous request id, message: Downstream url is https://localhost:7277/api/Customer
+2023-01-05 16:01:08.849 +03:00 [DBG] requestId: 0HMNF3JKS85NR:00000002, previousRequestId: no previous request id, message: Started checking cache for GET-https://localhost:7267/ocelot/api/customer
+2023-01-05 16:01:08.852 +03:00 [DBG] requestId: 0HMNF3JKS85NR:00000002, previousRequestId: no previous request id, message: no resonse cached for GET-https://localhost:7267/ocelot/api/customer
+2023-01-05 16:01:10.167 +03:00 [INF] requestId: 0HMNF3JKS85NR:00000002, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:7277/api/Customer
+2023-01-05 16:01:10.167 +03:00 [DBG] requestId: 0HMNF3JKS85NR:00000002, previousRequestId: no previous request id, message: setting http response message
+2023-01-05 16:01:10.176 +03:00 [DBG] requestId: 0HMNF3JKS85NR:00000002, previousRequestId: no previous request id, message: finished response added to cache for GET-https://localhost:7267/ocelot/api/customer
+2023-01-05 16:01:10.185 +03:00 [DBG] requestId: 0HMNF3JKS85NR:00000002, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2023-01-05 16:01:10.194 +03:00 [DBG] requestId: 0HMNF3JKS85NR:00000002, previousRequestId: no previous request id, message: ocelot pipeline finished
+2023-01-05 16:01:10.196 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7267/ocelot/api/customer - - - 200 103407 application/json;+charset=utf-8 1485.7279ms
+2023-01-05 16:16:35.575 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7267/ocelot/api/customer - -
+2023-01-05 16:16:35.577 +03:00 [DBG] requestId: 0HMNF3JKS85NS:00000002, previousRequestId: no previous request id, message: ocelot pipeline started
+2023-01-05 16:16:35.577 +03:00 [DBG] requestId: 0HMNF3JKS85NS:00000002, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/customer
+2023-01-05 16:16:35.577 +03:00 [DBG] requestId: 0HMNF3JKS85NS:00000002, previousRequestId: no previous request id, message: downstream templates are /api/Customer
+2023-01-05 16:16:35.578 +03:00 [INF] requestId: 0HMNF3JKS85NS:00000002, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/customer
+2023-01-05 16:16:35.578 +03:00 [INF] requestId: 0HMNF3JKS85NS:00000002, previousRequestId: no previous request id, message: /api/Customer route does not require user to be authorized
+2023-01-05 16:16:35.578 +03:00 [DBG] requestId: 0HMNF3JKS85NS:00000002, previousRequestId: no previous request id, message: Downstream url is https://localhost:7277/api/Customer
+2023-01-05 16:16:35.579 +03:00 [DBG] requestId: 0HMNF3JKS85NS:00000002, previousRequestId: no previous request id, message: Started checking cache for GET-https://localhost:7267/ocelot/api/customer
+2023-01-05 16:16:35.579 +03:00 [DBG] requestId: 0HMNF3JKS85NS:00000002, previousRequestId: no previous request id, message: no resonse cached for GET-https://localhost:7267/ocelot/api/customer
+2023-01-05 16:16:35.606 +03:00 [INF] requestId: 0HMNF3JKS85NS:00000002, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:7277/api/Customer
+2023-01-05 16:16:35.606 +03:00 [DBG] requestId: 0HMNF3JKS85NS:00000002, previousRequestId: no previous request id, message: setting http response message
+2023-01-05 16:16:35.607 +03:00 [DBG] requestId: 0HMNF3JKS85NS:00000002, previousRequestId: no previous request id, message: finished response added to cache for GET-https://localhost:7267/ocelot/api/customer
+2023-01-05 16:16:35.607 +03:00 [DBG] requestId: 0HMNF3JKS85NS:00000002, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2023-01-05 16:16:35.611 +03:00 [DBG] requestId: 0HMNF3JKS85NS:00000002, previousRequestId: no previous request id, message: ocelot pipeline finished
+2023-01-05 16:16:35.611 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7267/ocelot/api/customer - - - 200 103407 application/json;+charset=utf-8 36.1765ms
+2023-01-05 16:17:44.828 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7267/ocelot/api/customer - -
+2023-01-05 16:17:44.830 +03:00 [DBG] requestId: 0HMNF3JKS85NT:00000002, previousRequestId: no previous request id, message: ocelot pipeline started
+2023-01-05 16:17:44.830 +03:00 [DBG] requestId: 0HMNF3JKS85NT:00000002, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/customer
+2023-01-05 16:17:44.830 +03:00 [DBG] requestId: 0HMNF3JKS85NT:00000002, previousRequestId: no previous request id, message: downstream templates are /api/Customer
+2023-01-05 16:17:44.830 +03:00 [INF] requestId: 0HMNF3JKS85NT:00000002, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/customer
+2023-01-05 16:17:44.830 +03:00 [INF] requestId: 0HMNF3JKS85NT:00000002, previousRequestId: no previous request id, message: /api/Customer route does not require user to be authorized
+2023-01-05 16:17:44.830 +03:00 [DBG] requestId: 0HMNF3JKS85NT:00000002, previousRequestId: no previous request id, message: Downstream url is https://localhost:7277/api/Customer
+2023-01-05 16:17:44.830 +03:00 [DBG] requestId: 0HMNF3JKS85NT:00000002, previousRequestId: no previous request id, message: Started checking cache for GET-https://localhost:7267/ocelot/api/customer
+2023-01-05 16:17:44.830 +03:00 [DBG] requestId: 0HMNF3JKS85NT:00000002, previousRequestId: no previous request id, message: no resonse cached for GET-https://localhost:7267/ocelot/api/customer
+2023-01-05 16:17:44.896 +03:00 [INF] requestId: 0HMNF3JKS85NT:00000002, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:7277/api/Customer
+2023-01-05 16:17:44.896 +03:00 [DBG] requestId: 0HMNF3JKS85NT:00000002, previousRequestId: no previous request id, message: setting http response message
+2023-01-05 16:17:44.897 +03:00 [DBG] requestId: 0HMNF3JKS85NT:00000002, previousRequestId: no previous request id, message: finished response added to cache for GET-https://localhost:7267/ocelot/api/customer
+2023-01-05 16:17:44.897 +03:00 [DBG] requestId: 0HMNF3JKS85NT:00000002, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2023-01-05 16:17:44.898 +03:00 [DBG] requestId: 0HMNF3JKS85NT:00000002, previousRequestId: no previous request id, message: ocelot pipeline finished
+2023-01-05 16:17:44.898 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7267/ocelot/api/customer - - - 200 103407 application/json;+charset=utf-8 70.4168ms
+2023-01-05 16:32:39.429 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7267/ocelot/api/customer - -
+2023-01-05 16:32:39.429 +03:00 [DBG] requestId: 0HMNF3JKS85NU:00000002, previousRequestId: no previous request id, message: ocelot pipeline started
+2023-01-05 16:32:39.429 +03:00 [DBG] requestId: 0HMNF3JKS85NU:00000002, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/customer
+2023-01-05 16:32:39.429 +03:00 [DBG] requestId: 0HMNF3JKS85NU:00000002, previousRequestId: no previous request id, message: downstream templates are /api/Customer
+2023-01-05 16:32:39.430 +03:00 [INF] requestId: 0HMNF3JKS85NU:00000002, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/customer
+2023-01-05 16:32:39.430 +03:00 [INF] requestId: 0HMNF3JKS85NU:00000002, previousRequestId: no previous request id, message: /api/Customer route does not require user to be authorized
+2023-01-05 16:32:39.430 +03:00 [DBG] requestId: 0HMNF3JKS85NU:00000002, previousRequestId: no previous request id, message: Downstream url is https://localhost:7277/api/Customer
+2023-01-05 16:32:39.430 +03:00 [DBG] requestId: 0HMNF3JKS85NU:00000002, previousRequestId: no previous request id, message: Started checking cache for GET-https://localhost:7267/ocelot/api/customer
+2023-01-05 16:32:39.430 +03:00 [DBG] requestId: 0HMNF3JKS85NU:00000002, previousRequestId: no previous request id, message: no resonse cached for GET-https://localhost:7267/ocelot/api/customer
+2023-01-05 16:32:39.447 +03:00 [INF] requestId: 0HMNF3JKS85NU:00000002, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:7277/api/Customer
+2023-01-05 16:32:39.447 +03:00 [DBG] requestId: 0HMNF3JKS85NU:00000002, previousRequestId: no previous request id, message: setting http response message
+2023-01-05 16:32:39.448 +03:00 [DBG] requestId: 0HMNF3JKS85NU:00000002, previousRequestId: no previous request id, message: finished response added to cache for GET-https://localhost:7267/ocelot/api/customer
+2023-01-05 16:32:39.448 +03:00 [DBG] requestId: 0HMNF3JKS85NU:00000002, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2023-01-05 16:32:39.449 +03:00 [DBG] requestId: 0HMNF3JKS85NU:00000002, previousRequestId: no previous request id, message: ocelot pipeline finished
+2023-01-05 16:32:39.449 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7267/ocelot/api/customer - - - 200 103407 application/json;+charset=utf-8 19.8032ms
+2023-01-05 16:40:33.319 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7267/ocelot/api/customer - -
+2023-01-05 16:40:33.319 +03:00 [DBG] requestId: 0HMNF3JKS85NV:00000002, previousRequestId: no previous request id, message: ocelot pipeline started
+2023-01-05 16:40:33.319 +03:00 [DBG] requestId: 0HMNF3JKS85NV:00000002, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/customer
+2023-01-05 16:40:33.319 +03:00 [DBG] requestId: 0HMNF3JKS85NV:00000002, previousRequestId: no previous request id, message: downstream templates are /api/Customer
+2023-01-05 16:40:33.319 +03:00 [INF] requestId: 0HMNF3JKS85NV:00000002, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/customer
+2023-01-05 16:40:33.319 +03:00 [INF] requestId: 0HMNF3JKS85NV:00000002, previousRequestId: no previous request id, message: /api/Customer route does not require user to be authorized
+2023-01-05 16:40:33.319 +03:00 [DBG] requestId: 0HMNF3JKS85NV:00000002, previousRequestId: no previous request id, message: Downstream url is https://localhost:7277/api/Customer
+2023-01-05 16:40:33.319 +03:00 [DBG] requestId: 0HMNF3JKS85NV:00000002, previousRequestId: no previous request id, message: Started checking cache for GET-https://localhost:7267/ocelot/api/customer
+2023-01-05 16:40:33.319 +03:00 [DBG] requestId: 0HMNF3JKS85NV:00000002, previousRequestId: no previous request id, message: no resonse cached for GET-https://localhost:7267/ocelot/api/customer
+2023-01-05 16:40:33.335 +03:00 [INF] requestId: 0HMNF3JKS85NV:00000002, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:7277/api/Customer
+2023-01-05 16:40:33.335 +03:00 [DBG] requestId: 0HMNF3JKS85NV:00000002, previousRequestId: no previous request id, message: setting http response message
+2023-01-05 16:40:33.335 +03:00 [DBG] requestId: 0HMNF3JKS85NV:00000002, previousRequestId: no previous request id, message: finished response added to cache for GET-https://localhost:7267/ocelot/api/customer
+2023-01-05 16:40:33.336 +03:00 [DBG] requestId: 0HMNF3JKS85NV:00000002, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2023-01-05 16:40:33.336 +03:00 [DBG] requestId: 0HMNF3JKS85NV:00000002, previousRequestId: no previous request id, message: ocelot pipeline finished
+2023-01-05 16:40:33.337 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7267/ocelot/api/customer - - - 200 103407 application/json;+charset=utf-8 17.9533ms
+2023-01-05 16:41:05.825 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7267/ocelot/api/customer - -
+2023-01-05 16:41:05.825 +03:00 [DBG] requestId: 0HMNF3JKS85O0:00000002, previousRequestId: no previous request id, message: ocelot pipeline started
+2023-01-05 16:41:05.825 +03:00 [DBG] requestId: 0HMNF3JKS85O0:00000002, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/customer
+2023-01-05 16:41:05.825 +03:00 [DBG] requestId: 0HMNF3JKS85O0:00000002, previousRequestId: no previous request id, message: downstream templates are /api/Customer
+2023-01-05 16:41:05.825 +03:00 [INF] requestId: 0HMNF3JKS85O0:00000002, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/customer
+2023-01-05 16:41:05.825 +03:00 [INF] requestId: 0HMNF3JKS85O0:00000002, previousRequestId: no previous request id, message: /api/Customer route does not require user to be authorized
+2023-01-05 16:41:05.825 +03:00 [DBG] requestId: 0HMNF3JKS85O0:00000002, previousRequestId: no previous request id, message: Downstream url is https://localhost:7277/api/Customer
+2023-01-05 16:41:05.825 +03:00 [DBG] requestId: 0HMNF3JKS85O0:00000002, previousRequestId: no previous request id, message: Started checking cache for GET-https://localhost:7267/ocelot/api/customer
+2023-01-05 16:41:05.825 +03:00 [DBG] requestId: 0HMNF3JKS85O0:00000002, previousRequestId: no previous request id, message: no resonse cached for GET-https://localhost:7267/ocelot/api/customer
+2023-01-05 16:41:05.836 +03:00 [INF] requestId: 0HMNF3JKS85O0:00000002, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:7277/api/Customer
+2023-01-05 16:41:05.836 +03:00 [DBG] requestId: 0HMNF3JKS85O0:00000002, previousRequestId: no previous request id, message: setting http response message
+2023-01-05 16:41:05.837 +03:00 [DBG] requestId: 0HMNF3JKS85O0:00000002, previousRequestId: no previous request id, message: finished response added to cache for GET-https://localhost:7267/ocelot/api/customer
+2023-01-05 16:41:05.837 +03:00 [DBG] requestId: 0HMNF3JKS85O0:00000002, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2023-01-05 16:41:05.838 +03:00 [DBG] requestId: 0HMNF3JKS85O0:00000002, previousRequestId: no previous request id, message: ocelot pipeline finished
+2023-01-05 16:41:05.838 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7267/ocelot/api/customer - - - 200 103407 application/json;+charset=utf-8 13.4466ms
+2023-01-05 16:42:06.679 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7267/ocelot/api/customer - -
+2023-01-05 16:42:06.680 +03:00 [DBG] requestId: 0HMNF3JKS85O1:00000002, previousRequestId: no previous request id, message: ocelot pipeline started
+2023-01-05 16:42:06.680 +03:00 [DBG] requestId: 0HMNF3JKS85O1:00000002, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/customer
+2023-01-05 16:42:06.680 +03:00 [DBG] requestId: 0HMNF3JKS85O1:00000002, previousRequestId: no previous request id, message: downstream templates are /api/Customer
+2023-01-05 16:42:06.680 +03:00 [INF] requestId: 0HMNF3JKS85O1:00000002, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/customer
+2023-01-05 16:42:06.680 +03:00 [INF] requestId: 0HMNF3JKS85O1:00000002, previousRequestId: no previous request id, message: /api/Customer route does not require user to be authorized
+2023-01-05 16:42:06.680 +03:00 [DBG] requestId: 0HMNF3JKS85O1:00000002, previousRequestId: no previous request id, message: Downstream url is https://localhost:7277/api/Customer
+2023-01-05 16:42:06.680 +03:00 [DBG] requestId: 0HMNF3JKS85O1:00000002, previousRequestId: no previous request id, message: Started checking cache for GET-https://localhost:7267/ocelot/api/customer
+2023-01-05 16:42:06.680 +03:00 [DBG] requestId: 0HMNF3JKS85O1:00000002, previousRequestId: no previous request id, message: no resonse cached for GET-https://localhost:7267/ocelot/api/customer
+2023-01-05 16:42:06.689 +03:00 [INF] requestId: 0HMNF3JKS85O1:00000002, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:7277/api/Customer
+2023-01-05 16:42:06.689 +03:00 [DBG] requestId: 0HMNF3JKS85O1:00000002, previousRequestId: no previous request id, message: setting http response message
+2023-01-05 16:42:06.690 +03:00 [DBG] requestId: 0HMNF3JKS85O1:00000002, previousRequestId: no previous request id, message: finished response added to cache for GET-https://localhost:7267/ocelot/api/customer
+2023-01-05 16:42:06.690 +03:00 [DBG] requestId: 0HMNF3JKS85O1:00000002, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2023-01-05 16:42:06.691 +03:00 [DBG] requestId: 0HMNF3JKS85O1:00000002, previousRequestId: no previous request id, message: ocelot pipeline finished
+2023-01-05 16:42:06.691 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7267/ocelot/api/customer - - - 200 103407 application/json;+charset=utf-8 11.9618ms
+2023-01-05 16:43:02.120 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7267/ocelot/api/customer - -
+2023-01-05 16:43:02.120 +03:00 [DBG] requestId: 0HMNF3JKS85O2:00000002, previousRequestId: no previous request id, message: ocelot pipeline started
+2023-01-05 16:43:02.120 +03:00 [DBG] requestId: 0HMNF3JKS85O2:00000002, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/customer
+2023-01-05 16:43:02.120 +03:00 [DBG] requestId: 0HMNF3JKS85O2:00000002, previousRequestId: no previous request id, message: downstream templates are /api/Customer
+2023-01-05 16:43:02.120 +03:00 [INF] requestId: 0HMNF3JKS85O2:00000002, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/customer
+2023-01-05 16:43:02.120 +03:00 [INF] requestId: 0HMNF3JKS85O2:00000002, previousRequestId: no previous request id, message: /api/Customer route does not require user to be authorized
+2023-01-05 16:43:02.120 +03:00 [DBG] requestId: 0HMNF3JKS85O2:00000002, previousRequestId: no previous request id, message: Downstream url is https://localhost:7277/api/Customer
+2023-01-05 16:43:02.120 +03:00 [DBG] requestId: 0HMNF3JKS85O2:00000002, previousRequestId: no previous request id, message: Started checking cache for GET-https://localhost:7267/ocelot/api/customer
+2023-01-05 16:43:02.120 +03:00 [DBG] requestId: 0HMNF3JKS85O2:00000002, previousRequestId: no previous request id, message: no resonse cached for GET-https://localhost:7267/ocelot/api/customer
+2023-01-05 16:43:02.128 +03:00 [INF] requestId: 0HMNF3JKS85O2:00000002, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:7277/api/Customer
+2023-01-05 16:43:02.128 +03:00 [DBG] requestId: 0HMNF3JKS85O2:00000002, previousRequestId: no previous request id, message: setting http response message
+2023-01-05 16:43:02.128 +03:00 [DBG] requestId: 0HMNF3JKS85O2:00000002, previousRequestId: no previous request id, message: finished response added to cache for GET-https://localhost:7267/ocelot/api/customer
+2023-01-05 16:43:02.129 +03:00 [DBG] requestId: 0HMNF3JKS85O2:00000002, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2023-01-05 16:43:02.130 +03:00 [DBG] requestId: 0HMNF3JKS85O2:00000002, previousRequestId: no previous request id, message: ocelot pipeline finished
+2023-01-05 16:43:02.130 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7267/ocelot/api/customer - - - 200 103407 application/json;+charset=utf-8 10.3692ms
+2023-01-05 16:44:58.206 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7267/ocelot/api/customer - -
+2023-01-05 16:44:58.206 +03:00 [DBG] requestId: 0HMNF3JKS85O3:00000002, previousRequestId: no previous request id, message: ocelot pipeline started
+2023-01-05 16:44:58.206 +03:00 [DBG] requestId: 0HMNF3JKS85O3:00000002, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/customer
+2023-01-05 16:44:58.206 +03:00 [DBG] requestId: 0HMNF3JKS85O3:00000002, previousRequestId: no previous request id, message: downstream templates are /api/Customer
+2023-01-05 16:44:58.206 +03:00 [INF] requestId: 0HMNF3JKS85O3:00000002, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/customer
+2023-01-05 16:44:58.206 +03:00 [INF] requestId: 0HMNF3JKS85O3:00000002, previousRequestId: no previous request id, message: /api/Customer route does not require user to be authorized
+2023-01-05 16:44:58.206 +03:00 [DBG] requestId: 0HMNF3JKS85O3:00000002, previousRequestId: no previous request id, message: Downstream url is https://localhost:7277/api/Customer
+2023-01-05 16:44:58.206 +03:00 [DBG] requestId: 0HMNF3JKS85O3:00000002, previousRequestId: no previous request id, message: Started checking cache for GET-https://localhost:7267/ocelot/api/customer
+2023-01-05 16:44:58.206 +03:00 [DBG] requestId: 0HMNF3JKS85O3:00000002, previousRequestId: no previous request id, message: no resonse cached for GET-https://localhost:7267/ocelot/api/customer
+2023-01-05 16:44:58.217 +03:00 [INF] requestId: 0HMNF3JKS85O3:00000002, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:7277/api/Customer
+2023-01-05 16:44:58.217 +03:00 [DBG] requestId: 0HMNF3JKS85O3:00000002, previousRequestId: no previous request id, message: setting http response message
+2023-01-05 16:44:58.218 +03:00 [DBG] requestId: 0HMNF3JKS85O3:00000002, previousRequestId: no previous request id, message: finished response added to cache for GET-https://localhost:7267/ocelot/api/customer
+2023-01-05 16:44:58.218 +03:00 [DBG] requestId: 0HMNF3JKS85O3:00000002, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2023-01-05 16:44:58.219 +03:00 [DBG] requestId: 0HMNF3JKS85O3:00000002, previousRequestId: no previous request id, message: ocelot pipeline finished
+2023-01-05 16:44:58.219 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7267/ocelot/api/customer - - - 200 103407 application/json;+charset=utf-8 12.9036ms

@@ -1,0 +1,1072 @@
+2024-01-24 09:24:07.269 +03:00 [INF] User profile is available. Using 'C:\Users\muhammed.durus\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-24 09:24:07.578 +03:00 [INF] Now listening on: https://localhost:7267
+2024-01-24 09:24:07.580 +03:00 [INF] Now listening on: http://localhost:5267
+2024-01-24 09:24:07.588 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-24 09:24:07.593 +03:00 [INF] Hosting environment: Development
+2024-01-24 09:24:07.599 +03:00 [INF] Content root path: C:\Users\muhammed.durus\Desktop\Eğitim ve Dökümanlar\DemoMicroservices\OcelotApiGateway\
+2024-01-24 09:24:08.372 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/swagger/index.html - -
+2024-01-24 09:24:08.681 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/swagger/index.html - - - 200 - text/html;charset=utf-8 310.7853ms
+2024-01-24 09:24:08.689 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/_vs/browserLink - -
+2024-01-24 09:24:08.689 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/_framework/aspnetcore-browser-refresh.js - -
+2024-01-24 09:24:08.699 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 9.7753ms
+2024-01-24 09:24:08.739 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 50.1144ms
+2024-01-24 09:24:08.927 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/swagger/v1/swagger.json - -
+2024-01-24 09:24:09.054 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 127.8493ms
+2024-01-24 09:24:57.470 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 48
+2024-01-24 09:24:57.590 +03:00 [DBG] requestId: 0HN0SKK90OF3P:00000002, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-24 09:24:57.596 +03:00 [DBG] requestId: 0HN0SKK90OF3P:00000002, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-24 09:24:57.604 +03:00 [DBG] requestId: 0HN0SKK90OF3P:00000002, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-24 09:24:57.662 +03:00 [INF] requestId: 0HN0SKK90OF3P:00000002, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-24 09:24:57.672 +03:00 [INF] requestId: 0HN0SKK90OF3P:00000002, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-24 09:24:57.678 +03:00 [INF] requestId: 0HN0SKK90OF3P:00000002, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-24 09:24:57.703 +03:00 [DBG] requestId: 0HN0SKK90OF3P:00000002, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-24 09:24:58.749 +03:00 [INF] requestId: 0HN0SKK90OF3P:00000002, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Category
+2024-01-24 09:24:58.749 +03:00 [DBG] requestId: 0HN0SKK90OF3P:00000002, previousRequestId: no previous request id, message: setting http response message
+2024-01-24 09:24:58.768 +03:00 [DBG] requestId: 0HN0SKK90OF3P:00000002, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-24 09:24:58.773 +03:00 [DBG] requestId: 0HN0SKK90OF3P:00000002, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-24 09:24:58.780 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 48 - 200 0 - 1310.6110ms
+2024-01-24 09:24:58.790 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 48
+2024-01-24 09:24:58.794 +03:00 [DBG] requestId: 0HN0SKK90OF3P:00000003, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-24 09:24:58.794 +03:00 [DBG] requestId: 0HN0SKK90OF3P:00000003, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-24 09:24:58.794 +03:00 [DBG] requestId: 0HN0SKK90OF3P:00000003, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-24 09:24:58.797 +03:00 [INF] requestId: 0HN0SKK90OF3P:00000003, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-24 09:24:58.798 +03:00 [INF] requestId: 0HN0SKK90OF3P:00000003, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-24 09:24:58.800 +03:00 [INF] requestId: 0HN0SKK90OF3P:00000003, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-24 09:24:58.800 +03:00 [DBG] requestId: 0HN0SKK90OF3P:00000003, previousRequestId: no previous request id, message: Downstream url is https://localhost:5001/api/Category
+2024-01-24 09:25:02.956 +03:00 [DBG] requestId: 0HN0SKK90OF3P:00000003, previousRequestId: no previous request id, message: IHttpRequester returned an error, setting pipeline error
+2024-01-24 09:25:02.964 +03:00 [WRN] requestId: 0HN0SKK90OF3P:00000003, previousRequestId: no previous request id, message: Error Code: ConnectionToDownstreamServiceError Message: Error connecting to downstream service, exception: System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:5001)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Ocelot.Requester.HttpClientHttpRequester.GetResponse(HttpContext httpContext) errors found in ResponderMiddleware. Setting error response for request path:/ocelot/api/category, request method: POST
+2024-01-24 09:25:02.966 +03:00 [DBG] requestId: 0HN0SKK90OF3P:00000003, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-24 09:25:02.966 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 48 - 502 0 - 4175.3398ms
+2024-01-24 09:35:54.249 +03:00 [INF] User profile is available. Using 'C:\Users\muhammed.durus\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-24 09:35:54.574 +03:00 [INF] Now listening on: https://localhost:7267
+2024-01-24 09:35:54.576 +03:00 [INF] Now listening on: http://localhost:5267
+2024-01-24 09:35:54.587 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-24 09:35:54.596 +03:00 [INF] Hosting environment: Development
+2024-01-24 09:35:54.597 +03:00 [INF] Content root path: C:\Users\muhammed.durus\Desktop\Eğitim ve Dökümanlar\DemoMicroservices\OcelotApiGateway\
+2024-01-24 09:35:55.339 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/swagger/index.html - -
+2024-01-24 09:35:55.734 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/swagger/index.html - - - 200 - text/html;charset=utf-8 400.7901ms
+2024-01-24 09:35:55.743 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/_framework/aspnetcore-browser-refresh.js - -
+2024-01-24 09:35:55.743 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/_vs/browserLink - -
+2024-01-24 09:35:55.750 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 7.2880ms
+2024-01-24 09:35:55.819 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 76.6442ms
+2024-01-24 09:35:55.878 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/swagger/v1/swagger.json - -
+2024-01-24 09:35:56.065 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 186.2429ms
+2024-01-24 09:54:54.946 +03:00 [INF] User profile is available. Using 'C:\Users\muhammed.durus\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-24 09:54:55.208 +03:00 [INF] Now listening on: https://localhost:7267
+2024-01-24 09:54:55.211 +03:00 [INF] Now listening on: http://localhost:5267
+2024-01-24 09:54:55.220 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-24 09:54:55.222 +03:00 [INF] Hosting environment: Development
+2024-01-24 09:54:55.223 +03:00 [INF] Content root path: C:\Users\muhammed.durus\Desktop\Eğitim ve Dökümanlar\DemoMicroservices\OcelotApiGateway\
+2024-01-24 09:54:55.789 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/swagger/index.html - -
+2024-01-24 09:54:56.165 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/_vs/browserLink - -
+2024-01-24 09:54:56.181 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/_framework/aspnetcore-browser-refresh.js - -
+2024-01-24 09:54:56.186 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/swagger/index.html - - - 200 - text/html;charset=utf-8 390.3200ms
+2024-01-24 09:54:56.191 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 10.1101ms
+2024-01-24 09:54:56.233 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 67.5624ms
+2024-01-24 09:54:56.291 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/swagger/v1/swagger.json - -
+2024-01-24 09:54:56.417 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 125.8299ms
+2024-01-24 09:55:56.713 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 64
+2024-01-24 09:55:56.819 +03:00 [DBG] requestId: 0HN0SL5FM013N:00000002, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-24 09:55:56.825 +03:00 [DBG] requestId: 0HN0SL5FM013N:00000002, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-24 09:55:56.833 +03:00 [DBG] requestId: 0HN0SL5FM013N:00000002, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-24 09:55:56.884 +03:00 [INF] requestId: 0HN0SL5FM013N:00000002, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-24 09:55:56.894 +03:00 [INF] requestId: 0HN0SL5FM013N:00000002, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-24 09:55:56.901 +03:00 [INF] requestId: 0HN0SL5FM013N:00000002, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-24 09:55:56.923 +03:00 [DBG] requestId: 0HN0SL5FM013N:00000002, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-24 09:55:57.915 +03:00 [INF] requestId: 0HN0SL5FM013N:00000002, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Category
+2024-01-24 09:55:57.915 +03:00 [DBG] requestId: 0HN0SL5FM013N:00000002, previousRequestId: no previous request id, message: setting http response message
+2024-01-24 09:55:57.933 +03:00 [DBG] requestId: 0HN0SL5FM013N:00000002, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-24 09:55:57.938 +03:00 [DBG] requestId: 0HN0SL5FM013N:00000002, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-24 09:55:57.944 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 64 - 200 0 - 1231.2172ms
+2024-01-24 09:55:57.953 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 64
+2024-01-24 09:55:57.955 +03:00 [DBG] requestId: 0HN0SL5FM013N:00000003, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-24 09:55:57.955 +03:00 [DBG] requestId: 0HN0SL5FM013N:00000003, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-24 09:55:57.956 +03:00 [DBG] requestId: 0HN0SL5FM013N:00000003, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-24 09:55:57.961 +03:00 [INF] requestId: 0HN0SL5FM013N:00000003, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-24 09:55:57.962 +03:00 [INF] requestId: 0HN0SL5FM013N:00000003, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-24 09:55:57.963 +03:00 [INF] requestId: 0HN0SL5FM013N:00000003, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-24 09:55:57.964 +03:00 [DBG] requestId: 0HN0SL5FM013N:00000003, previousRequestId: no previous request id, message: Downstream url is https://localhost:5001/api/Category
+2024-01-24 09:56:02.093 +03:00 [DBG] requestId: 0HN0SL5FM013N:00000003, previousRequestId: no previous request id, message: IHttpRequester returned an error, setting pipeline error
+2024-01-24 09:56:02.099 +03:00 [WRN] requestId: 0HN0SL5FM013N:00000003, previousRequestId: no previous request id, message: Error Code: ConnectionToDownstreamServiceError Message: Error connecting to downstream service, exception: System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:5001)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Ocelot.Requester.HttpClientHttpRequester.GetResponse(HttpContext httpContext) errors found in ResponderMiddleware. Setting error response for request path:/ocelot/api/category, request method: POST
+2024-01-24 09:56:02.101 +03:00 [DBG] requestId: 0HN0SL5FM013N:00000003, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-24 09:56:02.101 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 64 - 502 0 - 4148.1794ms
+2024-01-24 09:56:58.030 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 64
+2024-01-24 09:56:58.032 +03:00 [DBG] requestId: 0HN0SL5FM013O:00000002, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-24 09:56:58.032 +03:00 [DBG] requestId: 0HN0SL5FM013O:00000002, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-24 09:56:58.032 +03:00 [DBG] requestId: 0HN0SL5FM013O:00000002, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-24 09:56:58.033 +03:00 [INF] requestId: 0HN0SL5FM013O:00000002, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-24 09:56:58.035 +03:00 [INF] requestId: 0HN0SL5FM013O:00000002, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-24 09:56:58.036 +03:00 [INF] requestId: 0HN0SL5FM013O:00000002, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-24 09:56:58.036 +03:00 [DBG] requestId: 0HN0SL5FM013O:00000002, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-24 09:56:58.130 +03:00 [INF] requestId: 0HN0SL5FM013O:00000002, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Category
+2024-01-24 09:56:58.131 +03:00 [DBG] requestId: 0HN0SL5FM013O:00000002, previousRequestId: no previous request id, message: setting http response message
+2024-01-24 09:56:58.131 +03:00 [DBG] requestId: 0HN0SL5FM013O:00000002, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-24 09:56:58.131 +03:00 [DBG] requestId: 0HN0SL5FM013O:00000002, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-24 09:56:58.131 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 64 - 200 0 - 100.9610ms
+2024-01-24 09:56:58.132 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 64
+2024-01-24 09:56:58.132 +03:00 [DBG] requestId: 0HN0SL5FM013O:00000003, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-24 09:56:58.132 +03:00 [DBG] requestId: 0HN0SL5FM013O:00000003, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-24 09:56:58.132 +03:00 [DBG] requestId: 0HN0SL5FM013O:00000003, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-24 09:56:58.134 +03:00 [INF] requestId: 0HN0SL5FM013O:00000003, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-24 09:56:58.135 +03:00 [INF] requestId: 0HN0SL5FM013O:00000003, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-24 09:56:58.137 +03:00 [INF] requestId: 0HN0SL5FM013O:00000003, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-24 09:56:58.137 +03:00 [DBG] requestId: 0HN0SL5FM013O:00000003, previousRequestId: no previous request id, message: Downstream url is https://localhost:5001/api/Category
+2024-01-24 09:57:02.240 +03:00 [DBG] requestId: 0HN0SL5FM013O:00000003, previousRequestId: no previous request id, message: IHttpRequester returned an error, setting pipeline error
+2024-01-24 09:57:02.242 +03:00 [WRN] requestId: 0HN0SL5FM013O:00000003, previousRequestId: no previous request id, message: Error Code: ConnectionToDownstreamServiceError Message: Error connecting to downstream service, exception: System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:5001)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Ocelot.Requester.HttpClientHttpRequester.GetResponse(HttpContext httpContext) errors found in ResponderMiddleware. Setting error response for request path:/ocelot/api/category, request method: POST
+2024-01-24 09:57:02.243 +03:00 [DBG] requestId: 0HN0SL5FM013O:00000003, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-24 09:57:02.243 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 64 - 502 0 - 4110.0261ms
+2024-01-24 09:58:34.362 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 64
+2024-01-24 09:58:34.363 +03:00 [DBG] requestId: 0HN0SL5FM013P:00000002, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-24 09:58:34.363 +03:00 [DBG] requestId: 0HN0SL5FM013P:00000002, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-24 09:58:34.363 +03:00 [DBG] requestId: 0HN0SL5FM013P:00000002, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-24 09:58:34.364 +03:00 [INF] requestId: 0HN0SL5FM013P:00000002, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-24 09:58:34.366 +03:00 [INF] requestId: 0HN0SL5FM013P:00000002, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-24 09:58:34.367 +03:00 [INF] requestId: 0HN0SL5FM013P:00000002, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-24 09:58:34.367 +03:00 [DBG] requestId: 0HN0SL5FM013P:00000002, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-24 09:58:34.426 +03:00 [INF] requestId: 0HN0SL5FM013P:00000002, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Category
+2024-01-24 09:58:34.426 +03:00 [DBG] requestId: 0HN0SL5FM013P:00000002, previousRequestId: no previous request id, message: setting http response message
+2024-01-24 09:58:34.426 +03:00 [DBG] requestId: 0HN0SL5FM013P:00000002, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-24 09:58:34.426 +03:00 [DBG] requestId: 0HN0SL5FM013P:00000002, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-24 09:58:34.427 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 64 - 200 0 - 64.1083ms
+2024-01-24 09:58:34.428 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 64
+2024-01-24 09:58:34.428 +03:00 [DBG] requestId: 0HN0SL5FM013P:00000003, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-24 09:58:34.428 +03:00 [DBG] requestId: 0HN0SL5FM013P:00000003, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-24 09:58:34.428 +03:00 [DBG] requestId: 0HN0SL5FM013P:00000003, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-24 09:58:34.429 +03:00 [INF] requestId: 0HN0SL5FM013P:00000003, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-24 09:58:34.430 +03:00 [INF] requestId: 0HN0SL5FM013P:00000003, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-24 09:58:34.432 +03:00 [INF] requestId: 0HN0SL5FM013P:00000003, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-24 09:58:34.432 +03:00 [DBG] requestId: 0HN0SL5FM013P:00000003, previousRequestId: no previous request id, message: Downstream url is https://localhost:5001/api/Category
+2024-01-24 09:58:38.526 +03:00 [DBG] requestId: 0HN0SL5FM013P:00000003, previousRequestId: no previous request id, message: IHttpRequester returned an error, setting pipeline error
+2024-01-24 09:58:38.528 +03:00 [WRN] requestId: 0HN0SL5FM013P:00000003, previousRequestId: no previous request id, message: Error Code: ConnectionToDownstreamServiceError Message: Error connecting to downstream service, exception: System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:5001)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Ocelot.Requester.HttpClientHttpRequester.GetResponse(HttpContext httpContext) errors found in ResponderMiddleware. Setting error response for request path:/ocelot/api/category, request method: POST
+2024-01-24 09:58:38.528 +03:00 [DBG] requestId: 0HN0SL5FM013P:00000003, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-24 09:58:38.529 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 64 - 502 0 - 4100.5917ms
+2024-01-24 09:59:22.494 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 64
+2024-01-24 09:59:22.494 +03:00 [DBG] requestId: 0HN0SL5FM013Q:00000002, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-24 09:59:22.494 +03:00 [DBG] requestId: 0HN0SL5FM013Q:00000002, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-24 09:59:22.494 +03:00 [DBG] requestId: 0HN0SL5FM013Q:00000002, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-24 09:59:22.497 +03:00 [INF] requestId: 0HN0SL5FM013Q:00000002, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-24 09:59:22.499 +03:00 [INF] requestId: 0HN0SL5FM013Q:00000002, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-24 09:59:22.500 +03:00 [INF] requestId: 0HN0SL5FM013Q:00000002, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-24 09:59:22.500 +03:00 [DBG] requestId: 0HN0SL5FM013Q:00000002, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-24 09:59:22.539 +03:00 [INF] requestId: 0HN0SL5FM013Q:00000002, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Category
+2024-01-24 09:59:22.539 +03:00 [DBG] requestId: 0HN0SL5FM013Q:00000002, previousRequestId: no previous request id, message: setting http response message
+2024-01-24 09:59:22.539 +03:00 [DBG] requestId: 0HN0SL5FM013Q:00000002, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-24 09:59:22.540 +03:00 [DBG] requestId: 0HN0SL5FM013Q:00000002, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-24 09:59:22.540 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 64 - 200 0 - 45.7153ms
+2024-01-24 09:59:22.542 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 64
+2024-01-24 09:59:22.542 +03:00 [DBG] requestId: 0HN0SL5FM013Q:00000003, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-24 09:59:22.542 +03:00 [DBG] requestId: 0HN0SL5FM013Q:00000003, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-24 09:59:22.542 +03:00 [DBG] requestId: 0HN0SL5FM013Q:00000003, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-24 09:59:22.546 +03:00 [INF] requestId: 0HN0SL5FM013Q:00000003, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-24 09:59:22.547 +03:00 [INF] requestId: 0HN0SL5FM013Q:00000003, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-24 09:59:22.548 +03:00 [INF] requestId: 0HN0SL5FM013Q:00000003, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-24 09:59:22.548 +03:00 [DBG] requestId: 0HN0SL5FM013Q:00000003, previousRequestId: no previous request id, message: Downstream url is https://localhost:5001/api/Category
+2024-01-24 09:59:26.647 +03:00 [DBG] requestId: 0HN0SL5FM013Q:00000003, previousRequestId: no previous request id, message: IHttpRequester returned an error, setting pipeline error
+2024-01-24 09:59:26.651 +03:00 [WRN] requestId: 0HN0SL5FM013Q:00000003, previousRequestId: no previous request id, message: Error Code: ConnectionToDownstreamServiceError Message: Error connecting to downstream service, exception: System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:5001)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Ocelot.Requester.HttpClientHttpRequester.GetResponse(HttpContext httpContext) errors found in ResponderMiddleware. Setting error response for request path:/ocelot/api/category, request method: POST
+2024-01-24 09:59:26.651 +03:00 [DBG] requestId: 0HN0SL5FM013Q:00000003, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-24 09:59:26.651 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 64 - 502 0 - 4108.2808ms
+2024-01-24 09:59:27.666 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 64
+2024-01-24 09:59:27.666 +03:00 [DBG] requestId: 0HN0SL5FM013R:00000002, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-24 09:59:27.667 +03:00 [DBG] requestId: 0HN0SL5FM013R:00000002, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-24 09:59:27.667 +03:00 [DBG] requestId: 0HN0SL5FM013R:00000002, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-24 09:59:27.668 +03:00 [INF] requestId: 0HN0SL5FM013R:00000002, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-24 09:59:27.669 +03:00 [INF] requestId: 0HN0SL5FM013R:00000002, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-24 09:59:27.671 +03:00 [INF] requestId: 0HN0SL5FM013R:00000002, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-24 09:59:27.671 +03:00 [DBG] requestId: 0HN0SL5FM013R:00000002, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-24 09:59:27.705 +03:00 [INF] requestId: 0HN0SL5FM013R:00000002, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Category
+2024-01-24 09:59:27.705 +03:00 [DBG] requestId: 0HN0SL5FM013R:00000002, previousRequestId: no previous request id, message: setting http response message
+2024-01-24 09:59:27.705 +03:00 [DBG] requestId: 0HN0SL5FM013R:00000002, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-24 09:59:27.705 +03:00 [DBG] requestId: 0HN0SL5FM013R:00000002, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-24 09:59:27.705 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 64 - 200 0 - 38.9053ms
+2024-01-24 09:59:27.707 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 64
+2024-01-24 09:59:27.708 +03:00 [DBG] requestId: 0HN0SL5FM013R:00000003, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-24 09:59:27.708 +03:00 [DBG] requestId: 0HN0SL5FM013R:00000003, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-24 09:59:27.708 +03:00 [DBG] requestId: 0HN0SL5FM013R:00000003, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-24 09:59:27.711 +03:00 [INF] requestId: 0HN0SL5FM013R:00000003, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-24 09:59:27.713 +03:00 [INF] requestId: 0HN0SL5FM013R:00000003, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-24 09:59:27.714 +03:00 [INF] requestId: 0HN0SL5FM013R:00000003, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-24 09:59:27.714 +03:00 [DBG] requestId: 0HN0SL5FM013R:00000003, previousRequestId: no previous request id, message: Downstream url is https://localhost:5001/api/Category
+2024-01-24 09:59:29.757 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 64
+2024-01-24 09:59:29.757 +03:00 [DBG] requestId: 0HN0SL5FM013S:00000002, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-24 09:59:29.757 +03:00 [DBG] requestId: 0HN0SL5FM013S:00000002, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-24 09:59:29.757 +03:00 [DBG] requestId: 0HN0SL5FM013S:00000002, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-24 09:59:29.759 +03:00 [INF] requestId: 0HN0SL5FM013S:00000002, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-24 09:59:29.761 +03:00 [INF] requestId: 0HN0SL5FM013S:00000002, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-24 09:59:29.762 +03:00 [INF] requestId: 0HN0SL5FM013S:00000002, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-24 09:59:29.762 +03:00 [DBG] requestId: 0HN0SL5FM013S:00000002, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-24 09:59:29.800 +03:00 [INF] requestId: 0HN0SL5FM013S:00000002, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Category
+2024-01-24 09:59:29.800 +03:00 [DBG] requestId: 0HN0SL5FM013S:00000002, previousRequestId: no previous request id, message: setting http response message
+2024-01-24 09:59:29.800 +03:00 [DBG] requestId: 0HN0SL5FM013S:00000002, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-24 09:59:29.800 +03:00 [DBG] requestId: 0HN0SL5FM013S:00000002, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-24 09:59:29.800 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 64 - 200 0 - 43.6281ms
+2024-01-24 09:59:29.801 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 64
+2024-01-24 09:59:29.801 +03:00 [DBG] requestId: 0HN0SL5FM013S:00000003, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-24 09:59:29.801 +03:00 [DBG] requestId: 0HN0SL5FM013S:00000003, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-24 09:59:29.801 +03:00 [DBG] requestId: 0HN0SL5FM013S:00000003, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-24 09:59:29.803 +03:00 [INF] requestId: 0HN0SL5FM013S:00000003, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-24 09:59:29.804 +03:00 [INF] requestId: 0HN0SL5FM013S:00000003, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-24 09:59:29.806 +03:00 [INF] requestId: 0HN0SL5FM013S:00000003, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-24 09:59:29.806 +03:00 [DBG] requestId: 0HN0SL5FM013S:00000003, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-24 09:59:29.853 +03:00 [INF] requestId: 0HN0SL5FM013S:00000003, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Category
+2024-01-24 09:59:29.853 +03:00 [DBG] requestId: 0HN0SL5FM013S:00000003, previousRequestId: no previous request id, message: setting http response message
+2024-01-24 09:59:29.853 +03:00 [DBG] requestId: 0HN0SL5FM013S:00000003, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-24 09:59:29.853 +03:00 [DBG] requestId: 0HN0SL5FM013S:00000003, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-24 09:59:29.853 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 64 - 200 0 - 51.8211ms
+2024-01-24 09:59:31.813 +03:00 [DBG] requestId: 0HN0SL5FM013R:00000003, previousRequestId: no previous request id, message: IHttpRequester returned an error, setting pipeline error
+2024-01-24 09:59:31.815 +03:00 [WRN] requestId: 0HN0SL5FM013R:00000003, previousRequestId: no previous request id, message: Error Code: ConnectionToDownstreamServiceError Message: Error connecting to downstream service, exception: System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:5001)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Ocelot.Requester.HttpClientHttpRequester.GetResponse(HttpContext httpContext) errors found in ResponderMiddleware. Setting error response for request path:/ocelot/api/category, request method: POST
+2024-01-24 09:59:31.815 +03:00 [DBG] requestId: 0HN0SL5FM013R:00000003, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-24 09:59:31.815 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 64 - 502 0 - 4107.4427ms
+2024-01-24 10:00:39.534 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 64
+2024-01-24 10:00:39.534 +03:00 [DBG] requestId: 0HN0SL5FM013T:00000002, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-24 10:00:39.534 +03:00 [DBG] requestId: 0HN0SL5FM013T:00000002, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-24 10:00:39.534 +03:00 [DBG] requestId: 0HN0SL5FM013T:00000002, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-24 10:00:39.541 +03:00 [INF] requestId: 0HN0SL5FM013T:00000002, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-24 10:00:39.543 +03:00 [INF] requestId: 0HN0SL5FM013T:00000002, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-24 10:00:39.545 +03:00 [INF] requestId: 0HN0SL5FM013T:00000002, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-24 10:00:39.545 +03:00 [DBG] requestId: 0HN0SL5FM013T:00000002, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-24 10:00:39.597 +03:00 [INF] requestId: 0HN0SL5FM013T:00000002, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Category
+2024-01-24 10:00:39.597 +03:00 [DBG] requestId: 0HN0SL5FM013T:00000002, previousRequestId: no previous request id, message: setting http response message
+2024-01-24 10:00:39.597 +03:00 [DBG] requestId: 0HN0SL5FM013T:00000002, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-24 10:00:39.597 +03:00 [DBG] requestId: 0HN0SL5FM013T:00000002, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-24 10:00:39.598 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 64 - 200 0 - 63.8486ms
+2024-01-24 10:00:39.599 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 64
+2024-01-24 10:00:39.599 +03:00 [DBG] requestId: 0HN0SL5FM013T:00000003, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-24 10:00:39.599 +03:00 [DBG] requestId: 0HN0SL5FM013T:00000003, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-24 10:00:39.599 +03:00 [DBG] requestId: 0HN0SL5FM013T:00000003, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-24 10:00:39.602 +03:00 [INF] requestId: 0HN0SL5FM013T:00000003, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-24 10:00:39.604 +03:00 [INF] requestId: 0HN0SL5FM013T:00000003, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-24 10:00:39.606 +03:00 [INF] requestId: 0HN0SL5FM013T:00000003, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-24 10:00:39.606 +03:00 [DBG] requestId: 0HN0SL5FM013T:00000003, previousRequestId: no previous request id, message: Downstream url is https://localhost:5001/api/Category
+2024-01-24 10:00:40.899 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 64
+2024-01-24 10:00:40.899 +03:00 [DBG] requestId: 0HN0SL5FM013U:00000002, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-24 10:00:40.899 +03:00 [DBG] requestId: 0HN0SL5FM013U:00000002, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-24 10:00:40.899 +03:00 [DBG] requestId: 0HN0SL5FM013U:00000002, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-24 10:00:40.901 +03:00 [INF] requestId: 0HN0SL5FM013U:00000002, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-24 10:00:40.903 +03:00 [INF] requestId: 0HN0SL5FM013U:00000002, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-24 10:00:40.905 +03:00 [INF] requestId: 0HN0SL5FM013U:00000002, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-24 10:00:40.905 +03:00 [DBG] requestId: 0HN0SL5FM013U:00000002, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-24 10:00:40.936 +03:00 [INF] requestId: 0HN0SL5FM013U:00000002, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Category
+2024-01-24 10:00:40.936 +03:00 [DBG] requestId: 0HN0SL5FM013U:00000002, previousRequestId: no previous request id, message: setting http response message
+2024-01-24 10:00:40.936 +03:00 [DBG] requestId: 0HN0SL5FM013U:00000002, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-24 10:00:40.936 +03:00 [DBG] requestId: 0HN0SL5FM013U:00000002, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-24 10:00:40.936 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 64 - 200 0 - 37.3496ms
+2024-01-24 10:00:40.938 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 64
+2024-01-24 10:00:40.938 +03:00 [DBG] requestId: 0HN0SL5FM013U:00000003, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-24 10:00:40.938 +03:00 [DBG] requestId: 0HN0SL5FM013U:00000003, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-24 10:00:40.938 +03:00 [DBG] requestId: 0HN0SL5FM013U:00000003, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-24 10:00:40.939 +03:00 [INF] requestId: 0HN0SL5FM013U:00000003, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-24 10:00:40.941 +03:00 [INF] requestId: 0HN0SL5FM013U:00000003, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-24 10:00:40.942 +03:00 [INF] requestId: 0HN0SL5FM013U:00000003, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-24 10:00:40.942 +03:00 [DBG] requestId: 0HN0SL5FM013U:00000003, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-24 10:00:40.970 +03:00 [INF] requestId: 0HN0SL5FM013U:00000003, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Category
+2024-01-24 10:00:40.970 +03:00 [DBG] requestId: 0HN0SL5FM013U:00000003, previousRequestId: no previous request id, message: setting http response message
+2024-01-24 10:00:40.970 +03:00 [DBG] requestId: 0HN0SL5FM013U:00000003, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-24 10:00:40.970 +03:00 [DBG] requestId: 0HN0SL5FM013U:00000003, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-24 10:00:40.970 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 64 - 200 0 - 32.3325ms
+2024-01-24 10:00:43.685 +03:00 [DBG] requestId: 0HN0SL5FM013T:00000003, previousRequestId: no previous request id, message: IHttpRequester returned an error, setting pipeline error
+2024-01-24 10:00:43.687 +03:00 [WRN] requestId: 0HN0SL5FM013T:00000003, previousRequestId: no previous request id, message: Error Code: ConnectionToDownstreamServiceError Message: Error connecting to downstream service, exception: System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:5001)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Ocelot.Requester.HttpClientHttpRequester.GetResponse(HttpContext httpContext) errors found in ResponderMiddleware. Setting error response for request path:/ocelot/api/category, request method: POST
+2024-01-24 10:00:43.687 +03:00 [DBG] requestId: 0HN0SL5FM013T:00000003, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-24 10:00:43.687 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 64 - 502 0 - 4087.8403ms
+2024-01-24 10:02:41.403 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 64
+2024-01-24 10:02:41.403 +03:00 [DBG] requestId: 0HN0SL5FM013V:00000002, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-24 10:02:41.403 +03:00 [DBG] requestId: 0HN0SL5FM013V:00000002, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-24 10:02:41.403 +03:00 [DBG] requestId: 0HN0SL5FM013V:00000002, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-24 10:02:41.405 +03:00 [INF] requestId: 0HN0SL5FM013V:00000002, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-24 10:02:41.406 +03:00 [INF] requestId: 0HN0SL5FM013V:00000002, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-24 10:02:41.407 +03:00 [INF] requestId: 0HN0SL5FM013V:00000002, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-24 10:02:41.408 +03:00 [DBG] requestId: 0HN0SL5FM013V:00000002, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-24 10:02:41.460 +03:00 [INF] requestId: 0HN0SL5FM013V:00000002, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Category
+2024-01-24 10:02:41.460 +03:00 [DBG] requestId: 0HN0SL5FM013V:00000002, previousRequestId: no previous request id, message: setting http response message
+2024-01-24 10:02:41.460 +03:00 [DBG] requestId: 0HN0SL5FM013V:00000002, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-24 10:02:41.460 +03:00 [DBG] requestId: 0HN0SL5FM013V:00000002, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-24 10:02:41.460 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 64 - 200 0 - 57.3568ms
+2024-01-24 10:02:41.461 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 64
+2024-01-24 10:02:41.461 +03:00 [DBG] requestId: 0HN0SL5FM013V:00000003, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-24 10:02:41.461 +03:00 [DBG] requestId: 0HN0SL5FM013V:00000003, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-24 10:02:41.461 +03:00 [DBG] requestId: 0HN0SL5FM013V:00000003, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-24 10:02:41.463 +03:00 [INF] requestId: 0HN0SL5FM013V:00000003, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-24 10:02:41.464 +03:00 [INF] requestId: 0HN0SL5FM013V:00000003, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-24 10:02:41.465 +03:00 [INF] requestId: 0HN0SL5FM013V:00000003, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-24 10:02:41.465 +03:00 [DBG] requestId: 0HN0SL5FM013V:00000003, previousRequestId: no previous request id, message: Downstream url is https://localhost:5001/api/Category
+2024-01-24 10:02:45.480 +03:00 [DBG] requestId: 0HN0SL5FM013V:00000003, previousRequestId: no previous request id, message: IHttpRequester returned an error, setting pipeline error
+2024-01-24 10:02:45.483 +03:00 [WRN] requestId: 0HN0SL5FM013V:00000003, previousRequestId: no previous request id, message: Error Code: ConnectionToDownstreamServiceError Message: Error connecting to downstream service, exception: System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:5001)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Ocelot.Requester.HttpClientHttpRequester.GetResponse(HttpContext httpContext) errors found in ResponderMiddleware. Setting error response for request path:/ocelot/api/category, request method: POST
+2024-01-24 10:02:45.483 +03:00 [DBG] requestId: 0HN0SL5FM013V:00000003, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-24 10:02:45.483 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 64 - 502 0 - 4021.6134ms
+2024-01-24 10:02:49.109 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 64
+2024-01-24 10:02:49.113 +03:00 [DBG] requestId: 0HN0SL5FM0140:00000002, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-24 10:02:49.113 +03:00 [DBG] requestId: 0HN0SL5FM0140:00000002, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-24 10:02:49.113 +03:00 [DBG] requestId: 0HN0SL5FM0140:00000002, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-24 10:02:49.118 +03:00 [INF] requestId: 0HN0SL5FM0140:00000002, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-24 10:02:49.120 +03:00 [INF] requestId: 0HN0SL5FM0140:00000002, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-24 10:02:49.123 +03:00 [INF] requestId: 0HN0SL5FM0140:00000002, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-24 10:02:49.123 +03:00 [DBG] requestId: 0HN0SL5FM0140:00000002, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-24 10:02:49.190 +03:00 [INF] requestId: 0HN0SL5FM0140:00000002, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Category
+2024-01-24 10:02:49.190 +03:00 [DBG] requestId: 0HN0SL5FM0140:00000002, previousRequestId: no previous request id, message: setting http response message
+2024-01-24 10:02:49.190 +03:00 [DBG] requestId: 0HN0SL5FM0140:00000002, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-24 10:02:49.190 +03:00 [DBG] requestId: 0HN0SL5FM0140:00000002, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-24 10:02:49.191 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 64 - 200 0 - 81.1934ms
+2024-01-24 10:02:49.192 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 64
+2024-01-24 10:02:49.192 +03:00 [DBG] requestId: 0HN0SL5FM0140:00000003, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-24 10:02:49.192 +03:00 [DBG] requestId: 0HN0SL5FM0140:00000003, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-24 10:02:49.192 +03:00 [DBG] requestId: 0HN0SL5FM0140:00000003, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-24 10:02:49.194 +03:00 [INF] requestId: 0HN0SL5FM0140:00000003, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-24 10:02:49.196 +03:00 [INF] requestId: 0HN0SL5FM0140:00000003, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-24 10:02:49.197 +03:00 [INF] requestId: 0HN0SL5FM0140:00000003, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-24 10:02:49.197 +03:00 [DBG] requestId: 0HN0SL5FM0140:00000003, previousRequestId: no previous request id, message: Downstream url is https://localhost:5001/api/Category
+2024-01-24 10:02:53.212 +03:00 [DBG] requestId: 0HN0SL5FM0140:00000003, previousRequestId: no previous request id, message: IHttpRequester returned an error, setting pipeline error
+2024-01-24 10:02:53.214 +03:00 [WRN] requestId: 0HN0SL5FM0140:00000003, previousRequestId: no previous request id, message: Error Code: ConnectionToDownstreamServiceError Message: Error connecting to downstream service, exception: System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:5001)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Ocelot.Requester.HttpClientHttpRequester.GetResponse(HttpContext httpContext) errors found in ResponderMiddleware. Setting error response for request path:/ocelot/api/category, request method: POST
+2024-01-24 10:02:53.214 +03:00 [DBG] requestId: 0HN0SL5FM0140:00000003, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-24 10:02:53.215 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 64 - 502 0 - 4022.4076ms
+2024-01-24 10:03:25.804 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 64
+2024-01-24 10:03:25.804 +03:00 [DBG] requestId: 0HN0SL5FM0141:00000002, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-24 10:03:25.804 +03:00 [DBG] requestId: 0HN0SL5FM0141:00000002, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-24 10:03:25.804 +03:00 [DBG] requestId: 0HN0SL5FM0141:00000002, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-24 10:03:25.806 +03:00 [INF] requestId: 0HN0SL5FM0141:00000002, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-24 10:03:25.808 +03:00 [INF] requestId: 0HN0SL5FM0141:00000002, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-24 10:03:25.810 +03:00 [INF] requestId: 0HN0SL5FM0141:00000002, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-24 10:03:25.810 +03:00 [DBG] requestId: 0HN0SL5FM0141:00000002, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-24 10:03:25.861 +03:00 [INF] requestId: 0HN0SL5FM0141:00000002, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Category
+2024-01-24 10:03:25.861 +03:00 [DBG] requestId: 0HN0SL5FM0141:00000002, previousRequestId: no previous request id, message: setting http response message
+2024-01-24 10:03:25.861 +03:00 [DBG] requestId: 0HN0SL5FM0141:00000002, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-24 10:03:25.861 +03:00 [DBG] requestId: 0HN0SL5FM0141:00000002, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-24 10:03:25.861 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 64 - 200 0 - 57.4572ms
+2024-01-24 10:03:25.862 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 64
+2024-01-24 10:03:25.862 +03:00 [DBG] requestId: 0HN0SL5FM0141:00000003, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-24 10:03:25.862 +03:00 [DBG] requestId: 0HN0SL5FM0141:00000003, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-24 10:03:25.863 +03:00 [DBG] requestId: 0HN0SL5FM0141:00000003, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-24 10:03:25.864 +03:00 [INF] requestId: 0HN0SL5FM0141:00000003, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-24 10:03:25.865 +03:00 [INF] requestId: 0HN0SL5FM0141:00000003, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-24 10:03:25.866 +03:00 [INF] requestId: 0HN0SL5FM0141:00000003, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-24 10:03:25.866 +03:00 [DBG] requestId: 0HN0SL5FM0141:00000003, previousRequestId: no previous request id, message: Downstream url is https://localhost:5001/api/Category
+2024-01-24 10:03:27.738 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 64
+2024-01-24 10:03:27.739 +03:00 [DBG] requestId: 0HN0SL5FM0142:00000002, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-24 10:03:27.739 +03:00 [DBG] requestId: 0HN0SL5FM0142:00000002, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-24 10:03:27.739 +03:00 [DBG] requestId: 0HN0SL5FM0142:00000002, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-24 10:03:27.741 +03:00 [INF] requestId: 0HN0SL5FM0142:00000002, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-24 10:03:27.744 +03:00 [INF] requestId: 0HN0SL5FM0142:00000002, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-24 10:03:27.745 +03:00 [INF] requestId: 0HN0SL5FM0142:00000002, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-24 10:03:27.746 +03:00 [DBG] requestId: 0HN0SL5FM0142:00000002, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-24 10:03:27.791 +03:00 [INF] requestId: 0HN0SL5FM0142:00000002, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Category
+2024-01-24 10:03:27.791 +03:00 [DBG] requestId: 0HN0SL5FM0142:00000002, previousRequestId: no previous request id, message: setting http response message
+2024-01-24 10:03:27.791 +03:00 [DBG] requestId: 0HN0SL5FM0142:00000002, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-24 10:03:27.791 +03:00 [DBG] requestId: 0HN0SL5FM0142:00000002, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-24 10:03:27.791 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 64 - 200 0 - 52.7101ms
+2024-01-24 10:03:27.792 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 64
+2024-01-24 10:03:27.792 +03:00 [DBG] requestId: 0HN0SL5FM0142:00000003, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-24 10:03:27.792 +03:00 [DBG] requestId: 0HN0SL5FM0142:00000003, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-24 10:03:27.792 +03:00 [DBG] requestId: 0HN0SL5FM0142:00000003, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-24 10:03:27.794 +03:00 [INF] requestId: 0HN0SL5FM0142:00000003, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-24 10:03:27.795 +03:00 [INF] requestId: 0HN0SL5FM0142:00000003, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-24 10:03:27.796 +03:00 [INF] requestId: 0HN0SL5FM0142:00000003, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-24 10:03:27.796 +03:00 [DBG] requestId: 0HN0SL5FM0142:00000003, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-24 10:03:27.851 +03:00 [INF] requestId: 0HN0SL5FM0142:00000003, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Category
+2024-01-24 10:03:27.851 +03:00 [DBG] requestId: 0HN0SL5FM0142:00000003, previousRequestId: no previous request id, message: setting http response message
+2024-01-24 10:03:27.851 +03:00 [DBG] requestId: 0HN0SL5FM0142:00000003, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-24 10:03:27.851 +03:00 [DBG] requestId: 0HN0SL5FM0142:00000003, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-24 10:03:27.851 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 64 - 200 0 - 59.1685ms
+2024-01-24 10:03:28.575 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 64
+2024-01-24 10:03:28.575 +03:00 [DBG] requestId: 0HN0SL5FM0143:00000002, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-24 10:03:28.575 +03:00 [DBG] requestId: 0HN0SL5FM0143:00000002, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-24 10:03:28.575 +03:00 [DBG] requestId: 0HN0SL5FM0143:00000002, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-24 10:03:28.577 +03:00 [INF] requestId: 0HN0SL5FM0143:00000002, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-24 10:03:28.578 +03:00 [INF] requestId: 0HN0SL5FM0143:00000002, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-24 10:03:28.580 +03:00 [INF] requestId: 0HN0SL5FM0143:00000002, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-24 10:03:28.580 +03:00 [DBG] requestId: 0HN0SL5FM0143:00000002, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-24 10:03:28.628 +03:00 [INF] requestId: 0HN0SL5FM0143:00000002, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Category
+2024-01-24 10:03:28.628 +03:00 [DBG] requestId: 0HN0SL5FM0143:00000002, previousRequestId: no previous request id, message: setting http response message
+2024-01-24 10:03:28.628 +03:00 [DBG] requestId: 0HN0SL5FM0143:00000002, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-24 10:03:28.628 +03:00 [DBG] requestId: 0HN0SL5FM0143:00000002, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-24 10:03:28.629 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 64 - 200 0 - 53.7093ms
+2024-01-24 10:03:28.630 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 64
+2024-01-24 10:03:28.630 +03:00 [DBG] requestId: 0HN0SL5FM0143:00000003, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-24 10:03:28.630 +03:00 [DBG] requestId: 0HN0SL5FM0143:00000003, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-24 10:03:28.630 +03:00 [DBG] requestId: 0HN0SL5FM0143:00000003, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-24 10:03:28.632 +03:00 [INF] requestId: 0HN0SL5FM0143:00000003, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-24 10:03:28.634 +03:00 [INF] requestId: 0HN0SL5FM0143:00000003, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-24 10:03:28.635 +03:00 [INF] requestId: 0HN0SL5FM0143:00000003, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-24 10:03:28.635 +03:00 [DBG] requestId: 0HN0SL5FM0143:00000003, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-24 10:03:28.727 +03:00 [INF] requestId: 0HN0SL5FM0143:00000003, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Category
+2024-01-24 10:03:28.727 +03:00 [DBG] requestId: 0HN0SL5FM0143:00000003, previousRequestId: no previous request id, message: setting http response message
+2024-01-24 10:03:28.727 +03:00 [DBG] requestId: 0HN0SL5FM0143:00000003, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-24 10:03:28.727 +03:00 [DBG] requestId: 0HN0SL5FM0143:00000003, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-24 10:03:28.728 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 64 - 200 0 - 97.6947ms
+2024-01-24 10:03:28.997 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 64
+2024-01-24 10:03:28.997 +03:00 [DBG] requestId: 0HN0SL5FM0144:00000002, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-24 10:03:28.997 +03:00 [DBG] requestId: 0HN0SL5FM0144:00000002, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-24 10:03:28.998 +03:00 [DBG] requestId: 0HN0SL5FM0144:00000002, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-24 10:03:28.999 +03:00 [INF] requestId: 0HN0SL5FM0144:00000002, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-24 10:03:29.000 +03:00 [INF] requestId: 0HN0SL5FM0144:00000002, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-24 10:03:29.002 +03:00 [INF] requestId: 0HN0SL5FM0144:00000002, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-24 10:03:29.002 +03:00 [DBG] requestId: 0HN0SL5FM0144:00000002, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-24 10:03:29.041 +03:00 [INF] requestId: 0HN0SL5FM0144:00000002, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Category
+2024-01-24 10:03:29.041 +03:00 [DBG] requestId: 0HN0SL5FM0144:00000002, previousRequestId: no previous request id, message: setting http response message
+2024-01-24 10:03:29.041 +03:00 [DBG] requestId: 0HN0SL5FM0144:00000002, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-24 10:03:29.041 +03:00 [DBG] requestId: 0HN0SL5FM0144:00000002, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-24 10:03:29.041 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 64 - 200 0 - 44.1369ms
+2024-01-24 10:03:29.043 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 64
+2024-01-24 10:03:29.043 +03:00 [DBG] requestId: 0HN0SL5FM0144:00000003, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-24 10:03:29.043 +03:00 [DBG] requestId: 0HN0SL5FM0144:00000003, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-24 10:03:29.043 +03:00 [DBG] requestId: 0HN0SL5FM0144:00000003, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-24 10:03:29.045 +03:00 [INF] requestId: 0HN0SL5FM0144:00000003, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-24 10:03:29.046 +03:00 [INF] requestId: 0HN0SL5FM0144:00000003, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-24 10:03:29.047 +03:00 [INF] requestId: 0HN0SL5FM0144:00000003, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-24 10:03:29.047 +03:00 [DBG] requestId: 0HN0SL5FM0144:00000003, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-24 10:03:29.092 +03:00 [INF] requestId: 0HN0SL5FM0144:00000003, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Category
+2024-01-24 10:03:29.092 +03:00 [DBG] requestId: 0HN0SL5FM0144:00000003, previousRequestId: no previous request id, message: setting http response message
+2024-01-24 10:03:29.092 +03:00 [DBG] requestId: 0HN0SL5FM0144:00000003, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-24 10:03:29.092 +03:00 [DBG] requestId: 0HN0SL5FM0144:00000003, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-24 10:03:29.092 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 64 - 200 0 - 49.6132ms
+2024-01-24 10:03:29.883 +03:00 [DBG] requestId: 0HN0SL5FM0141:00000003, previousRequestId: no previous request id, message: IHttpRequester returned an error, setting pipeline error
+2024-01-24 10:03:29.885 +03:00 [WRN] requestId: 0HN0SL5FM0141:00000003, previousRequestId: no previous request id, message: Error Code: ConnectionToDownstreamServiceError Message: Error connecting to downstream service, exception: System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:5001)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Ocelot.Requester.HttpClientHttpRequester.GetResponse(HttpContext httpContext) errors found in ResponderMiddleware. Setting error response for request path:/ocelot/api/category, request method: POST
+2024-01-24 10:03:29.885 +03:00 [DBG] requestId: 0HN0SL5FM0141:00000003, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-24 10:03:29.885 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 64 - 502 0 - 4022.7599ms
+2024-01-24 13:22:00.159 +03:00 [INF] User profile is available. Using 'C:\Users\muhammed.durus\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-24 13:22:00.768 +03:00 [INF] Now listening on: https://localhost:7267
+2024-01-24 13:22:00.782 +03:00 [INF] Now listening on: http://localhost:5267
+2024-01-24 13:22:00.796 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-24 13:22:00.799 +03:00 [INF] Hosting environment: Development
+2024-01-24 13:22:00.801 +03:00 [INF] Content root path: C:\Users\muhammed.durus\Desktop\Eğitim ve Dökümanlar\DemoMicroservices\OcelotApiGateway\
+2024-01-24 13:22:01.552 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/swagger/index.html - -
+2024-01-24 13:22:01.972 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/_vs/browserLink - -
+2024-01-24 13:22:01.972 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/_framework/aspnetcore-browser-refresh.js - -
+2024-01-24 13:22:01.975 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/swagger/index.html - - - 200 - text/html;charset=utf-8 434.0650ms
+2024-01-24 13:22:01.985 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 12.6605ms
+2024-01-24 13:22:02.046 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 74.0466ms
+2024-01-24 13:22:02.118 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/swagger/v1/swagger.json - -
+2024-01-24 13:22:02.268 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 150.0485ms
+2024-01-24 13:22:41.383 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 54
+2024-01-24 13:22:41.473 +03:00 [DBG] requestId: 0HN0SOP6PM970:00000002, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-24 13:22:41.480 +03:00 [DBG] requestId: 0HN0SOP6PM970:00000002, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-24 13:22:41.488 +03:00 [DBG] requestId: 0HN0SOP6PM970:00000002, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-24 13:22:41.540 +03:00 [INF] requestId: 0HN0SOP6PM970:00000002, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-24 13:22:41.555 +03:00 [INF] requestId: 0HN0SOP6PM970:00000002, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-24 13:22:41.561 +03:00 [INF] requestId: 0HN0SOP6PM970:00000002, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-24 13:22:41.583 +03:00 [DBG] requestId: 0HN0SOP6PM970:00000002, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-24 13:22:42.592 +03:00 [INF] requestId: 0HN0SOP6PM970:00000002, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Category
+2024-01-24 13:22:42.592 +03:00 [DBG] requestId: 0HN0SOP6PM970:00000002, previousRequestId: no previous request id, message: setting http response message
+2024-01-24 13:22:42.608 +03:00 [DBG] requestId: 0HN0SOP6PM970:00000002, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-24 13:22:42.612 +03:00 [DBG] requestId: 0HN0SOP6PM970:00000002, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-24 13:22:42.618 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 54 - 200 0 - 1234.9458ms
+2024-01-24 13:22:42.626 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 54
+2024-01-24 13:22:42.628 +03:00 [DBG] requestId: 0HN0SOP6PM970:00000003, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-24 13:22:42.629 +03:00 [DBG] requestId: 0HN0SOP6PM970:00000003, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-24 13:22:42.629 +03:00 [DBG] requestId: 0HN0SOP6PM970:00000003, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-24 13:22:42.635 +03:00 [INF] requestId: 0HN0SOP6PM970:00000003, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-24 13:22:42.636 +03:00 [INF] requestId: 0HN0SOP6PM970:00000003, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-24 13:22:42.637 +03:00 [INF] requestId: 0HN0SOP6PM970:00000003, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-24 13:22:42.638 +03:00 [DBG] requestId: 0HN0SOP6PM970:00000003, previousRequestId: no previous request id, message: Downstream url is https://localhost:5001/api/Category
+2024-01-24 13:22:46.751 +03:00 [DBG] requestId: 0HN0SOP6PM970:00000003, previousRequestId: no previous request id, message: IHttpRequester returned an error, setting pipeline error
+2024-01-24 13:22:46.761 +03:00 [WRN] requestId: 0HN0SOP6PM970:00000003, previousRequestId: no previous request id, message: Error Code: ConnectionToDownstreamServiceError Message: Error connecting to downstream service, exception: System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:5001)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Ocelot.Requester.HttpClientHttpRequester.GetResponse(HttpContext httpContext) errors found in ResponderMiddleware. Setting error response for request path:/ocelot/api/category, request method: POST
+2024-01-24 13:22:46.764 +03:00 [DBG] requestId: 0HN0SOP6PM970:00000003, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-24 13:22:46.764 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 54 - 502 0 - 4137.9789ms
+2024-01-24 13:22:48.845 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 54
+2024-01-24 13:22:48.846 +03:00 [DBG] requestId: 0HN0SOP6PM971:00000002, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-24 13:22:48.846 +03:00 [DBG] requestId: 0HN0SOP6PM971:00000002, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-24 13:22:48.846 +03:00 [DBG] requestId: 0HN0SOP6PM971:00000002, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-24 13:22:48.849 +03:00 [INF] requestId: 0HN0SOP6PM971:00000002, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-24 13:22:48.851 +03:00 [INF] requestId: 0HN0SOP6PM971:00000002, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-24 13:22:48.853 +03:00 [INF] requestId: 0HN0SOP6PM971:00000002, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-24 13:22:48.853 +03:00 [DBG] requestId: 0HN0SOP6PM971:00000002, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-24 13:22:48.959 +03:00 [INF] requestId: 0HN0SOP6PM971:00000002, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Category
+2024-01-24 13:22:48.959 +03:00 [DBG] requestId: 0HN0SOP6PM971:00000002, previousRequestId: no previous request id, message: setting http response message
+2024-01-24 13:22:48.960 +03:00 [DBG] requestId: 0HN0SOP6PM971:00000002, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-24 13:22:48.960 +03:00 [DBG] requestId: 0HN0SOP6PM971:00000002, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-24 13:22:48.960 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 54 - 200 0 - 115.6364ms
+2024-01-24 13:22:48.961 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 54
+2024-01-24 13:22:48.962 +03:00 [DBG] requestId: 0HN0SOP6PM971:00000003, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-24 13:22:48.962 +03:00 [DBG] requestId: 0HN0SOP6PM971:00000003, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-24 13:22:48.962 +03:00 [DBG] requestId: 0HN0SOP6PM971:00000003, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-24 13:22:48.964 +03:00 [INF] requestId: 0HN0SOP6PM971:00000003, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-24 13:22:48.965 +03:00 [INF] requestId: 0HN0SOP6PM971:00000003, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-24 13:22:48.967 +03:00 [INF] requestId: 0HN0SOP6PM971:00000003, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-24 13:22:48.967 +03:00 [DBG] requestId: 0HN0SOP6PM971:00000003, previousRequestId: no previous request id, message: Downstream url is https://localhost:5001/api/Category
+2024-01-24 13:22:53.062 +03:00 [DBG] requestId: 0HN0SOP6PM971:00000003, previousRequestId: no previous request id, message: IHttpRequester returned an error, setting pipeline error
+2024-01-24 13:22:53.065 +03:00 [WRN] requestId: 0HN0SOP6PM971:00000003, previousRequestId: no previous request id, message: Error Code: ConnectionToDownstreamServiceError Message: Error connecting to downstream service, exception: System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:5001)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Ocelot.Requester.HttpClientHttpRequester.GetResponse(HttpContext httpContext) errors found in ResponderMiddleware. Setting error response for request path:/ocelot/api/category, request method: POST
+2024-01-24 13:22:53.065 +03:00 [DBG] requestId: 0HN0SOP6PM971:00000003, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-24 13:22:53.065 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 54 - 502 0 - 4103.1628ms
+2024-01-24 13:24:02.086 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 57
+2024-01-24 13:24:02.087 +03:00 [DBG] requestId: 0HN0SOP6PM972:00000002, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-24 13:24:02.087 +03:00 [DBG] requestId: 0HN0SOP6PM972:00000002, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-24 13:24:02.087 +03:00 [DBG] requestId: 0HN0SOP6PM972:00000002, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-24 13:24:02.089 +03:00 [INF] requestId: 0HN0SOP6PM972:00000002, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-24 13:24:02.091 +03:00 [INF] requestId: 0HN0SOP6PM972:00000002, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-24 13:24:02.093 +03:00 [INF] requestId: 0HN0SOP6PM972:00000002, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-24 13:24:02.093 +03:00 [DBG] requestId: 0HN0SOP6PM972:00000002, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-24 13:24:02.165 +03:00 [INF] requestId: 0HN0SOP6PM972:00000002, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Category
+2024-01-24 13:24:02.165 +03:00 [DBG] requestId: 0HN0SOP6PM972:00000002, previousRequestId: no previous request id, message: setting http response message
+2024-01-24 13:24:02.165 +03:00 [DBG] requestId: 0HN0SOP6PM972:00000002, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-24 13:24:02.165 +03:00 [DBG] requestId: 0HN0SOP6PM972:00000002, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-24 13:24:02.165 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 57 - 200 0 - 78.8626ms
+2024-01-24 13:24:02.167 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 57
+2024-01-24 13:24:02.167 +03:00 [DBG] requestId: 0HN0SOP6PM972:00000003, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-24 13:24:02.167 +03:00 [DBG] requestId: 0HN0SOP6PM972:00000003, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-24 13:24:02.167 +03:00 [DBG] requestId: 0HN0SOP6PM972:00000003, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-24 13:24:02.169 +03:00 [INF] requestId: 0HN0SOP6PM972:00000003, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-24 13:24:02.171 +03:00 [INF] requestId: 0HN0SOP6PM972:00000003, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-24 13:24:02.175 +03:00 [INF] requestId: 0HN0SOP6PM972:00000003, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-24 13:24:02.175 +03:00 [DBG] requestId: 0HN0SOP6PM972:00000003, previousRequestId: no previous request id, message: Downstream url is https://localhost:5001/api/Category
+2024-01-24 13:24:06.266 +03:00 [DBG] requestId: 0HN0SOP6PM972:00000003, previousRequestId: no previous request id, message: IHttpRequester returned an error, setting pipeline error
+2024-01-24 13:24:06.268 +03:00 [WRN] requestId: 0HN0SOP6PM972:00000003, previousRequestId: no previous request id, message: Error Code: ConnectionToDownstreamServiceError Message: Error connecting to downstream service, exception: System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:5001)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Ocelot.Requester.HttpClientHttpRequester.GetResponse(HttpContext httpContext) errors found in ResponderMiddleware. Setting error response for request path:/ocelot/api/category, request method: POST
+2024-01-24 13:24:06.268 +03:00 [DBG] requestId: 0HN0SOP6PM972:00000003, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-24 13:24:06.268 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 57 - 502 0 - 4100.9839ms
+2024-01-24 13:24:16.806 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 57
+2024-01-24 13:24:16.806 +03:00 [DBG] requestId: 0HN0SOP6PM973:00000002, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-24 13:24:16.806 +03:00 [DBG] requestId: 0HN0SOP6PM973:00000002, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-24 13:24:16.806 +03:00 [DBG] requestId: 0HN0SOP6PM973:00000002, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-24 13:24:16.808 +03:00 [INF] requestId: 0HN0SOP6PM973:00000002, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-24 13:24:16.809 +03:00 [INF] requestId: 0HN0SOP6PM973:00000002, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-24 13:24:16.810 +03:00 [INF] requestId: 0HN0SOP6PM973:00000002, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-24 13:24:16.811 +03:00 [DBG] requestId: 0HN0SOP6PM973:00000002, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-24 13:24:16.846 +03:00 [INF] requestId: 0HN0SOP6PM973:00000002, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Category
+2024-01-24 13:24:16.846 +03:00 [DBG] requestId: 0HN0SOP6PM973:00000002, previousRequestId: no previous request id, message: setting http response message
+2024-01-24 13:24:16.846 +03:00 [DBG] requestId: 0HN0SOP6PM973:00000002, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-24 13:24:16.846 +03:00 [DBG] requestId: 0HN0SOP6PM973:00000002, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-24 13:24:16.846 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 57 - 200 0 - 40.5529ms
+2024-01-24 13:24:16.848 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 57
+2024-01-24 13:24:16.848 +03:00 [DBG] requestId: 0HN0SOP6PM973:00000003, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-24 13:24:16.848 +03:00 [DBG] requestId: 0HN0SOP6PM973:00000003, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-24 13:24:16.848 +03:00 [DBG] requestId: 0HN0SOP6PM973:00000003, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-24 13:24:16.851 +03:00 [INF] requestId: 0HN0SOP6PM973:00000003, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-24 13:24:16.852 +03:00 [INF] requestId: 0HN0SOP6PM973:00000003, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-24 13:24:16.854 +03:00 [INF] requestId: 0HN0SOP6PM973:00000003, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-24 13:24:16.854 +03:00 [DBG] requestId: 0HN0SOP6PM973:00000003, previousRequestId: no previous request id, message: Downstream url is https://localhost:5001/api/Category
+2024-01-24 13:24:20.942 +03:00 [DBG] requestId: 0HN0SOP6PM973:00000003, previousRequestId: no previous request id, message: IHttpRequester returned an error, setting pipeline error
+2024-01-24 13:24:20.944 +03:00 [WRN] requestId: 0HN0SOP6PM973:00000003, previousRequestId: no previous request id, message: Error Code: ConnectionToDownstreamServiceError Message: Error connecting to downstream service, exception: System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:5001)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Ocelot.Requester.HttpClientHttpRequester.GetResponse(HttpContext httpContext) errors found in ResponderMiddleware. Setting error response for request path:/ocelot/api/category, request method: POST
+2024-01-24 13:24:20.944 +03:00 [DBG] requestId: 0HN0SOP6PM973:00000003, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-24 13:24:20.945 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 57 - 502 0 - 4096.6968ms
+2024-01-24 13:26:09.291 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 50
+2024-01-24 13:26:09.291 +03:00 [DBG] requestId: 0HN0SOP6PM974:00000002, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-24 13:26:09.291 +03:00 [DBG] requestId: 0HN0SOP6PM974:00000002, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-24 13:26:09.291 +03:00 [DBG] requestId: 0HN0SOP6PM974:00000002, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-24 13:26:09.292 +03:00 [INF] requestId: 0HN0SOP6PM974:00000002, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-24 13:26:09.294 +03:00 [INF] requestId: 0HN0SOP6PM974:00000002, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-24 13:26:09.295 +03:00 [INF] requestId: 0HN0SOP6PM974:00000002, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-24 13:26:09.295 +03:00 [DBG] requestId: 0HN0SOP6PM974:00000002, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-24 13:26:09.367 +03:00 [INF] requestId: 0HN0SOP6PM974:00000002, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Category
+2024-01-24 13:26:09.367 +03:00 [DBG] requestId: 0HN0SOP6PM974:00000002, previousRequestId: no previous request id, message: setting http response message
+2024-01-24 13:26:09.367 +03:00 [DBG] requestId: 0HN0SOP6PM974:00000002, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-24 13:26:09.367 +03:00 [DBG] requestId: 0HN0SOP6PM974:00000002, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-24 13:26:09.367 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 50 - 200 0 - 76.2086ms
+2024-01-24 13:26:09.368 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 50
+2024-01-24 13:26:09.368 +03:00 [DBG] requestId: 0HN0SOP6PM974:00000003, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-24 13:26:09.368 +03:00 [DBG] requestId: 0HN0SOP6PM974:00000003, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-24 13:26:09.368 +03:00 [DBG] requestId: 0HN0SOP6PM974:00000003, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-24 13:26:09.370 +03:00 [INF] requestId: 0HN0SOP6PM974:00000003, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-24 13:26:09.371 +03:00 [INF] requestId: 0HN0SOP6PM974:00000003, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-24 13:26:09.372 +03:00 [INF] requestId: 0HN0SOP6PM974:00000003, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-24 13:26:09.372 +03:00 [DBG] requestId: 0HN0SOP6PM974:00000003, previousRequestId: no previous request id, message: Downstream url is https://localhost:5001/api/Category
+2024-01-24 13:26:13.485 +03:00 [DBG] requestId: 0HN0SOP6PM974:00000003, previousRequestId: no previous request id, message: IHttpRequester returned an error, setting pipeline error
+2024-01-24 13:26:13.487 +03:00 [WRN] requestId: 0HN0SOP6PM974:00000003, previousRequestId: no previous request id, message: Error Code: ConnectionToDownstreamServiceError Message: Error connecting to downstream service, exception: System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:5001)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Ocelot.Requester.HttpClientHttpRequester.GetResponse(HttpContext httpContext) errors found in ResponderMiddleware. Setting error response for request path:/ocelot/api/category, request method: POST
+2024-01-24 13:26:13.487 +03:00 [DBG] requestId: 0HN0SOP6PM974:00000003, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-24 13:26:13.488 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 50 - 502 0 - 4119.3248ms
+2024-01-24 13:26:17.997 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 50
+2024-01-24 13:26:17.997 +03:00 [DBG] requestId: 0HN0SOP6PM975:00000002, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-24 13:26:17.997 +03:00 [DBG] requestId: 0HN0SOP6PM975:00000002, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-24 13:26:17.997 +03:00 [DBG] requestId: 0HN0SOP6PM975:00000002, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-24 13:26:17.998 +03:00 [INF] requestId: 0HN0SOP6PM975:00000002, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-24 13:26:18.000 +03:00 [INF] requestId: 0HN0SOP6PM975:00000002, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-24 13:26:18.001 +03:00 [INF] requestId: 0HN0SOP6PM975:00000002, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-24 13:26:18.001 +03:00 [DBG] requestId: 0HN0SOP6PM975:00000002, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-24 13:26:18.034 +03:00 [INF] requestId: 0HN0SOP6PM975:00000002, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Category
+2024-01-24 13:26:18.034 +03:00 [DBG] requestId: 0HN0SOP6PM975:00000002, previousRequestId: no previous request id, message: setting http response message
+2024-01-24 13:26:18.034 +03:00 [DBG] requestId: 0HN0SOP6PM975:00000002, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-24 13:26:18.034 +03:00 [DBG] requestId: 0HN0SOP6PM975:00000002, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-24 13:26:18.034 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 50 - 200 0 - 37.4702ms
+2024-01-24 13:26:18.036 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 50
+2024-01-24 13:26:18.036 +03:00 [DBG] requestId: 0HN0SOP6PM975:00000003, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-24 13:26:18.036 +03:00 [DBG] requestId: 0HN0SOP6PM975:00000003, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-24 13:26:18.036 +03:00 [DBG] requestId: 0HN0SOP6PM975:00000003, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-24 13:26:18.037 +03:00 [INF] requestId: 0HN0SOP6PM975:00000003, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-24 13:26:18.038 +03:00 [INF] requestId: 0HN0SOP6PM975:00000003, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-24 13:26:18.040 +03:00 [INF] requestId: 0HN0SOP6PM975:00000003, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-24 13:26:18.040 +03:00 [DBG] requestId: 0HN0SOP6PM975:00000003, previousRequestId: no previous request id, message: Downstream url is https://localhost:5001/api/Category
+2024-01-24 13:26:18.236 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 50
+2024-01-24 13:26:18.236 +03:00 [DBG] requestId: 0HN0SOP6PM976:00000002, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-24 13:26:18.236 +03:00 [DBG] requestId: 0HN0SOP6PM976:00000002, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-24 13:26:18.236 +03:00 [DBG] requestId: 0HN0SOP6PM976:00000002, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-24 13:26:18.239 +03:00 [INF] requestId: 0HN0SOP6PM976:00000002, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-24 13:26:18.241 +03:00 [INF] requestId: 0HN0SOP6PM976:00000002, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-24 13:26:18.242 +03:00 [INF] requestId: 0HN0SOP6PM976:00000002, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-24 13:26:18.242 +03:00 [DBG] requestId: 0HN0SOP6PM976:00000002, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-24 13:26:18.273 +03:00 [INF] requestId: 0HN0SOP6PM976:00000002, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Category
+2024-01-24 13:26:18.273 +03:00 [DBG] requestId: 0HN0SOP6PM976:00000002, previousRequestId: no previous request id, message: setting http response message
+2024-01-24 13:26:18.273 +03:00 [DBG] requestId: 0HN0SOP6PM976:00000002, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-24 13:26:18.273 +03:00 [DBG] requestId: 0HN0SOP6PM976:00000002, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-24 13:26:18.273 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 50 - 200 0 - 37.7150ms
+2024-01-24 13:26:18.274 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 50
+2024-01-24 13:26:18.275 +03:00 [DBG] requestId: 0HN0SOP6PM976:00000003, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-24 13:26:18.275 +03:00 [DBG] requestId: 0HN0SOP6PM976:00000003, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-24 13:26:18.275 +03:00 [DBG] requestId: 0HN0SOP6PM976:00000003, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-24 13:26:18.276 +03:00 [INF] requestId: 0HN0SOP6PM976:00000003, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-24 13:26:18.277 +03:00 [INF] requestId: 0HN0SOP6PM976:00000003, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-24 13:26:18.279 +03:00 [INF] requestId: 0HN0SOP6PM976:00000003, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-24 13:26:18.279 +03:00 [DBG] requestId: 0HN0SOP6PM976:00000003, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-24 13:26:18.312 +03:00 [INF] requestId: 0HN0SOP6PM976:00000003, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Category
+2024-01-24 13:26:18.312 +03:00 [DBG] requestId: 0HN0SOP6PM976:00000003, previousRequestId: no previous request id, message: setting http response message
+2024-01-24 13:26:18.312 +03:00 [DBG] requestId: 0HN0SOP6PM976:00000003, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-24 13:26:18.312 +03:00 [DBG] requestId: 0HN0SOP6PM976:00000003, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-24 13:26:18.312 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 50 - 200 0 - 37.7009ms
+2024-01-24 13:26:18.451 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 50
+2024-01-24 13:26:18.451 +03:00 [DBG] requestId: 0HN0SOP6PM977:00000002, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-24 13:26:18.451 +03:00 [DBG] requestId: 0HN0SOP6PM977:00000002, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-24 13:26:18.451 +03:00 [DBG] requestId: 0HN0SOP6PM977:00000002, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-24 13:26:18.453 +03:00 [INF] requestId: 0HN0SOP6PM977:00000002, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-24 13:26:18.455 +03:00 [INF] requestId: 0HN0SOP6PM977:00000002, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-24 13:26:18.456 +03:00 [INF] requestId: 0HN0SOP6PM977:00000002, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-24 13:26:18.456 +03:00 [DBG] requestId: 0HN0SOP6PM977:00000002, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-24 13:26:18.487 +03:00 [INF] requestId: 0HN0SOP6PM977:00000002, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Category
+2024-01-24 13:26:18.487 +03:00 [DBG] requestId: 0HN0SOP6PM977:00000002, previousRequestId: no previous request id, message: setting http response message
+2024-01-24 13:26:18.487 +03:00 [DBG] requestId: 0HN0SOP6PM977:00000002, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-24 13:26:18.487 +03:00 [DBG] requestId: 0HN0SOP6PM977:00000002, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-24 13:26:18.488 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 50 - 200 0 - 36.5809ms
+2024-01-24 13:26:18.489 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 50
+2024-01-24 13:26:18.489 +03:00 [DBG] requestId: 0HN0SOP6PM977:00000003, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-24 13:26:18.489 +03:00 [DBG] requestId: 0HN0SOP6PM977:00000003, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-24 13:26:18.489 +03:00 [DBG] requestId: 0HN0SOP6PM977:00000003, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-24 13:26:18.490 +03:00 [INF] requestId: 0HN0SOP6PM977:00000003, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-24 13:26:18.491 +03:00 [INF] requestId: 0HN0SOP6PM977:00000003, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-24 13:26:18.493 +03:00 [INF] requestId: 0HN0SOP6PM977:00000003, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-24 13:26:18.493 +03:00 [DBG] requestId: 0HN0SOP6PM977:00000003, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-24 13:26:18.521 +03:00 [INF] requestId: 0HN0SOP6PM977:00000003, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Category
+2024-01-24 13:26:18.521 +03:00 [DBG] requestId: 0HN0SOP6PM977:00000003, previousRequestId: no previous request id, message: setting http response message
+2024-01-24 13:26:18.522 +03:00 [DBG] requestId: 0HN0SOP6PM977:00000003, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-24 13:26:18.522 +03:00 [DBG] requestId: 0HN0SOP6PM977:00000003, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-24 13:26:18.522 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 50 - 200 0 - 33.0704ms
+2024-01-24 13:26:22.131 +03:00 [DBG] requestId: 0HN0SOP6PM975:00000003, previousRequestId: no previous request id, message: IHttpRequester returned an error, setting pipeline error
+2024-01-24 13:26:22.134 +03:00 [WRN] requestId: 0HN0SOP6PM975:00000003, previousRequestId: no previous request id, message: Error Code: ConnectionToDownstreamServiceError Message: Error connecting to downstream service, exception: System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:5001)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Ocelot.Requester.HttpClientHttpRequester.GetResponse(HttpContext httpContext) errors found in ResponderMiddleware. Setting error response for request path:/ocelot/api/category, request method: POST
+2024-01-24 13:26:22.134 +03:00 [DBG] requestId: 0HN0SOP6PM975:00000003, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-24 13:26:22.134 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 50 - 502 0 - 4098.8289ms
+2024-01-24 13:26:47.658 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 51
+2024-01-24 13:26:47.659 +03:00 [DBG] requestId: 0HN0SOP6PM978:00000002, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-24 13:26:47.659 +03:00 [DBG] requestId: 0HN0SOP6PM978:00000002, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-24 13:26:47.659 +03:00 [DBG] requestId: 0HN0SOP6PM978:00000002, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-24 13:26:47.662 +03:00 [INF] requestId: 0HN0SOP6PM978:00000002, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-24 13:26:47.665 +03:00 [INF] requestId: 0HN0SOP6PM978:00000002, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-24 13:26:47.668 +03:00 [INF] requestId: 0HN0SOP6PM978:00000002, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-24 13:26:47.668 +03:00 [DBG] requestId: 0HN0SOP6PM978:00000002, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-24 13:26:47.705 +03:00 [INF] requestId: 0HN0SOP6PM978:00000002, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Category
+2024-01-24 13:26:47.705 +03:00 [DBG] requestId: 0HN0SOP6PM978:00000002, previousRequestId: no previous request id, message: setting http response message
+2024-01-24 13:26:47.705 +03:00 [DBG] requestId: 0HN0SOP6PM978:00000002, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-24 13:26:47.705 +03:00 [DBG] requestId: 0HN0SOP6PM978:00000002, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-24 13:26:47.705 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 51 - 200 0 - 46.4443ms
+2024-01-24 13:26:47.706 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 51
+2024-01-24 13:26:47.706 +03:00 [DBG] requestId: 0HN0SOP6PM978:00000003, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-24 13:26:47.706 +03:00 [DBG] requestId: 0HN0SOP6PM978:00000003, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-24 13:26:47.706 +03:00 [DBG] requestId: 0HN0SOP6PM978:00000003, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-24 13:26:47.708 +03:00 [INF] requestId: 0HN0SOP6PM978:00000003, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-24 13:26:47.709 +03:00 [INF] requestId: 0HN0SOP6PM978:00000003, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-24 13:26:47.710 +03:00 [INF] requestId: 0HN0SOP6PM978:00000003, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-24 13:26:47.710 +03:00 [DBG] requestId: 0HN0SOP6PM978:00000003, previousRequestId: no previous request id, message: Downstream url is https://localhost:5001/api/Category
+2024-01-24 13:26:51.791 +03:00 [DBG] requestId: 0HN0SOP6PM978:00000003, previousRequestId: no previous request id, message: IHttpRequester returned an error, setting pipeline error
+2024-01-24 13:26:51.794 +03:00 [WRN] requestId: 0HN0SOP6PM978:00000003, previousRequestId: no previous request id, message: Error Code: ConnectionToDownstreamServiceError Message: Error connecting to downstream service, exception: System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:5001)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Ocelot.Requester.HttpClientHttpRequester.GetResponse(HttpContext httpContext) errors found in ResponderMiddleware. Setting error response for request path:/ocelot/api/category, request method: POST
+2024-01-24 13:26:51.794 +03:00 [DBG] requestId: 0HN0SOP6PM978:00000003, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-24 13:26:51.794 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 51 - 502 0 - 4087.7101ms
+2024-01-24 13:33:59.895 +03:00 [INF] User profile is available. Using 'C:\Users\muhammed.durus\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-24 13:34:00.227 +03:00 [INF] Now listening on: https://localhost:7267
+2024-01-24 13:34:00.231 +03:00 [INF] Now listening on: http://localhost:5267
+2024-01-24 13:34:00.242 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-24 13:34:00.257 +03:00 [INF] Hosting environment: Development
+2024-01-24 13:34:00.262 +03:00 [INF] Content root path: C:\Users\muhammed.durus\Desktop\Eğitim ve Dökümanlar\DemoMicroservices\OcelotApiGateway\
+2024-01-24 13:34:00.944 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/swagger/index.html - -
+2024-01-24 13:34:01.429 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/swagger/index.html - - - 200 - text/html;charset=utf-8 488.8384ms
+2024-01-24 13:34:01.473 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/_framework/aspnetcore-browser-refresh.js - -
+2024-01-24 13:34:01.473 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/_vs/browserLink - -
+2024-01-24 13:34:01.482 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 9.0749ms
+2024-01-24 13:34:01.567 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 93.4409ms
+2024-01-24 13:34:01.638 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/swagger/v1/swagger.json - -
+2024-01-24 13:34:01.780 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 141.5194ms
+2024-01-24 13:34:35.527 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 56
+2024-01-24 13:34:35.625 +03:00 [DBG] requestId: 0HN0SOVT4OOQ2:00000002, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-24 13:34:35.630 +03:00 [DBG] requestId: 0HN0SOVT4OOQ2:00000002, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-24 13:34:35.638 +03:00 [DBG] requestId: 0HN0SOVT4OOQ2:00000002, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-24 13:34:35.689 +03:00 [INF] requestId: 0HN0SOVT4OOQ2:00000002, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-24 13:34:35.699 +03:00 [INF] requestId: 0HN0SOVT4OOQ2:00000002, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-24 13:34:35.705 +03:00 [INF] requestId: 0HN0SOVT4OOQ2:00000002, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-24 13:34:35.727 +03:00 [DBG] requestId: 0HN0SOVT4OOQ2:00000002, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-24 13:34:36.640 +03:00 [INF] requestId: 0HN0SOVT4OOQ2:00000002, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Category
+2024-01-24 13:34:36.640 +03:00 [DBG] requestId: 0HN0SOVT4OOQ2:00000002, previousRequestId: no previous request id, message: setting http response message
+2024-01-24 13:34:36.658 +03:00 [DBG] requestId: 0HN0SOVT4OOQ2:00000002, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-24 13:34:36.663 +03:00 [DBG] requestId: 0HN0SOVT4OOQ2:00000002, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-24 13:34:36.669 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 56 - 200 0 - 1142.0617ms
+2024-01-24 13:34:36.679 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 56
+2024-01-24 13:34:36.681 +03:00 [DBG] requestId: 0HN0SOVT4OOQ2:00000003, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-24 13:34:36.681 +03:00 [DBG] requestId: 0HN0SOVT4OOQ2:00000003, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-24 13:34:36.681 +03:00 [DBG] requestId: 0HN0SOVT4OOQ2:00000003, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-24 13:34:36.687 +03:00 [INF] requestId: 0HN0SOVT4OOQ2:00000003, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-24 13:34:36.688 +03:00 [INF] requestId: 0HN0SOVT4OOQ2:00000003, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-24 13:34:36.689 +03:00 [INF] requestId: 0HN0SOVT4OOQ2:00000003, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-24 13:34:36.690 +03:00 [DBG] requestId: 0HN0SOVT4OOQ2:00000003, previousRequestId: no previous request id, message: Downstream url is https://localhost:5001/api/Category
+2024-01-24 13:34:40.826 +03:00 [DBG] requestId: 0HN0SOVT4OOQ2:00000003, previousRequestId: no previous request id, message: IHttpRequester returned an error, setting pipeline error
+2024-01-24 13:34:40.833 +03:00 [WRN] requestId: 0HN0SOVT4OOQ2:00000003, previousRequestId: no previous request id, message: Error Code: ConnectionToDownstreamServiceError Message: Error connecting to downstream service, exception: System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:5001)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Ocelot.Requester.HttpClientHttpRequester.GetResponse(HttpContext httpContext) errors found in ResponderMiddleware. Setting error response for request path:/ocelot/api/category, request method: POST
+2024-01-24 13:34:40.835 +03:00 [DBG] requestId: 0HN0SOVT4OOQ2:00000003, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-24 13:34:40.835 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 56 - 502 0 - 4156.7966ms
+2024-01-24 13:35:16.887 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 59
+2024-01-24 13:35:16.888 +03:00 [DBG] requestId: 0HN0SOVT4OOQ3:00000002, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-24 13:35:16.889 +03:00 [DBG] requestId: 0HN0SOVT4OOQ3:00000002, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-24 13:35:16.889 +03:00 [DBG] requestId: 0HN0SOVT4OOQ3:00000002, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-24 13:35:16.890 +03:00 [INF] requestId: 0HN0SOVT4OOQ3:00000002, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-24 13:35:16.891 +03:00 [INF] requestId: 0HN0SOVT4OOQ3:00000002, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-24 13:35:16.892 +03:00 [INF] requestId: 0HN0SOVT4OOQ3:00000002, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-24 13:35:16.892 +03:00 [DBG] requestId: 0HN0SOVT4OOQ3:00000002, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-24 13:35:16.975 +03:00 [INF] requestId: 0HN0SOVT4OOQ3:00000002, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Category
+2024-01-24 13:35:16.975 +03:00 [DBG] requestId: 0HN0SOVT4OOQ3:00000002, previousRequestId: no previous request id, message: setting http response message
+2024-01-24 13:35:16.976 +03:00 [DBG] requestId: 0HN0SOVT4OOQ3:00000002, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-24 13:35:16.976 +03:00 [DBG] requestId: 0HN0SOVT4OOQ3:00000002, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-24 13:35:16.976 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 59 - 200 0 - 88.9700ms
+2024-01-24 13:35:16.977 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 59
+2024-01-24 13:35:16.977 +03:00 [DBG] requestId: 0HN0SOVT4OOQ3:00000003, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-24 13:35:16.977 +03:00 [DBG] requestId: 0HN0SOVT4OOQ3:00000003, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-24 13:35:16.977 +03:00 [DBG] requestId: 0HN0SOVT4OOQ3:00000003, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-24 13:35:16.979 +03:00 [INF] requestId: 0HN0SOVT4OOQ3:00000003, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-24 13:35:16.980 +03:00 [INF] requestId: 0HN0SOVT4OOQ3:00000003, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-24 13:35:16.982 +03:00 [INF] requestId: 0HN0SOVT4OOQ3:00000003, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-24 13:35:16.982 +03:00 [DBG] requestId: 0HN0SOVT4OOQ3:00000003, previousRequestId: no previous request id, message: Downstream url is https://localhost:5001/api/Category
+2024-01-24 13:35:21.083 +03:00 [DBG] requestId: 0HN0SOVT4OOQ3:00000003, previousRequestId: no previous request id, message: IHttpRequester returned an error, setting pipeline error
+2024-01-24 13:35:21.085 +03:00 [WRN] requestId: 0HN0SOVT4OOQ3:00000003, previousRequestId: no previous request id, message: Error Code: ConnectionToDownstreamServiceError Message: Error connecting to downstream service, exception: System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:5001)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Ocelot.Requester.HttpClientHttpRequester.GetResponse(HttpContext httpContext) errors found in ResponderMiddleware. Setting error response for request path:/ocelot/api/category, request method: POST
+2024-01-24 13:35:21.085 +03:00 [DBG] requestId: 0HN0SOVT4OOQ3:00000003, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-24 13:35:21.085 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 59 - 502 0 - 4107.8711ms
+2024-01-24 13:35:38.222 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 60
+2024-01-24 13:35:38.222 +03:00 [DBG] requestId: 0HN0SOVT4OOQ4:00000002, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-24 13:35:38.222 +03:00 [DBG] requestId: 0HN0SOVT4OOQ4:00000002, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-24 13:35:38.222 +03:00 [DBG] requestId: 0HN0SOVT4OOQ4:00000002, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-24 13:35:38.223 +03:00 [INF] requestId: 0HN0SOVT4OOQ4:00000002, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-24 13:35:38.225 +03:00 [INF] requestId: 0HN0SOVT4OOQ4:00000002, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-24 13:35:38.226 +03:00 [INF] requestId: 0HN0SOVT4OOQ4:00000002, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-24 13:35:38.226 +03:00 [DBG] requestId: 0HN0SOVT4OOQ4:00000002, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Category
+2024-01-24 13:35:51.580 +03:00 [INF] requestId: 0HN0SOVT4OOQ4:00000002, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Category
+2024-01-24 13:35:51.580 +03:00 [DBG] requestId: 0HN0SOVT4OOQ4:00000002, previousRequestId: no previous request id, message: setting http response message
+2024-01-24 13:35:51.581 +03:00 [DBG] requestId: 0HN0SOVT4OOQ4:00000002, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-24 13:35:51.581 +03:00 [DBG] requestId: 0HN0SOVT4OOQ4:00000002, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-24 13:35:51.581 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 60 - 200 0 - 13359.3997ms
+2024-01-24 13:35:51.582 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 60
+2024-01-24 13:35:51.583 +03:00 [DBG] requestId: 0HN0SOVT4OOQ4:00000003, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-24 13:35:51.583 +03:00 [DBG] requestId: 0HN0SOVT4OOQ4:00000003, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/category
+2024-01-24 13:35:51.583 +03:00 [DBG] requestId: 0HN0SOVT4OOQ4:00000003, previousRequestId: no previous request id, message: downstream templates are /api/Category
+2024-01-24 13:35:51.589 +03:00 [INF] requestId: 0HN0SOVT4OOQ4:00000003, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Category
+2024-01-24 13:35:51.591 +03:00 [INF] requestId: 0HN0SOVT4OOQ4:00000003, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/category
+2024-01-24 13:35:51.592 +03:00 [INF] requestId: 0HN0SOVT4OOQ4:00000003, previousRequestId: no previous request id, message: /api/Category route does not require user to be authorized
+2024-01-24 13:35:51.592 +03:00 [DBG] requestId: 0HN0SOVT4OOQ4:00000003, previousRequestId: no previous request id, message: Downstream url is https://localhost:5001/api/Category
+2024-01-24 13:35:55.680 +03:00 [DBG] requestId: 0HN0SOVT4OOQ4:00000003, previousRequestId: no previous request id, message: IHttpRequester returned an error, setting pipeline error
+2024-01-24 13:35:55.683 +03:00 [WRN] requestId: 0HN0SOVT4OOQ4:00000003, previousRequestId: no previous request id, message: Error Code: ConnectionToDownstreamServiceError Message: Error connecting to downstream service, exception: System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:5001)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Ocelot.Requester.HttpClientHttpRequester.GetResponse(HttpContext httpContext) errors found in ResponderMiddleware. Setting error response for request path:/ocelot/api/category, request method: POST
+2024-01-24 13:35:55.684 +03:00 [DBG] requestId: 0HN0SOVT4OOQ4:00000003, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-24 13:35:55.684 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7267/ocelot/api/category application/json;+charset=utf-8 60 - 502 0 - 4101.2888ms

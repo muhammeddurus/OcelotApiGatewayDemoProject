@@ -1,0 +1,98 @@
+2024-01-18 08:42:48.041 +03:00 [INF] User profile is available. Using 'C:\Users\muhammed.durus\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-18 08:42:48.315 +03:00 [INF] Now listening on: https://localhost:7277
+2024-01-18 08:42:48.317 +03:00 [INF] Now listening on: http://localhost:5277
+2024-01-18 08:42:48.326 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-18 08:42:48.327 +03:00 [INF] Hosting environment: Development
+2024-01-18 08:42:48.329 +03:00 [INF] Content root path: C:\Users\muhammed.durus\Desktop\Eğitim ve Dökümanlar\DemoMicroservices\CustomerAPI\
+2024-01-18 08:42:50.599 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/index.html - -
+2024-01-18 08:42:51.496 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/index.html - - - 200 - text/html;charset=utf-8 901.4699ms
+2024-01-18 08:42:51.646 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_vs/browserLink - -
+2024-01-18 08:42:51.646 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - -
+2024-01-18 08:42:51.667 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - - - 200 12354 application/javascript;+charset=utf-8 20.0904ms
+2024-01-18 08:42:51.977 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 330.8990ms
+2024-01-18 08:42:52.327 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - -
+2024-01-18 08:42:52.608 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 281.4126ms
+2024-01-18 08:48:53.470 +03:00 [INF] User profile is available. Using 'C:\Users\muhammed.durus\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-18 08:48:53.775 +03:00 [INF] Now listening on: https://localhost:7277
+2024-01-18 08:48:53.777 +03:00 [INF] Now listening on: http://localhost:5277
+2024-01-18 08:48:53.785 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-18 08:48:53.787 +03:00 [INF] Hosting environment: Development
+2024-01-18 08:48:53.789 +03:00 [INF] Content root path: C:\Users\muhammed.durus\Desktop\Eğitim ve Dökümanlar\DemoMicroservices\CustomerAPI\
+2024-01-18 08:48:56.200 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/index.html - -
+2024-01-18 08:48:56.983 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/index.html - - - 200 - text/html;charset=utf-8 791.4945ms
+2024-01-18 08:48:57.036 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_vs/browserLink - -
+2024-01-18 08:48:57.037 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - -
+2024-01-18 08:48:57.052 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - - - 200 12354 application/javascript;+charset=utf-8 14.8215ms
+2024-01-18 08:48:57.189 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 152.3291ms
+2024-01-18 08:48:57.263 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - -
+2024-01-18 08:48:57.469 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 205.5047ms
+2024-01-18 08:50:18.258 +03:00 [INF] User profile is available. Using 'C:\Users\muhammed.durus\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-18 08:50:18.508 +03:00 [INF] Now listening on: https://localhost:7277
+2024-01-18 08:50:18.510 +03:00 [INF] Now listening on: http://localhost:5277
+2024-01-18 08:50:18.517 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-18 08:50:18.519 +03:00 [INF] Hosting environment: Development
+2024-01-18 08:50:18.520 +03:00 [INF] Content root path: C:\Users\muhammed.durus\Desktop\Eğitim ve Dökümanlar\DemoMicroservices\CustomerAPI\
+2024-01-18 08:50:19.203 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/index.html - -
+2024-01-18 08:50:19.524 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - -
+2024-01-18 08:50:19.525 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_vs/browserLink - -
+2024-01-18 08:50:19.538 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - - - 200 12354 application/javascript;+charset=utf-8 8.8634ms
+2024-01-18 08:50:19.567 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/index.html - - - 200 - text/html;charset=utf-8 367.9389ms
+2024-01-18 08:50:19.628 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 102.9595ms
+2024-01-18 08:50:19.700 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - -
+2024-01-18 08:50:19.878 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 176.6080ms
+2024-01-18 08:57:12.129 +03:00 [INF] User profile is available. Using 'C:\Users\muhammed.durus\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-18 08:57:12.454 +03:00 [INF] Now listening on: https://localhost:7277
+2024-01-18 08:57:12.457 +03:00 [INF] Now listening on: http://localhost:5277
+2024-01-18 08:57:12.467 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-18 08:57:12.469 +03:00 [INF] Hosting environment: Development
+2024-01-18 08:57:12.471 +03:00 [INF] Content root path: C:\Users\muhammed.durus\Desktop\Eğitim ve Dökümanlar\DemoMicroservices\CustomerAPI\
+2024-01-18 08:57:15.382 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/index.html - -
+2024-01-18 08:57:15.893 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/index.html - - - 200 - text/html;charset=utf-8 516.3279ms
+2024-01-18 08:57:15.982 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - -
+2024-01-18 08:57:15.982 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_vs/browserLink - -
+2024-01-18 08:57:15.987 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - - - 200 12354 application/javascript;+charset=utf-8 5.0151ms
+2024-01-18 08:57:16.145 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 163.2218ms
+2024-01-18 08:57:16.249 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - -
+2024-01-18 08:57:16.453 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 203.9806ms
+2024-01-18 09:24:35.625 +03:00 [INF] User profile is available. Using 'C:\Users\muhammed.durus\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-18 09:24:36.435 +03:00 [INF] Now listening on: https://localhost:7277
+2024-01-18 09:24:36.437 +03:00 [INF] Now listening on: http://localhost:5277
+2024-01-18 09:24:36.449 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-18 09:24:36.451 +03:00 [INF] Hosting environment: Development
+2024-01-18 09:24:36.452 +03:00 [INF] Content root path: C:\Users\muhammed.durus\Desktop\Eğitim ve Dökümanlar\DemoMicroservices\CustomerAPI\
+2024-01-18 09:24:38.245 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/index.html - -
+2024-01-18 09:24:38.855 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/index.html - - - 200 - text/html;charset=utf-8 619.1585ms
+2024-01-18 09:24:38.902 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - -
+2024-01-18 09:24:38.912 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - - - 200 12354 application/javascript;+charset=utf-8 9.7336ms
+2024-01-18 09:24:38.967 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_vs/browserLink - -
+2024-01-18 09:24:39.027 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 59.1667ms
+2024-01-18 09:24:39.286 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - -
+2024-01-18 09:24:39.457 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 170.9696ms
+2024-01-18 09:37:20.730 +03:00 [INF] User profile is available. Using 'C:\Users\muhammed.durus\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-18 09:37:21.075 +03:00 [INF] Now listening on: https://localhost:7277
+2024-01-18 09:37:21.078 +03:00 [INF] Now listening on: http://localhost:5277
+2024-01-18 09:37:21.087 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-18 09:37:21.090 +03:00 [INF] Hosting environment: Development
+2024-01-18 09:37:21.091 +03:00 [INF] Content root path: C:\Users\muhammed.durus\Desktop\Eğitim ve Dökümanlar\DemoMicroservices\CustomerAPI\
+2024-01-18 09:37:24.239 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/index.html - -
+2024-01-18 09:37:25.062 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/index.html - - - 200 - text/html;charset=utf-8 837.1479ms
+2024-01-18 09:37:25.145 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - -
+2024-01-18 09:37:25.154 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - - - 200 12354 application/javascript;+charset=utf-8 9.7093ms
+2024-01-18 09:37:25.178 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_vs/browserLink - -
+2024-01-18 09:37:25.286 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 107.8738ms
+2024-01-18 09:37:25.609 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - -
+2024-01-18 09:37:25.782 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 173.0742ms
+2024-01-18 13:11:23.194 +03:00 [INF] User profile is available. Using 'C:\Users\muhammed.durus\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-18 13:11:23.641 +03:00 [INF] Now listening on: https://localhost:7277
+2024-01-18 13:11:23.643 +03:00 [INF] Now listening on: http://localhost:5277
+2024-01-18 13:11:23.654 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-18 13:11:23.657 +03:00 [INF] Hosting environment: Development
+2024-01-18 13:11:23.659 +03:00 [INF] Content root path: C:\Users\muhammed.durus\Desktop\Eğitim ve Dökümanlar\DemoMicroservices\CustomerAPI\
+2024-01-18 13:11:25.546 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/index.html - -
+2024-01-18 13:11:26.312 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/index.html - - - 200 - text/html;charset=utf-8 757.8318ms
+2024-01-18 13:11:26.472 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_vs/browserLink - -
+2024-01-18 13:11:26.472 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - -
+2024-01-18 13:11:26.476 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - - - 200 12354 application/javascript;+charset=utf-8 4.8702ms
+2024-01-18 13:11:26.686 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 214.3232ms
+2024-01-18 13:11:27.386 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - -
+2024-01-18 13:11:27.755 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7277/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 368.8629ms

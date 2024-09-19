@@ -1,0 +1,21 @@
+﻿@model AuthServer.Models.ClientCreateViewModel
+@if (ViewBag.Message != null)
+{
+    <div class="alert alert-success" role="alert">
+        @ViewBag.Message
+    </div>
+}
+else
+{
+    <form autocomplete="off" asp-route="Clients">
+        <div class="card">
+            <input type="text" class="form-control form-control-lg" placeholder="Client ID" asp-for="ClientId" autofocus>
+            <input type="password" class="form-control form-control-lg" placeholder="Client Secret" asp-for="ClientSecret">
+            <input type="text" class="form-control form-control-lg form-control-lg" placeholder="Display Name" asp-for="DisplayName" autofocus>
+            <input type="text" class="form-control form-control-lg form-control-last" placeholder="Redirect Uri" asp-for="RedirectUri" autofocus>
+        </div>
+        <p>
+            <button type="submit" class="btn btn-dark btn-block mt-3">Create Client</button>
+        </p>
+    </form>
+}

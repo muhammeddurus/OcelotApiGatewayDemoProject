@@ -1,0 +1,12 @@
+2023-01-06 16:33:27.583 +03:00 [INF] User profile is available. Using 'C:\Users\muhammed.durus\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-06 16:33:27.721 +03:00 [INF] Now listening on: https://localhost:7277
+2023-01-06 16:33:27.721 +03:00 [INF] Now listening on: http://localhost:5277
+2023-01-06 16:33:27.725 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-06 16:33:27.725 +03:00 [INF] Hosting environment: Development
+2023-01-06 16:33:27.725 +03:00 [INF] Content root path: C:\dev\sharp\Muhammed\DemoMicroservices\CustomerAPI\
+2023-01-06 16:36:49.154 +03:00 [INF] User profile is available. Using 'C:\Users\muhammed.durus\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-06 16:36:49.281 +03:00 [INF] Now listening on: https://localhost:7277
+2023-01-06 16:36:49.281 +03:00 [INF] Now listening on: http://localhost:5277
+2023-01-06 16:36:49.284 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-06 16:36:49.284 +03:00 [INF] Hosting environment: Development
+2023-01-06 16:36:49.284 +03:00 [INF] Content root path: C:\dev\sharp\Muhammed\DemoMicroservices\CustomerAPI\

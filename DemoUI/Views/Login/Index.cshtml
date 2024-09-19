@@ -1,0 +1,43 @@
+﻿@page
+@inject IHttpContextAccessor Accessor
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+    var user = Accessor.HttpContext.Session.GetString("UserInformation");
+}
+@if (Accessor.HttpContext.Session.GetString("UserInformation") == null)
+{
+<div id="giris">
+    <div class="main">
+        <input type="checkbox" id="chk" aria-hidden="true">
+
+        <div class="signup">
+            <form>
+                <label class="lblLogin" for="chk" aria-hidden="true">Sign up</label>
+                <input class="lblInput" type="text" name="txt" placeholder="User name" required="">
+                <input class="lblInput" type="email" name="email" placeholder="Email" required="">
+                <input class="lblInput" type="tel" name="phone" placeholder="Phone" required="">
+                <input class="lblInput" type="password" name="pswd" placeholder="Password" required="">
+
+                <button style="background-color:black;" class="lblButton"><a style="text-decoration: none;" href="payment.html">Kayıt Ol</a></button>
+            </form>
+        </div>
+
+        <div class="login">
+            <form method="post">
+                <label class="lblLogin" for="chk" aria-hidden="true">Login</label>
+                <input class="lblInput" type="email" name="email" placeholder="Email" required="">
+                <input class="lblInput" type="password" name="pswd" placeholder="Password" required="">
+                <input type="submit" value="Giris" class="btn btn-default" />
+                <button class="lblButton"><a style="text-decoration: none;" href="~/Login/Index">Giriş Yap</a></button>
+            </form>
+        </div>
+    </div>
+</div>
+}
+else
+{
+    @Accessor.HttpContext.Session.GetString("UserInformation").ToString()
+    @: Hoşgeldiniz.
+}
+

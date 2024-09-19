@@ -1,0 +1,265 @@
+{
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:7267",
+    //"ServiceDiscoveryProvider": {
+    //  "Scheme": "https",
+    //  "Host": "localhost",
+    //  "Port": 8500,
+    //  "Type": "Consul"
+    //},
+    "RateLimitOptions": {
+      "DisableRateLimitHeaders": true,
+      "QuotaExceededMessage": "API çağrıları kotası aşıldı! Sistemi fazla yoramazsınız !",
+      "HttpStatusCode": 999,
+      "ClientIdHeader": "Test"
+    }
+  },
+  "Routes": [
+    {
+      //"UseServiceDiscovery": true,
+      //"ServiceName": "Product",
+      "UpstreamPathTemplate": "/ocelot/api/product",
+      //"AuthenticationOptions": {
+      //  "AuthenticationProviderKey": "Bearer",
+      //  "AllowedScopes": []
+      //},
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "6s",
+        "PeriodTimespan": 1,
+        "Limit": 1
+      },
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "product"
+      },
+      "UpstreamHttpMethod": [ "Get", "Post" ],
+
+      "Key": "Product",
+      "DownstreamPathTemplate": "/api/Product",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5000
+        }
+      ]
+    },
+    {
+      //"UseServiceDiscovery": true,
+      //"ServiceName": "Product",
+      "UpstreamPathTemplate": "/ocelot/api/product/product-with-category/{id}",
+      //"AuthenticationOptions": {
+      //  "AuthenticationProviderKey": "Bearer",
+      //  "AllowedScopes": []
+      //},
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "6s",
+        "PeriodTimespan": 1,
+        "Limit": 1
+      },
+      "FileCacheOptions": {
+        "TtlSeconds": 1,
+        "Region": "somename"
+      },
+      "UpstreamHttpMethod": [ "Get", "Post" ],
+
+      "Key": "Product",
+      "DownstreamPathTemplate": "/api/Product/product-with-category/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5000
+        }
+      ]
+    },
+    {
+      //"UseServiceDiscovery": true,
+      //"ServiceName": "Product",
+      "UpstreamPathTemplate": "/ocelot/api/product/products-with-category/{id}",
+      //"AuthenticationOptions": {
+      //  "AuthenticationProviderKey": "Bearer",
+      //  "AllowedScopes": []
+      //},
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "6s",
+        "PeriodTimespan": 1,
+        "Limit": 1
+      },
+      "FileCacheOptions": {
+        "TtlSeconds": 1,
+        "Region": "somename"
+      },
+      "UpstreamHttpMethod": [ "Get", "Post" ],
+
+      "Key": "Product",
+      "DownstreamPathTemplate": "/api/Product/products-with-category/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5000
+        }
+      ]
+    },
+
+    {
+      //"UseServiceDiscovery": true,
+      //"ServiceName": "Customer",
+      "UpstreamPathTemplate": "/ocelot/api/customer",
+      "Key": "Customer",
+      "UpstreamHttpMethod": [ "Get", "Post" ],
+
+      "DownstreamPathTemplate": "/api/Customer",
+      "DownstreamScheme": "https",
+      //"AuthenticationOptions": {
+      //  "AuthenticationProviderKey": "Bearer",
+      //  "AllowedScopes": []
+      //},
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "6s",
+        "PeriodTimespan": 1,
+        "Limit": 1
+      },
+      "FileCacheOptions": {
+        "TtlSeconds": 1,
+        "Region": "customer"
+      },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7277
+        }
+      ]
+    },
+    {
+      //"UseServiceDiscovery": true,
+      //"ServiceName": "Customer",
+      "UpstreamPathTemplate": "/ocelot/api/customer/login/{email}/{password}",
+      "Key": "Customer",
+      "UpstreamHttpMethod": [ "Get", "Post" ],
+
+      "DownstreamPathTemplate": "/api/Customer/login/{email}/{password}",
+      "DownstreamScheme": "https",
+      //"AuthenticationOptions": {
+      //  "AuthenticationProviderKey": "Bearer",
+      //  "AllowedScopes": []
+      //},
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "6s",
+        "PeriodTimespan": 1,
+        "Limit": 1
+      },
+      "FileCacheOptions": {
+        "TtlSeconds": 10,
+        "Region": "somename"
+      },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7277
+        }
+      ]
+    },
+    {
+      //"UseServiceDiscovery": true,
+      //"ServiceName": "Product",
+      "UpstreamPathTemplate": "/ocelot/api/category",
+      "Key": "Category",
+      "UpstreamHttpMethod": [ "Get", "Post" ],
+
+      "DownstreamPathTemplate": "/api/Category",
+      "DownstreamScheme": "https",
+      //"AuthenticationOptions": {
+      //  "AuthenticationProviderKey": "Bearer",
+      //  "AllowedScopes": []
+      //},
+      "LoadBalancerOptions": {
+        "Type": "LeastConnection"
+      },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5000
+        },
+        {
+          "Host": "localhost",
+          "Port": 5001
+        }
+      ]
+    },
+    {
+      //"UseServiceDiscovery": true,
+      //"ServiceName": "AuthServer",
+      "UpstreamPathTemplate": "/ocelot/api/auth/sign-in-customer",
+      "Key": "Auth",
+      "UpstreamHttpMethod": [ "Post" ],
+
+      "DownstreamPathTemplate": "/api/Auth/sign-in-customer",
+      "DownstreamScheme": "https",
+
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "6s",
+        "PeriodTimespan": 1,
+        "Limit": 1
+      },
+      "FileCacheOptions": {
+        "TtlSeconds": 10,
+        "Region": "somename"
+      },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7272
+        }
+      ]
+    },
+    {
+      //"UseServiceDiscovery": true,
+      //"ServiceName": "AuthServer",
+      "UpstreamPathTemplate": "/ocelot/api/auth/sign-in-product",
+      "Key": "Auth",
+      "UpstreamHttpMethod": [ "Post" ],
+
+      "DownstreamPathTemplate": "/api/Auth/sign-in-product",
+      "DownstreamScheme": "https",
+
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "6s",
+        "PeriodTimespan": 1,
+        "Limit": 1
+      },
+      "FileCacheOptions": {
+        "TtlSeconds": 10,
+        "Region": "somename"
+      },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7272
+        }
+      ]
+    }
+
+  ]
+  //"Aggregates": [
+  //  {
+  //    "RouteKeys": [ "Product", "Discount" ]
+  //    //"UpstreamPathTemplate": "/product-with-customer"
+  //  }
+  //]
+}

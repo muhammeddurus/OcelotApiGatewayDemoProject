@@ -1,0 +1,265 @@
+2024-01-17 13:33:39.407 +03:00 [INF] User profile is available. Using 'C:\Users\muhammed.durus\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-17 13:33:40.576 +03:00 [INF] Now listening on: https://localhost:7267
+2024-01-17 13:33:40.586 +03:00 [INF] Now listening on: http://localhost:5267
+2024-01-17 13:33:40.601 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-17 13:33:40.603 +03:00 [INF] Hosting environment: Development
+2024-01-17 13:33:40.605 +03:00 [INF] Content root path: C:\Users\muhammed.durus\Desktop\Eğitim ve Dökümanlar\DemoMicroservices\OcelotApiGateway\
+2024-01-17 13:33:42.125 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/swagger - -
+2024-01-17 13:33:42.313 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/swagger - - - 301 0 - 190.8894ms
+2024-01-17 13:33:42.324 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/swagger/index.html - -
+2024-01-17 13:33:42.633 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/swagger/index.html - - - 200 - text/html;charset=utf-8 308.6598ms
+2024-01-17 13:33:42.643 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/swagger/swagger-ui-bundle.js - -
+2024-01-17 13:33:42.644 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/swagger/swagger-ui-standalone-preset.js - -
+2024-01-17 13:33:42.645 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/swagger/swagger-ui.css - -
+2024-01-17 13:33:42.646 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/_vs/browserLink - -
+2024-01-17 13:33:42.651 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/_framework/aspnetcore-browser-refresh.js - -
+2024-01-17 13:33:42.662 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 10.9587ms
+2024-01-17 13:33:42.766 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-01-17 13:33:42.772 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-01-17 13:33:42.775 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 131.1587ms
+2024-01-17 13:33:42.776 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 130.5956ms
+2024-01-17 13:33:42.777 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/swagger/swagger-ui.css - - - 200 143632 text/css 133.3369ms
+2024-01-17 13:33:42.793 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-01-17 13:33:42.794 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 150.0008ms
+2024-01-17 13:33:42.945 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/swagger/v1/swagger.json - -
+2024-01-17 13:33:42.973 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/swagger/favicon-32x32.png - -
+2024-01-17 13:33:42.973 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-01-17 13:33:42.973 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/swagger/favicon-32x32.png - - - 200 628 image/png 0.4736ms
+2024-01-17 13:33:43.094 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 149.4641ms
+2024-01-17 13:36:48.983 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7267/ocelot/api/product - -
+2024-01-17 13:36:49.100 +03:00 [DBG] requestId: 0HN0N8V2SQ9HT:00000002, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-17 13:36:49.105 +03:00 [DBG] requestId: 0HN0N8V2SQ9HT:00000002, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/product
+2024-01-17 13:36:49.113 +03:00 [DBG] requestId: 0HN0N8V2SQ9HT:00000002, previousRequestId: no previous request id, message: downstream templates are /api/Product
+2024-01-17 13:36:49.180 +03:00 [INF] requestId: 0HN0N8V2SQ9HT:00000002, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/product
+2024-01-17 13:36:49.186 +03:00 [INF] requestId: 0HN0N8V2SQ9HT:00000002, previousRequestId: no previous request id, message: /api/Product route does not require user to be authorized
+2024-01-17 13:36:49.206 +03:00 [DBG] requestId: 0HN0N8V2SQ9HT:00000002, previousRequestId: no previous request id, message: Downstream url is https://localhost:7265/api/Product
+2024-01-17 13:36:49.215 +03:00 [DBG] requestId: 0HN0N8V2SQ9HT:00000002, previousRequestId: no previous request id, message: Started checking cache for GET-https://localhost:7267/ocelot/api/product
+2024-01-17 13:36:49.215 +03:00 [DBG] requestId: 0HN0N8V2SQ9HT:00000002, previousRequestId: no previous request id, message: no resonse cached for GET-https://localhost:7267/ocelot/api/product
+2024-01-17 13:36:53.379 +03:00 [DBG] requestId: 0HN0N8V2SQ9HT:00000002, previousRequestId: no previous request id, message: IHttpRequester returned an error, setting pipeline error
+2024-01-17 13:36:53.380 +03:00 [DBG] requestId: 0HN0N8V2SQ9HT:00000002, previousRequestId: no previous request id, message: there was a pipeline error for GET-https://localhost:7267/ocelot/api/product
+2024-01-17 13:36:53.400 +03:00 [WRN] requestId: 0HN0N8V2SQ9HT:00000002, previousRequestId: no previous request id, message: Error Code: ConnectionToDownstreamServiceError Message: Error connecting to downstream service, exception: System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:7265)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Ocelot.Requester.HttpClientHttpRequester.GetResponse(HttpContext httpContext) errors found in ResponderMiddleware. Setting error response for request path:/ocelot/api/product, request method: GET
+2024-01-17 13:36:53.403 +03:00 [DBG] requestId: 0HN0N8V2SQ9HT:00000002, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-17 13:36:53.410 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7267/ocelot/api/product - - - 502 0 - 4427.6301ms
+2024-01-17 13:37:51.636 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7267/ocelot/api/product - -
+2024-01-17 13:37:51.649 +03:00 [DBG] requestId: 0HN0N8V2SQ9HT:00000003, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-17 13:37:51.651 +03:00 [DBG] requestId: 0HN0N8V2SQ9HT:00000003, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/product
+2024-01-17 13:37:51.651 +03:00 [DBG] requestId: 0HN0N8V2SQ9HT:00000003, previousRequestId: no previous request id, message: downstream templates are /api/Product
+2024-01-17 13:37:51.653 +03:00 [INF] requestId: 0HN0N8V2SQ9HT:00000003, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/product
+2024-01-17 13:37:51.655 +03:00 [INF] requestId: 0HN0N8V2SQ9HT:00000003, previousRequestId: no previous request id, message: /api/Product route does not require user to be authorized
+2024-01-17 13:37:51.655 +03:00 [DBG] requestId: 0HN0N8V2SQ9HT:00000003, previousRequestId: no previous request id, message: Downstream url is https://localhost:7265/api/Product
+2024-01-17 13:37:51.655 +03:00 [DBG] requestId: 0HN0N8V2SQ9HT:00000003, previousRequestId: no previous request id, message: Started checking cache for GET-https://localhost:7267/ocelot/api/product
+2024-01-17 13:37:51.655 +03:00 [DBG] requestId: 0HN0N8V2SQ9HT:00000003, previousRequestId: no previous request id, message: no resonse cached for GET-https://localhost:7267/ocelot/api/product
+2024-01-17 13:37:55.739 +03:00 [DBG] requestId: 0HN0N8V2SQ9HT:00000003, previousRequestId: no previous request id, message: IHttpRequester returned an error, setting pipeline error
+2024-01-17 13:37:55.739 +03:00 [DBG] requestId: 0HN0N8V2SQ9HT:00000003, previousRequestId: no previous request id, message: there was a pipeline error for GET-https://localhost:7267/ocelot/api/product
+2024-01-17 13:37:55.741 +03:00 [WRN] requestId: 0HN0N8V2SQ9HT:00000003, previousRequestId: no previous request id, message: Error Code: ConnectionToDownstreamServiceError Message: Error connecting to downstream service, exception: System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:7265)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Ocelot.Requester.HttpClientHttpRequester.GetResponse(HttpContext httpContext) errors found in ResponderMiddleware. Setting error response for request path:/ocelot/api/product, request method: GET
+2024-01-17 13:37:55.741 +03:00 [DBG] requestId: 0HN0N8V2SQ9HT:00000003, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-17 13:37:55.741 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7267/ocelot/api/product - - - 502 0 - 4104.9279ms
+2024-01-17 13:58:55.556 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7267/ocelot/api/product - -
+2024-01-17 13:58:55.561 +03:00 [DBG] requestId: 0HN0N8V2SQ9HT:00000004, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-17 13:58:55.561 +03:00 [DBG] requestId: 0HN0N8V2SQ9HT:00000004, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/product
+2024-01-17 13:58:55.561 +03:00 [DBG] requestId: 0HN0N8V2SQ9HT:00000004, previousRequestId: no previous request id, message: downstream templates are /api/Product
+2024-01-17 13:58:55.563 +03:00 [INF] requestId: 0HN0N8V2SQ9HT:00000004, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/product
+2024-01-17 13:58:55.564 +03:00 [INF] requestId: 0HN0N8V2SQ9HT:00000004, previousRequestId: no previous request id, message: /api/Product route does not require user to be authorized
+2024-01-17 13:58:55.564 +03:00 [DBG] requestId: 0HN0N8V2SQ9HT:00000004, previousRequestId: no previous request id, message: Downstream url is https://localhost:7265/api/Product
+2024-01-17 13:58:55.564 +03:00 [DBG] requestId: 0HN0N8V2SQ9HT:00000004, previousRequestId: no previous request id, message: Started checking cache for GET-https://localhost:7267/ocelot/api/product
+2024-01-17 13:58:55.564 +03:00 [DBG] requestId: 0HN0N8V2SQ9HT:00000004, previousRequestId: no previous request id, message: no resonse cached for GET-https://localhost:7267/ocelot/api/product
+2024-01-17 13:58:59.659 +03:00 [DBG] requestId: 0HN0N8V2SQ9HT:00000004, previousRequestId: no previous request id, message: IHttpRequester returned an error, setting pipeline error
+2024-01-17 13:58:59.659 +03:00 [DBG] requestId: 0HN0N8V2SQ9HT:00000004, previousRequestId: no previous request id, message: there was a pipeline error for GET-https://localhost:7267/ocelot/api/product
+2024-01-17 13:58:59.661 +03:00 [WRN] requestId: 0HN0N8V2SQ9HT:00000004, previousRequestId: no previous request id, message: Error Code: ConnectionToDownstreamServiceError Message: Error connecting to downstream service, exception: System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:7265)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Ocelot.Requester.HttpClientHttpRequester.GetResponse(HttpContext httpContext) errors found in ResponderMiddleware. Setting error response for request path:/ocelot/api/product, request method: GET
+2024-01-17 13:58:59.661 +03:00 [DBG] requestId: 0HN0N8V2SQ9HT:00000004, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-17 13:58:59.661 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7267/ocelot/api/product - - - 502 0 - 4105.1014ms
+2024-01-17 13:59:34.225 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7267//ocelot/api/product/product-with-category/{1} - -
+2024-01-17 13:59:34.225 +03:00 [DBG] requestId: 0HN0N8V2SQ9HT:00000005, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-17 13:59:34.225 +03:00 [DBG] requestId: 0HN0N8V2SQ9HT:00000005, previousRequestId: no previous request id, message: Upstream url path is //ocelot/api/product/product-with-category/%7B1%7D
+2024-01-17 13:59:34.237 +03:00 [WRN] requestId: 0HN0N8V2SQ9HT:00000005, previousRequestId: no previous request id, message: DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: //ocelot/api/product/product-with-category/%7B1%7D, verb: GET.
+2024-01-17 13:59:34.239 +03:00 [WRN] requestId: 0HN0N8V2SQ9HT:00000005, previousRequestId: no previous request id, message: Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: //ocelot/api/product/product-with-category/%7B1%7D, verb: GET. errors found in ResponderMiddleware. Setting error response for request path://ocelot/api/product/product-with-category/%7B1%7D, request method: GET
+2024-01-17 13:59:34.239 +03:00 [DBG] requestId: 0HN0N8V2SQ9HT:00000005, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-17 13:59:34.240 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7267//ocelot/api/product/product-with-category/{1} - - - 404 0 - 14.8855ms
+2024-01-17 13:59:38.356 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7267//ocelot/api/product/product-with-category/1 - -
+2024-01-17 13:59:38.356 +03:00 [DBG] requestId: 0HN0N8V2SQ9HT:00000006, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-17 13:59:38.356 +03:00 [DBG] requestId: 0HN0N8V2SQ9HT:00000006, previousRequestId: no previous request id, message: Upstream url path is //ocelot/api/product/product-with-category/1
+2024-01-17 13:59:38.357 +03:00 [WRN] requestId: 0HN0N8V2SQ9HT:00000006, previousRequestId: no previous request id, message: DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: //ocelot/api/product/product-with-category/1, verb: GET.
+2024-01-17 13:59:38.359 +03:00 [WRN] requestId: 0HN0N8V2SQ9HT:00000006, previousRequestId: no previous request id, message: Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: //ocelot/api/product/product-with-category/1, verb: GET. errors found in ResponderMiddleware. Setting error response for request path://ocelot/api/product/product-with-category/1, request method: GET
+2024-01-17 13:59:38.359 +03:00 [DBG] requestId: 0HN0N8V2SQ9HT:00000006, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-17 13:59:38.359 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7267//ocelot/api/product/product-with-category/1 - - - 404 0 - 2.8794ms
+2024-01-17 13:59:46.792 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7267/ocelot/api/product/product-with-category/1 - -
+2024-01-17 13:59:46.792 +03:00 [DBG] requestId: 0HN0N8V2SQ9HT:00000007, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-17 13:59:46.792 +03:00 [DBG] requestId: 0HN0N8V2SQ9HT:00000007, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/product/product-with-category/1
+2024-01-17 13:59:46.792 +03:00 [DBG] requestId: 0HN0N8V2SQ9HT:00000007, previousRequestId: no previous request id, message: downstream templates are /api/Product/product-with-category/{id}
+2024-01-17 13:59:46.794 +03:00 [INF] requestId: 0HN0N8V2SQ9HT:00000007, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/product/product-with-category/1
+2024-01-17 13:59:46.796 +03:00 [INF] requestId: 0HN0N8V2SQ9HT:00000007, previousRequestId: no previous request id, message: /api/Product/product-with-category/{id} route does not require user to be authorized
+2024-01-17 13:59:46.796 +03:00 [DBG] requestId: 0HN0N8V2SQ9HT:00000007, previousRequestId: no previous request id, message: Downstream url is https://localhost:7265/api/Product/product-with-category/1
+2024-01-17 13:59:46.797 +03:00 [DBG] requestId: 0HN0N8V2SQ9HT:00000007, previousRequestId: no previous request id, message: Started checking cache for GET-https://localhost:7267/ocelot/api/product/product-with-category/1
+2024-01-17 13:59:46.797 +03:00 [DBG] requestId: 0HN0N8V2SQ9HT:00000007, previousRequestId: no previous request id, message: no resonse cached for GET-https://localhost:7267/ocelot/api/product/product-with-category/1
+2024-01-17 13:59:50.906 +03:00 [DBG] requestId: 0HN0N8V2SQ9HT:00000007, previousRequestId: no previous request id, message: IHttpRequester returned an error, setting pipeline error
+2024-01-17 13:59:50.906 +03:00 [DBG] requestId: 0HN0N8V2SQ9HT:00000007, previousRequestId: no previous request id, message: there was a pipeline error for GET-https://localhost:7267/ocelot/api/product/product-with-category/1
+2024-01-17 13:59:50.908 +03:00 [WRN] requestId: 0HN0N8V2SQ9HT:00000007, previousRequestId: no previous request id, message: Error Code: ConnectionToDownstreamServiceError Message: Error connecting to downstream service, exception: System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:7265)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Ocelot.Requester.HttpClientHttpRequester.GetResponse(HttpContext httpContext) errors found in ResponderMiddleware. Setting error response for request path:/ocelot/api/product/product-with-category/1, request method: GET
+2024-01-17 13:59:50.908 +03:00 [DBG] requestId: 0HN0N8V2SQ9HT:00000007, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-17 13:59:50.908 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7267/ocelot/api/product/product-with-category/1 - - - 502 0 - 4116.1903ms
+2024-01-17 14:19:27.416 +03:00 [INF] User profile is available. Using 'C:\Users\muhammed.durus\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-17 14:19:27.643 +03:00 [INF] Now listening on: https://localhost:7267
+2024-01-17 14:19:27.645 +03:00 [INF] Now listening on: http://localhost:5267
+2024-01-17 14:19:27.659 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-17 14:19:27.661 +03:00 [INF] Hosting environment: Development
+2024-01-17 14:19:27.663 +03:00 [INF] Content root path: C:\Users\muhammed.durus\Desktop\Eğitim ve Dökümanlar\DemoMicroservices\OcelotApiGateway\
+2024-01-17 14:19:28.943 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/swagger/index.html - -
+2024-01-17 14:19:29.540 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/swagger/index.html - - - 200 - text/html;charset=utf-8 603.5552ms
+2024-01-17 14:19:29.572 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/_vs/browserLink - -
+2024-01-17 14:19:29.572 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/_framework/aspnetcore-browser-refresh.js - -
+2024-01-17 14:19:29.586 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 13.9623ms
+2024-01-17 14:19:29.748 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 175.8155ms
+2024-01-17 14:19:29.895 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/swagger/v1/swagger.json - -
+2024-01-17 14:19:30.084 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 189.3396ms
+2024-01-17 14:19:34.208 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7267/ocelot/api/product/product-with-category/1 - -
+2024-01-17 14:19:34.304 +03:00 [DBG] requestId: 0HN0N9OLJE0SP:00000002, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-17 14:19:34.310 +03:00 [DBG] requestId: 0HN0N9OLJE0SP:00000002, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/product/product-with-category/1
+2024-01-17 14:19:34.323 +03:00 [DBG] requestId: 0HN0N9OLJE0SP:00000002, previousRequestId: no previous request id, message: downstream templates are /api/Product/product-with-category/{id}
+2024-01-17 14:19:34.391 +03:00 [INF] requestId: 0HN0N9OLJE0SP:00000002, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/product/product-with-category/1
+2024-01-17 14:19:34.398 +03:00 [INF] requestId: 0HN0N9OLJE0SP:00000002, previousRequestId: no previous request id, message: /api/Product/product-with-category/{id} route does not require user to be authorized
+2024-01-17 14:19:34.418 +03:00 [DBG] requestId: 0HN0N9OLJE0SP:00000002, previousRequestId: no previous request id, message: Downstream url is https://localhost:7265/api/Product/product-with-category/1
+2024-01-17 14:19:34.425 +03:00 [DBG] requestId: 0HN0N9OLJE0SP:00000002, previousRequestId: no previous request id, message: Started checking cache for GET-https://localhost:7267/ocelot/api/product/product-with-category/1
+2024-01-17 14:19:34.425 +03:00 [DBG] requestId: 0HN0N9OLJE0SP:00000002, previousRequestId: no previous request id, message: no resonse cached for GET-https://localhost:7267/ocelot/api/product/product-with-category/1
+2024-01-17 14:19:38.595 +03:00 [DBG] requestId: 0HN0N9OLJE0SP:00000002, previousRequestId: no previous request id, message: IHttpRequester returned an error, setting pipeline error
+2024-01-17 14:19:38.596 +03:00 [DBG] requestId: 0HN0N9OLJE0SP:00000002, previousRequestId: no previous request id, message: there was a pipeline error for GET-https://localhost:7267/ocelot/api/product/product-with-category/1
+2024-01-17 14:19:38.616 +03:00 [WRN] requestId: 0HN0N9OLJE0SP:00000002, previousRequestId: no previous request id, message: Error Code: ConnectionToDownstreamServiceError Message: Error connecting to downstream service, exception: System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:7265)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Ocelot.Requester.HttpClientHttpRequester.GetResponse(HttpContext httpContext) errors found in ResponderMiddleware. Setting error response for request path:/ocelot/api/product/product-with-category/1, request method: GET
+2024-01-17 14:19:38.618 +03:00 [DBG] requestId: 0HN0N9OLJE0SP:00000002, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-17 14:19:38.624 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7267/ocelot/api/product/product-with-category/1 - - - 502 0 - 4416.6685ms
+2024-01-17 14:20:20.686 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7267/ocelot/api/product - -
+2024-01-17 14:20:20.699 +03:00 [DBG] requestId: 0HN0N9OLJE0SP:00000003, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-17 14:20:20.699 +03:00 [DBG] requestId: 0HN0N9OLJE0SP:00000003, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/product
+2024-01-17 14:20:20.699 +03:00 [DBG] requestId: 0HN0N9OLJE0SP:00000003, previousRequestId: no previous request id, message: downstream templates are /api/Product
+2024-01-17 14:20:20.705 +03:00 [INF] requestId: 0HN0N9OLJE0SP:00000003, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/product
+2024-01-17 14:20:20.706 +03:00 [INF] requestId: 0HN0N9OLJE0SP:00000003, previousRequestId: no previous request id, message: /api/Product route does not require user to be authorized
+2024-01-17 14:20:20.706 +03:00 [DBG] requestId: 0HN0N9OLJE0SP:00000003, previousRequestId: no previous request id, message: Downstream url is https://localhost:7265/api/Product
+2024-01-17 14:20:20.707 +03:00 [DBG] requestId: 0HN0N9OLJE0SP:00000003, previousRequestId: no previous request id, message: Started checking cache for GET-https://localhost:7267/ocelot/api/product
+2024-01-17 14:20:20.707 +03:00 [DBG] requestId: 0HN0N9OLJE0SP:00000003, previousRequestId: no previous request id, message: no resonse cached for GET-https://localhost:7267/ocelot/api/product
+2024-01-17 14:20:24.813 +03:00 [DBG] requestId: 0HN0N9OLJE0SP:00000003, previousRequestId: no previous request id, message: IHttpRequester returned an error, setting pipeline error
+2024-01-17 14:20:24.813 +03:00 [DBG] requestId: 0HN0N9OLJE0SP:00000003, previousRequestId: no previous request id, message: there was a pipeline error for GET-https://localhost:7267/ocelot/api/product
+2024-01-17 14:20:24.815 +03:00 [WRN] requestId: 0HN0N9OLJE0SP:00000003, previousRequestId: no previous request id, message: Error Code: ConnectionToDownstreamServiceError Message: Error connecting to downstream service, exception: System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:7265)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Ocelot.Requester.HttpClientHttpRequester.GetResponse(HttpContext httpContext) errors found in ResponderMiddleware. Setting error response for request path:/ocelot/api/product, request method: GET
+2024-01-17 14:20:24.815 +03:00 [DBG] requestId: 0HN0N9OLJE0SP:00000003, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-17 14:20:24.815 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7267/ocelot/api/product - - - 502 0 - 4129.2137ms
+2024-01-17 14:21:44.028 +03:00 [INF] User profile is available. Using 'C:\Users\muhammed.durus\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-17 14:21:44.536 +03:00 [INF] Now listening on: https://localhost:7267
+2024-01-17 14:21:44.547 +03:00 [INF] Now listening on: http://localhost:5267
+2024-01-17 14:21:44.590 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-17 14:21:44.652 +03:00 [INF] Hosting environment: Development
+2024-01-17 14:21:44.678 +03:00 [INF] Content root path: C:\Users\muhammed.durus\Desktop\Eğitim ve Dökümanlar\DemoMicroservices\OcelotApiGateway\
+2024-01-17 14:21:45.502 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/swagger/index.html - -
+2024-01-17 14:21:46.329 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/swagger/index.html - - - 200 - text/html;charset=utf-8 830.0107ms
+2024-01-17 14:21:46.343 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/_framework/aspnetcore-browser-refresh.js - -
+2024-01-17 14:21:46.344 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/_vs/browserLink - -
+2024-01-17 14:21:46.349 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 6.2845ms
+2024-01-17 14:21:46.464 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 120.5505ms
+2024-01-17 14:21:46.548 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7267/swagger/v1/swagger.json - -
+2024-01-17 14:21:46.736 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7267/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 188.0871ms
+2024-01-17 14:21:50.050 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7267/ocelot/api/product - -
+2024-01-17 14:21:50.139 +03:00 [DBG] requestId: 0HN0N9PUBBRKF:00000002, previousRequestId: no previous request id, message: ocelot pipeline started
+2024-01-17 14:21:50.145 +03:00 [DBG] requestId: 0HN0N9PUBBRKF:00000002, previousRequestId: no previous request id, message: Upstream url path is /ocelot/api/product
+2024-01-17 14:21:50.151 +03:00 [DBG] requestId: 0HN0N9PUBBRKF:00000002, previousRequestId: no previous request id, message: downstream templates are /api/Product
+2024-01-17 14:21:50.215 +03:00 [INF] requestId: 0HN0N9PUBBRKF:00000002, previousRequestId: no previous request id, message: No authentication needed for /ocelot/api/product
+2024-01-17 14:21:50.221 +03:00 [INF] requestId: 0HN0N9PUBBRKF:00000002, previousRequestId: no previous request id, message: /api/Product route does not require user to be authorized
+2024-01-17 14:21:50.240 +03:00 [DBG] requestId: 0HN0N9PUBBRKF:00000002, previousRequestId: no previous request id, message: Downstream url is https://localhost:5000/api/Product
+2024-01-17 14:21:50.247 +03:00 [DBG] requestId: 0HN0N9PUBBRKF:00000002, previousRequestId: no previous request id, message: Started checking cache for GET-https://localhost:7267/ocelot/api/product
+2024-01-17 14:21:50.247 +03:00 [DBG] requestId: 0HN0N9PUBBRKF:00000002, previousRequestId: no previous request id, message: no resonse cached for GET-https://localhost:7267/ocelot/api/product
+2024-01-17 14:21:59.965 +03:00 [INF] requestId: 0HN0N9PUBBRKF:00000002, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Product
+2024-01-17 14:21:59.965 +03:00 [DBG] requestId: 0HN0N9PUBBRKF:00000002, previousRequestId: no previous request id, message: setting http response message
+2024-01-17 14:21:59.974 +03:00 [DBG] requestId: 0HN0N9PUBBRKF:00000002, previousRequestId: no previous request id, message: finished response added to cache for GET-https://localhost:7267/ocelot/api/product
+2024-01-17 14:21:59.989 +03:00 [DBG] requestId: 0HN0N9PUBBRKF:00000002, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2024-01-17 14:21:59.994 +03:00 [DBG] requestId: 0HN0N9PUBBRKF:00000002, previousRequestId: no previous request id, message: ocelot pipeline finished
+2024-01-17 14:22:00.000 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7267/ocelot/api/product - - - 200 2 application/json;+charset=utf-8 9949.8854ms

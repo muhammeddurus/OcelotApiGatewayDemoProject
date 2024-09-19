@@ -1,0 +1,20 @@
+2023-01-09 13:10:08.374 +03:00 [INF] User profile is available. Using 'C:\Users\muhammed.durus\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-09 13:10:08.533 +03:00 [INF] Now listening on: https://localhost:7277
+2023-01-09 13:10:08.533 +03:00 [INF] Now listening on: http://localhost:5277
+2023-01-09 13:10:08.536 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-09 13:10:08.536 +03:00 [INF] Hosting environment: Development
+2023-01-09 13:10:08.536 +03:00 [INF] Content root path: C:\dev\sharp\Muhammed\DemoMicroservices\CustomerAPI\
+2023-01-09 13:22:43.525 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7277/api/Customer/login/muhammed.durus@yaz.com.tr/md1256 application/json;+charset=utf-8 -
+2023-01-09 13:22:43.724 +03:00 [INF] Executing endpoint 'CustomerAPI.Controllers.CustomerController.LoginResult (CustomerAPI)'
+2023-01-09 13:22:43.739 +03:00 [INF] Route matched with {action = "LoginResult", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult LoginResult(System.String, System.String) on controller CustomerAPI.Controllers.CustomerController (CustomerAPI).
+2023-01-09 13:22:45.123 +03:00 [INF] Executing OkObjectResult, writing value of type 'Entities.Dto.CustomerDto'.
+2023-01-09 13:22:45.138 +03:00 [INF] Executed action CustomerAPI.Controllers.CustomerController.LoginResult (CustomerAPI) in 1395.4757ms
+2023-01-09 13:22:45.139 +03:00 [INF] Executed endpoint 'CustomerAPI.Controllers.CustomerController.LoginResult (CustomerAPI)'
+2023-01-09 13:22:45.143 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7277/api/Customer/login/muhammed.durus@yaz.com.tr/md1256 application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 1620.0448ms
+2023-01-09 13:24:14.649 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7277/api/Customer/login/muhammed.durus@yaz.com.tr/md1256 application/json;+charset=utf-8 -
+2023-01-09 13:24:14.650 +03:00 [INF] Executing endpoint 'CustomerAPI.Controllers.CustomerController.LoginResult (CustomerAPI)'
+2023-01-09 13:24:14.650 +03:00 [INF] Route matched with {action = "LoginResult", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult LoginResult(System.String, System.String) on controller CustomerAPI.Controllers.CustomerController (CustomerAPI).
+2023-01-09 13:24:14.666 +03:00 [INF] Executing OkObjectResult, writing value of type 'Entities.Dto.CustomerDto'.
+2023-01-09 13:24:14.666 +03:00 [INF] Executed action CustomerAPI.Controllers.CustomerController.LoginResult (CustomerAPI) in 15.9183ms
+2023-01-09 13:24:14.666 +03:00 [INF] Executed endpoint 'CustomerAPI.Controllers.CustomerController.LoginResult (CustomerAPI)'
+2023-01-09 13:24:14.666 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7277/api/Customer/login/muhammed.durus@yaz.com.tr/md1256 application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 17.2868ms

@@ -1,0 +1,2 @@
+2023-01-25 10:36:45.304 +03:00 [INF] Registering with Consul
+2023-01-25 10:39:42.934 +03:00 [INF] Registering with Consul
